@@ -2,7 +2,7 @@
 layout: page
 title: QuPid - VR Quantum Computing Education
 description: Virtual reality laboratory for teaching quantum computing concepts, focusing on the qubit
-img: assets/img/5.jpg
+img: assets/img/projects/qupid_vr.jpg
 importance: 3
 category: fun
 github: https://github.com/codingJang/QuPid

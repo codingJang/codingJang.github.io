@@ -2,7 +2,7 @@
 layout: page
 title: Rev-Missiles! - Game Reverse Engineering
 description: Reverse engineering and modification of the mobile game "MISSILES!"
-img: assets/img/7.jpg
+img: assets/img/projects/rev_code.jpg
 importance: 5
 category: fun
 github: https://github.com/codingJang/Rev-Missiles

@@ -2,7 +2,7 @@
 layout: page
 title: FHP-RTFS - Posture Correction System
 description: Real-time feedback system for Forward Head Posture using markerless skeletal tracking - ISEF 2020 Finalist
-img: assets/img/3.jpg
+img: assets/img/projects/fhp_posture.jpg
 importance: 2
 category: work
 github: https://github.com/codingJang/codingJang-2019_FHP-Feedback-System

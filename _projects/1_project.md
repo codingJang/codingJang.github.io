@@ -2,7 +2,7 @@
 layout: page
 title: SOUL - Currency War Simulation
 description: Multi-agent reinforcement learning project simulating currency wars to derive new economical and political strategies
-img: assets/img/12.jpg
+img: assets/img/projects/soul_currency.jpg
 importance: 1
 category: work
 github: https://github.com/codingJang/SOUL_Project

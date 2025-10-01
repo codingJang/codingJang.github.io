@@ -2,7 +2,7 @@
 layout: page
 title: Car-The-Garden - Autonomous Navigation
 description: Miniature autonomous vehicle navigating the Korean driving test using search algorithms
-img: assets/img/9.jpg
+img: assets/img/projects/car_autonomous.jpg
 importance: 4
 category: fun
 github: https://github.com/codingJang/Car-The-Garden
