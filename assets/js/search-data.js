@@ -72,7 +72,249 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-과외-자료-모음",
+            },{id: "post-전략-평면-기하학",
+        
+          title: "전략 평면 기하학",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-plane-geometry/";
+          
+        },
+      },{id: "post-전략-어려운-문제가-풀리는-이유",
+        
+          title: "전략 어려운 문제가 풀리는 이유",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-problem-solving-strategy/";
+          
+        },
+      },{id: "post-보충-질문-켤레-복소수",
+        
+          title: "보충 질문 켤레 복소수",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-complex-conjugate/";
+          
+        },
+      },{id: "post-보충-자료-최대공약수와-최소공배수",
+        
+          title: "보충 자료 최대공약수와 최소공배수",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-gcd-lcm/";
+          
+        },
+      },{id: "post-보충-자료-유리수의-사칙-연산",
+        
+          title: "보충 자료 유리수의 사칙 연산",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-rational-number-operations/";
+          
+        },
+      },{id: "post-보충-자료-소금물의-농도",
+        
+          title: "보충 자료 소금물의 농도",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-salt-water-concentration/";
+          
+        },
+      },{id: "post-도전-과제-하노이의-탑",
+        
+          title: "도전 과제 하노이의 탑",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-tower-of-hanoi/";
+          
+        },
+      },{id: "post-도전-과제-팰린드롬",
+        
+          title: "도전 과제 팰린드롬",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-palindrome/";
+          
+        },
+      },{id: "post-도전-과제-자와-컴퍼스",
+        
+          title: "도전 과제 자와 컴퍼스",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-compass-and-ruler/";
+          
+        },
+      },{id: "post-도전-과제-유클리드-호제법",
+        
+          title: "도전 과제 유클리드 호제법",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-euclidean-algorithm/";
+          
+        },
+      },{id: "post-도전-과제-요세푸스-문제",
+        
+          title: "도전 과제 요세푸스 문제",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-josephus-problem/";
+          
+        },
+      },{id: "post-도전-과제-수열과-입체도형의-부피",
+        
+          title: "도전 과제 수열과 입체도형의 부피",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-sequences-volume/";
+          
+        },
+      },{id: "post-도전-과제-삼각함수",
+        
+          title: "도전 과제 삼각함수",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-trigonometry/";
+          
+        },
+      },{id: "post-도전-과제-길-찾기",
+        
+          title: "도전 과제 길 찾기",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-pathfinding/";
+          
+        },
+      },{id: "post-도전-과제-covid-19과-등비수열",
+        
+          title: "도전 과제 COVID-19과 등비수열",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-covid19-geometric-series/";
+          
+        },
+      },{id: "post-도전-과제",
+        
+          title: "도전 과제",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-challenge-1sec-1meter/";
+          
+        },
+      },{id: "post-개념-익히기-조립제법의-원리",
+        
+          title: "개념 익히기 조립제법의 원리",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-synthetic-division/";
+          
+        },
+      },{id: "post-개념-익히기-인수-정리를-이용한-인수분해",
+        
+          title: "개념 익히기 인수 정리를 이용한 인수분해",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-factor-theorem/";
+          
+        },
+      },{id: "post-tutoring",
+        
+          title: "Tutoring",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-tutoring/";
+          
+        },
+      },{id: "post-tips",
+        
+          title: "Tips",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-tips-and-tricks/";
+          
+        },
+      },{id: "post-test",
+        
+          title: "TEST",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-test-polynomials/";
+          
+        },
+      },{id: "post-test",
+        
+          title: "TEST",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-test-similarity/";
+          
+        },
+      },{id: "post-과외-자료-모음",
         
           title: "과외 자료 모음",
         
@@ -149,6 +391,72 @@ ninja.data = [{
             window.location.href = "/blog/2024/string-vibration-energy/";
           
         },
+      },{id: "post-introduction-to-pettingzoo",
+        
+          title: "Introduction to PettingZoo",
+        
+        description: "강화학습의 기초 시리즈",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-introduction-to-pettingzoo-1f62ce393bc3449abd16466/";
+          
+        },
+      },{id: "post-deepmind-x-ucl",
+        
+          title: "DeepMind X UCL",
+        
+        description: "강화학습의 기초 시리즈",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/";
+          
+        },
+      },{id: "post-deepmind-x-ucl",
+        
+          title: "DeepMind X UCL",
+        
+        description: "강화학습의 기초 시리즈",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/";
+          
+        },
+      },{id: "post-deepmind-x-ucl",
+        
+          title: "DeepMind X UCL",
+        
+        description: "강화학습의 기초 시리즈",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/";
+          
+        },
+      },{id: "post-deepmind-x-ucl",
+        
+          title: "DeepMind X UCL",
+        
+        description: "강화학습의 기초 시리즈",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58/";
+          
+        },
+      },{id: "post-deepmind-x-ucl",
+        
+          title: "DeepMind X UCL",
+        
+        description: "강화학습의 기초 시리즈",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-4-theoretical-fundamentals-of-dynam/";
+          
+        },
       },{id: "post-강화학습의-기초",
         
           title: "강화학습의 기초",
@@ -160,6 +468,171 @@ ninja.data = [{
             window.location.href = "/blog/2024/reinforcement-learning-basics/";
           
         },
+      },{id: "post-gradient-descent",
+        
+          title: "Gradient Descent",
+        
+        description: "Understanding optimization problems, gradient descent algorithms, and local vs global minima",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/gradient-descent/";
+          
+        },
+      },{id: "post-day-14-day-14-클래스-정의-및-패키지-사용법",
+        
+          title: "Day 14: Day 14 클래스 정의 및 패키지 사용법",
+        
+        description: "딥러닝의 기초 - Day 14",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day14-day-14-day-14/";
+          
+        },
+      },{id: "post-day-13-day-13-역전파의-계산",
+        
+          title: "Day 13: Day 13 역전파의 계산",
+        
+        description: "딥러닝의 기초 - Day 13",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day13-day-13-day-13/";
+          
+        },
+      },{id: "post-day-12-day-12-역전파의-개념",
+        
+          title: "Day 12: Day 12 역전파의 개념",
+        
+        description: "딥러닝의 기초 - Day 12",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day12-day-12-day-12/";
+          
+        },
+      },{id: "post-day-11-day-11-다변수-경사하강법",
+        
+          title: "Day 11: Day 11 다변수 경사하강법",
+        
+        description: "딥러닝의 기초 - Day 11",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day11-day-11-day-11/";
+          
+        },
+      },{id: "post-day-10-day-10-다변수로의-확장과-인공신경망",
+        
+          title: "Day 10: Day 10 다변수로의 확장과 인공신경망",
+        
+        description: "딥러닝의 기초 - Day 10",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day10-day-10-day-10/";
+          
+        },
+      },{id: "post-day-9-day-9-국소-최소점과-전역-최소점",
+        
+          title: "Day 9: Day 9 국소 최소점과 전역 최소점",
+        
+        description: "딥러닝의 기초 - Day 9",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day9-day-9-day-9/";
+          
+        },
+      },{id: "post-day-8-day-8-일변수-최적화-문제와-경사하강법",
+        
+          title: "Day 8: Day 8 일변수 최적화 문제와 경사하강법",
+        
+        description: "딥러닝의 기초 - Day 8",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day8-day-8-day-8/";
+          
+        },
+      },{id: "post-day-7-day-7-최적화-문제의-정의",
+        
+          title: "Day 7: Day 7 최적화 문제의 정의",
+        
+        description: "딥러닝의 기초 - Day 7",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day7-day-7-day-7/";
+          
+        },
+      },{id: "post-day-6-day-6-기초-파이썬-연습-ii",
+        
+          title: "Day 6: Day 6 기초 파이썬 연습 II",
+        
+        description: "딥러닝의 기초 - Day 6",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day6-day-6-day-6/";
+          
+        },
+      },{id: "post-day-5-day-5-기초-파이썬-연습-i",
+        
+          title: "Day 5: Day 5 기초 파이썬 연습 I",
+        
+        description: "딥러닝의 기초 - Day 5",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day5-day-5-day-5/";
+          
+        },
+      },{id: "post-day-4-day-4-다차원-선형-변환",
+        
+          title: "Day 4: Day 4 다차원 선형 변환",
+        
+        description: "딥러닝의 기초 - Day 4",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day4-day-4-day-4/";
+          
+        },
+      },{id: "post-day-3-day-3-행렬곱의-의미",
+        
+          title: "Day 3: Day 3 행렬곱의 의미",
+        
+        description: "딥러닝의 기초 - Day 3",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day3-day-3-day-3/";
+          
+        },
+      },{id: "post-day-2-day-2-각종-기초-개념들",
+        
+          title: "Day 2: Day 2 각종 기초 개념들",
+        
+        description: "딥러닝의 기초 - Day 2",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day2-day-2-day-2/";
+          
+        },
+      },{id: "post-day-1-day-1-벡터란",
+        
+          title: "Day 1: Day 1 벡터란",
+        
+        description: "딥러닝의 기초 - Day 1",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day1-day-1-day-1/";
+          
+        },
       },{id: "post-딥러닝의-기초",
         
           title: "딥러닝의 기초",
@@ -169,6 +642,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/deep-learning-basics/";
+          
+        },
+      },{id: "post-introduction-to-deep-learning",
+        
+          title: "Introduction to Deep Learning",
+        
+        description: "A comprehensive guide for beginners - from linear algebra to backpropagation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/deep-learning-intro-en/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
