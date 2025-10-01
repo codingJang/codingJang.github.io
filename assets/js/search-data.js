@@ -271,17 +271,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/tutoring-tutoring.md/";
-          
-        },
-      },{id: "post-tutoring",
-        
-          title: "Tutoring",
-        
-        description: "수학 교육 자료",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2024/tutoring-tutoring/";
           
         },
@@ -417,17 +406,6 @@ ninja.data = [{
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/";
           
         },
-      },{id: "post-rl-deepmind-x-ucl-7-function-approximation-86cf033e13-md",
-        
-          title: "Rl Deepmind X Ucl 7 Function Approximation 86cf033e13.md",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13.md/";
-          
-        },
       },{id: "post-rl-deepmind-x-ucl-7-function-approximation-86cf033e13",
         
           title: "Rl Deepmind X Ucl 7 Function Approximation 86cf033e13",
@@ -439,17 +417,6 @@ ninja.data = [{
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/";
           
         },
-      },{id: "post-rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c-md",
-        
-          title: "Rl Deepmind X Ucl 6 Model Free Control C55a856c97414c.md",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c.md/";
-          
-        },
       },{id: "post-rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c",
         
           title: "Rl Deepmind X Ucl 6 Model Free Control C55a856c97414c",
@@ -459,17 +426,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/";
-          
-        },
-      },{id: "post-rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58-md",
-        
-          title: "Rl Deepmind X Ucl 5 Model Free Prediction 94516d82c58.md",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58.md/";
           
         },
       },{id: "post-rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58",
@@ -513,17 +469,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/gradient-descent.md/";
-          
-        },
-      },{id: "post-gradient-descent",
-        
-          title: "Gradient Descent",
-        
-        description: "Understanding optimization problems, gradient descent algorithms, and local vs global minima",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2024/gradient-descent/";
           
         },
@@ -536,17 +481,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/dl-day14-day-14-day-14/";
-          
-        },
-      },{id: "post-day-13-day-13-역전파의-계산",
-        
-          title: "Day 13: Day 13 역전파의 계산",
-        
-        description: "딥러닝의 기초 - Day 13",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/dl-day13-day-13-day-13.md/";
           
         },
       },{id: "post-day-13-day-13-역전파의-계산",
@@ -590,17 +524,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/dl-day10-day-10-day-10.md/";
-          
-        },
-      },{id: "post-day-10-day-10-다변수로의-확장과-인공신경망",
-        
-          title: "Day 10: Day 10 다변수로의 확장과 인공신경망",
-        
-        description: "딥러닝의 기초 - Day 10",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2024/dl-day10-day-10-day-10/";
           
         },
@@ -612,29 +535,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/dl-day9-day-9-day-9.md/";
-          
-        },
-      },{id: "post-day-9-day-9-국소-최소점과-전역-최소점",
-        
-          title: "Day 9: Day 9 국소 최소점과 전역 최소점",
-        
-        description: "딥러닝의 기초 - Day 9",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2024/dl-day9-day-9-day-9/";
-          
-        },
-      },{id: "post-day-8-day-8-일변수-최적화-문제와-경사하강법",
-        
-          title: "Day 8: Day 8 일변수 최적화 문제와 경사하강법",
-        
-        description: "딥러닝의 기초 - Day 8",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/dl-day8-day-8-day-8.md/";
           
         },
       },{id: "post-day-8-day-8-일변수-최적화-문제와-경사하강법",
@@ -678,17 +579,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/dl-day5-day-5-day-5.md/";
-          
-        },
-      },{id: "post-day-5-day-5-기초-파이썬-연습-i",
-        
-          title: "Day 5: Day 5 기초 파이썬 연습 I",
-        
-        description: "딥러닝의 기초 - Day 5",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2024/dl-day5-day-5-day-5/";
           
         },
@@ -701,17 +591,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/dl-day4-day-4-day-4/";
-          
-        },
-      },{id: "post-day-3-day-3-행렬곱의-의미",
-        
-          title: "Day 3: Day 3 행렬곱의 의미",
-        
-        description: "딥러닝의 기초 - Day 3",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/dl-day3-day-3-day-3.md/";
           
         },
       },{id: "post-day-3-day-3-행렬곱의-의미",
@@ -766,17 +645,6 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/deep-learning-intro-en.md/";
-          
-        },
-      },{id: "post-introduction-to-deep-learning",
-        
-          title: "Introduction to Deep Learning",
-        
-        description: "A comprehensive guide for beginners - from linear algebra to backpropagation",
-        section: "Posts",
-        handler: () => {
-          
             window.location.href = "/blog/2024/deep-learning-intro-en/";
           
         },
@@ -791,11 +659,11 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-the-emperor-39-s-new-mind",
+          title: 'The Emperor&amp;#39;s New Mind',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/the_emperors_new_mind/";
             },},{id: "news-presented-research-on-preventing-ai-poisoning-attacks-at-cisc-w-2024-great-discussions-on-ai-security",
           title: 'Presented research on preventing AI poisoning attacks at CISC-W 2024. Great discussions on...',
           description: "",
