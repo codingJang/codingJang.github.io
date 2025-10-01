@@ -49,6 +49,3 @@ toc:
 - [보충 질문 : 켤레 복소수](/blog/2024/tutoring-complex-conjugate/)
 - [TEST 02 : 다항식](/blog/2024/tutoring-test-polynomials/)
 
----
-
-**Note:** All materials are now available as individual blog posts. You can also find them by browsing the education category or searching by date.
