@@ -113,7 +113,7 @@ $$
 
 But what’s interesting is that we can split the MC error $G_t-v(S_t)$ into two parts:
 
-1. the TD error term, $\delta_t \coloneqq R_{t+1}+\gamma v(S_{t+1})-v(S_t)$,
+1. the TD error term, $\delta_t := R_{t+1}+\gamma v(S_{t+1})-v(S_t)$,
 2. and the non-TD error term, $\gamma (G_{t+1}-v(S_{t+1}))$.
 
 $$
@@ -132,7 +132,7 @@ $$
 \begin{aligned} \Delta \mathbf{w}_{k+1} &= \sum_{t=0}^{T-1} {\alpha (G_t-v(S_t))\mathbf{x}(S_t)} \\ &= \sum_{t=0}^{T-1} {\alpha \left(\sum_{k=t}^{T-1} {\gamma^{k-t}\delta_k}\right)\mathbf{x}(S_t)} \\&= \sum_{k=0}^{T-1} { \alpha \delta_k\left(\sum_{t=0}^{k} {\gamma^{k-t}}\mathbf{x}(S_t)\right)}  \end{aligned}
 $$
 
-Defining the eligibility trace $\mathbf{e}_k \coloneqq \sum_{t=0}^{k} {\gamma^{k-t}}\mathbf{x}(S_t)$ and renaming the summation index $k$ to $t$, we have:
+Defining the eligibility trace $\mathbf{e}_k := \sum_{t=0}^{k} {\gamma^{k-t}}\mathbf{x}(S_t)$ and renaming the summation index $k$ to $t$, we have:
 
 $$
 \begin{aligned} \Delta \mathbf{w}_{k+1} &= \sum_{k=0}^{T-1} {\alpha\delta_k\mathbf{e}_k} \\ &= \sum_{t=0}^{T-1} {\alpha\delta_t\mathbf{e}_t},  \end{aligned}
@@ -157,5 +157,5 @@ $$
 The derivation is similar:
 
 $$
-\begin{aligned} G_t^\lambda-v(S_t) &= R_{t+1}+\gamma((1-\lambda)v(S_{t+1})+\lambda G_{t+1}^\lambda)-v(S_t)\\ &= R_{t+1}+\gamma((1-\lambda)v(S_{t+1})+\lambda G_{t+1}^\lambda)-v(S_t)+ \gamma\lambda v(S_{t+1}) - \gamma\lambda v(S_{t+1})\\ &= (R_{t+1}+\gamma v(S_{t+1})-v(S_t)) + \gamma\lambda (G_{t+1}^\lambda - v(S_{t+1})) \\ &= \delta_t+\gamma\lambda(G_{t+1}^\lambda - v(S_{t+1}))\\&=\delta_t +\gamma\lambda\delta_{t+1}+\gamma^2\lambda^2(G_{t+2}^\lambda - v(S_{t+2})) \\&= \cdots \\&=\sum_{k=t}^{T-1} {(\gamma\lambda)^{k-t}\delta_k},\\\Delta \mathbf{w}_{k+1} &= \sum_{t=0}^{T-1} {\alpha (G_t^\lambda-v(S_t))\mathbf{x}(S_t)} \\ &= \sum_{t=0}^{T-1} {\alpha \left(\sum_{k=t}^{T-1} {(\gamma\lambda)^{k-t}\delta_k}\right)\mathbf{x}(S_t)} \\&= \sum_{k=0}^{T-1} { \alpha \delta_k\left(\sum_{t=0}^{k} {(\gamma\lambda)^{k-t}}\mathbf{x}(S_t)\right)} \\&= \sum_{k=0}^{T-1} { \alpha \delta_k\tilde{\mathbf{e}}_t} \\\text{where}\\ \tilde{\mathbf{e}}_t &\coloneqq \sum_{k=t}^{T-1} {(\gamma\lambda)^{k-t}\delta_k}.  \end{aligned}
+\begin{aligned} G_t^\lambda-v(S_t) &= R_{t+1}+\gamma((1-\lambda)v(S_{t+1})+\lambda G_{t+1}^\lambda)-v(S_t)\\ &= R_{t+1}+\gamma((1-\lambda)v(S_{t+1})+\lambda G_{t+1}^\lambda)-v(S_t)+ \gamma\lambda v(S_{t+1}) - \gamma\lambda v(S_{t+1})\\ &= (R_{t+1}+\gamma v(S_{t+1})-v(S_t)) + \gamma\lambda (G_{t+1}^\lambda - v(S_{t+1})) \\ &= \delta_t+\gamma\lambda(G_{t+1}^\lambda - v(S_{t+1}))\\&=\delta_t +\gamma\lambda\delta_{t+1}+\gamma^2\lambda^2(G_{t+2}^\lambda - v(S_{t+2})) \\&= \cdots \\&=\sum_{k=t}^{T-1} {(\gamma\lambda)^{k-t}\delta_k},\\\Delta \mathbf{w}_{k+1} &= \sum_{t=0}^{T-1} {\alpha (G_t^\lambda-v(S_t))\mathbf{x}(S_t)} \\ &= \sum_{t=0}^{T-1} {\alpha \left(\sum_{k=t}^{T-1} {(\gamma\lambda)^{k-t}\delta_k}\right)\mathbf{x}(S_t)} \\&= \sum_{k=0}^{T-1} { \alpha \delta_k\left(\sum_{t=0}^{k} {(\gamma\lambda)^{k-t}}\mathbf{x}(S_t)\right)} \\&= \sum_{k=0}^{T-1} { \alpha \delta_k\tilde{\mathbf{e}}_t} \\\text{where}\\ \tilde{\mathbf{e}}_t &:= \sum_{k=t}^{T-1} {(\gamma\lambda)^{k-t}\delta_k}.  \end{aligned}
 $$

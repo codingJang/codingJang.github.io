@@ -123,7 +123,7 @@ $$
 for some distribution $d$. If we sample $X$ to yield the estimate as follows,
 
 $$
-\mathbb{E}_{X \sim d}[f(X)] \simeq \hat{X} \coloneqq\frac{1}{N} \sum_{i=1}^{N} f(X_i), \;\text{for each}\;X_i \sim d,
+\mathbb{E}_{X \sim d}[f(X)] \simeq \hat{X} :=\frac{1}{N} \sum_{i=1}^{N} f(X_i), \;\text{for each}\;X_i \sim d,
 $$
 
 It could be problematic if $f(X)$ deviates significantly from $\mathbb{E}_{X \sim d}[f(X)]$ for some rare events, since it will overestimate or underestimate whenever the rare event is not sufficiently sampled.
@@ -137,7 +137,7 @@ $$
 Now, we have a new expectation that can be sampled from $d'$ instead. Note that $d'$ has to be positive for all $x$ for this to work. Sampling from $d'$ gives:
 
 $$
-\mathbb{E}_{X \sim d}[f(X)] \simeq \hat{X}' \coloneqq \frac{1}{N} \sum_{i=1}^{N} \frac{d(X_i)}{d'(X_i)}f(X_i), \;\text{for each}\;X_i \sim d'.
+\mathbb{E}_{X \sim d}[f(X)] \simeq \hat{X}' := \frac{1}{N} \sum_{i=1}^{N} \frac{d(X_i)}{d'(X_i)}f(X_i), \;\text{for each}\;X_i \sim d'.
 $$
 
 This technique of sampling from a new distribution $d'$ to yield an estimate for the original expectation $\mathbb{E}_{X \sim d}[f(X)]$ is called Importance Sampling.
