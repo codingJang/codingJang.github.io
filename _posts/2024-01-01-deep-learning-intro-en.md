@@ -259,7 +259,7 @@ $$
 
 *Expressing the matrix-matrix product formula using the sigma notation.* When you calculate matrix-matrix products, it is easier if you visualize it as taking the sum-of-product of rows and columns. Notice how the number of columns (or the width) of the matrix $A$ must match the number of rows (or the height) of the matrix $B$.
 
-![Source : Matrix Multiplication, Wikipedia](Introduction%20to%20Deep%20Learning%20957e35bcecd448278c201480cee70fab/Untitled.png)
+![Source : Matrix Multiplication, Wikipedia](/assets/img/blog/deep-learning/untitled_introduction_to_deep_learning_.png)
 
 Source : Matrix Multiplication, Wikipedia
 
@@ -420,7 +420,7 @@ $$
 
 ## Day 7 (1/14)
 
-![Untitled](Introduction%20to%20Deep%20Learning%20957e35bcecd448278c201480cee70fab/Untitled%201.png)
+![Untitled](/assets/img/blog/deep-learning/untitled_1_introduction_to_deep_learning_.png)
 
 *Starting Python…*
 

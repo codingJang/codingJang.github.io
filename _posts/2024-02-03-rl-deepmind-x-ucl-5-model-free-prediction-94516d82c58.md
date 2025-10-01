@@ -79,7 +79,7 @@ In MC, we continue sampling the rewards until the end of the episode, whereas in
 
 ## $n$-step TD vs. $\lambda$-TD
 
-![Comparing the $n$-step TD and $\lambda$-TD. The plots obtained from the $\lambda$-TD algorithm is similar to the $n$-step TD algorithm, especially when $n \approx 1/(1-\lambda)$. (Source: Deepmind X UCL Deep Reinforcement Learning Lecture 5, given by Prof. Hado van Hasselt.)](DeepMind%20X%20UCL%205%20Model-free%20Prediction%2094516d82c58143ba9ac04f5d72e72fcc/Untitled.png)
+![Comparing the $n$-step TD and $\lambda$-TD. The plots obtained from the $\lambda$-TD algorithm is similar to the $n$-step TD algorithm, especially when $n \approx 1/(1-\lambda)$. (Source: Deepmind X UCL Deep Reinforcement Learning Lecture 5, given by Prof. Hado van Hasselt.)](/assets/img/blog/reinforcement-learning/untitled_deepmind_x_ucl_5_model-free_pr.png)
 
 Comparing the $n$-step TD and $\lambda$-TD. The plots obtained from the $\lambda$-TD algorithm is similar to the $n$-step TD algorithm, especially when $n \approx 1/(1-\lambda)$. (Source: Deepmind X UCL Deep Reinforcement Learning Lecture 5, given by Prof. Hado van Hasselt.)
 

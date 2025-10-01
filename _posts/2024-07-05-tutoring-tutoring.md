@@ -48,7 +48,7 @@ $$
 
 - 아래 그림에서, $\overline {PA} \cdot \overline {PB} = \overline {PC} \cdot \overline {PD}$ 임을 설명하세요.
 
-![](Tutoring%20161f0f24f93180678c82cdc31466efbc/Untitled.png)
+![](/assets/img/blog/tutoring/untitled_tutoring_161f0f24f93180678c82c.png)
 
 - 제곱수를 $3$으로 나눈 나머지로 가능한 값을 모두 고르고, 그 이유를 설명하세요.
 

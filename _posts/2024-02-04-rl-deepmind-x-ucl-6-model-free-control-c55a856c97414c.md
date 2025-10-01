@@ -105,7 +105,7 @@ $$
 This eliminates the influence of noise by decoupling the selection ($\argmax$) step and the evaluation step.
 
 ![Q-learning overestimates, whereas double Q-learning does not. 
-(Source: DeepMind X UCL Deep RL lectures)](DeepMind%20X%20UCL%206%20Model-free%20Control%20c55a856c97414c309f4e93dff6774282/Screenshot_2023-08-30_at_3.44.02_PM.png)
+(Source: DeepMind X UCL Deep RL lectures)](/assets/img/blog/reinforcement-learning/screenshot_2023-08-30_at_3.44.02_pm.png)
 
 Q-learning overestimates, whereas double Q-learning does not. 
 (Source: DeepMind X UCL Deep RL lectures)

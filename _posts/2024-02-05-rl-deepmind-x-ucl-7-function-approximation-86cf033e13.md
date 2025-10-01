@@ -183,6 +183,6 @@ may diverge. This is called **the deadly triad**. However, just because an algor
 
 ## Summary
 
-![Untitled](DeepMind%20X%20UCL%207%20Function%20Approximation%2086cf033e13e0489a902a735dba94a33c/Untitled.png)
+![Untitled](/assets/img/blog/reinforcement-learning/untitled.png)
 
 In addition to the deadly triad, we cannot guarantee the convergence of MC or TD when we combine on-policy learning with bootstrapping and non-linear function approximation. In summary, the deadly triad is the theoretical risk due to combinations of different methods in reinforcement learning, but is rarely seen in practice.

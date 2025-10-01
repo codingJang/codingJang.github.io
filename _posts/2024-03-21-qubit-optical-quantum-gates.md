@@ -35,13 +35,13 @@ published: false
                     - 편광 방향에 따라 굴절률이 달라짐 → 수평/수직 편광 빛으로 분해할 수 있음
                     - measurement gate로 사용
                     
-                    ![](Optical%20Quantum%20Gates%20b3b5ca31f2934467881da06be1ef0b9b/Untitled.png)
+                    ![](/assets/img/blog/qubit/untitled.png)
                     
                 - 파장판 (Waveplate)
                     - 수평/수직 편광 빛의 상대적 위상을 결정할 수 있음
                     - 회전 / 대칭 변환 gate로 사용
                     
-                    ![출처 : Waveplate - Wikipedia](Optical%20Quantum%20Gates%20b3b5ca31f2934467881da06be1ef0b9b/Untitled%201.png)
+                    ![출처 : Waveplate - Wikipedia](/assets/img/blog/qubit/untitled_1.png)
                     
                     출처 : Waveplate - Wikipedia
                     
@@ -52,13 +52,13 @@ published: false
                     
                     Jeremy L. O'Brien. (2007). Optical Quantum Computing. Science (American Association for the Advancement of Science), 318(5856), 1567-1570.
                     
-                    ![](Optical%20Quantum%20Gates%20b3b5ca31f2934467881da06be1ef0b9b/Untitled%202.png)
+                    ![](/assets/img/blog/qubit/untitled_2.png)
                     
         - 그럼 양자 얽힘은 어떻게?
             - 논문에서는 (왜인지는 모르겠지만) 양자 얽힘 게이트를 만들기 힘들다고 나와 있음
             - 그러나 양자 얽힘을 만들 수 있는 방법은 나와 있음
                 - 방해석과 같은 nonlinear crystal에 빛을 (아주 잘) 쪼여서 만들 수 있다고 함
                 
-                ![](Optical%20Quantum%20Gates%20b3b5ca31f2934467881da06be1ef0b9b/Untitled%203.png)
+                ![](/assets/img/blog/qubit/untitled_3.png)
                 
             - CNOT 게이트도 가능...?
