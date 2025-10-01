@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "DeepMind X UCL"
+title: "DeepMind X UCL | 5. Model-free Prediction"
 date: 2024-02-03 10:00:00
 description: Reinforcement Learning Basics Series
 tags: reinforcement-learning deep-learning tutorial english series
 categories: education
-lang: en---
+lang: en
+---
 
 
 **Note.** The notation used here might be confusing. We use $S$ to denote the state space and $S_t$ to represent the state at time $t$. Similarly, $A$ represents the action space, and $A_t$ denotes the action at time $t$.

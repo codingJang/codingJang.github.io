@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "DeepMind X UCL"
+title: "DeepMind X UCL | 7. Function Approximation"
 date: 2024-02-05 10:00:00
 description: Reinforcement Learning Basics Series
 tags: reinforcement-learning deep-learning tutorial english series
 categories: education
-lang: en---
+lang: en
+---
 
 
 ## Why function approximations?

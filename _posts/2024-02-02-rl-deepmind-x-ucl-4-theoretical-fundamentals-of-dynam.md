@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "DeepMind X UCL"
+title: "DeepMind X UCL | 4. Theoretical Fundamentals of Dynamic Programming"
 date: 2024-02-02 10:00:00
 description: Reinforcement Learning Basics Series
 tags: reinforcement-learning deep-learning tutorial english series
 categories: education
-lang: en---
+lang: en
+---
 
 
 ## The Banach Fixed Point Theorem

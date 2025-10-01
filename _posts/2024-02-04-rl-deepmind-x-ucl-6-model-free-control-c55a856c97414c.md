@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "DeepMind X UCL"
+title: "DeepMind X UCL | 6. Model-free Control"
 date: 2024-02-04 10:00:00
 description: Reinforcement Learning Basics Series
 tags: reinforcement-learning deep-learning tutorial english series
 categories: education
-lang: en---
+lang: en
+---
 
 
 ## GLIE
