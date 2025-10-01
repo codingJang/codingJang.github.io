@@ -1423,3 +1423,33 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+/*******************************************************************************
+ * Blog post image sizing
+ ******************************************************************************/
+
+// Style images in blog posts to be responsive and reasonably sized
+.post-content,
+article.post {
+  img {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+    
+    @media (max-width: 768px) {
+      max-width: 90%;
+    }
+  }
+  
+  // Allow full-width images with a specific class
+  img.full-width {
+    max-width: 100%;
+  }
+  
+  // Allow smaller images with a specific class
+  img.small {
+    max-width: 40%;
+  }
+}
