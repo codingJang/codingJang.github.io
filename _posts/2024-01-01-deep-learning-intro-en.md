@@ -629,7 +629,7 @@ $$
 Each $f^{(l)}$ maps the previous activation $a^{(l-1)}$ to the new activation $a^{(l)}$ using the formula
 
 $$
-a^{(l)}=\rho (w^{(l)}a^{(l-1)}+b^{(l)})\eqqcolon f^{(l)}(a^{(l-1)}),
+a^{(l)}=\rho (w^{(l)}a^{(l-1)}+b^{(l)})=: f^{(l)}(a^{(l-1)}),
 $$
 
 where the trainable parameters $w^{(l)}$ and $b^{(l)}$ are the weight and bias, respectively. The activation function $\rho$ is given by $\rho(x)=\textrm{ReLU}(x)=\max\{0,x\}$. For convenience, we will define the intermediate variable $z^{(l)} := w^{(l)}a^{(l-1)}+b^{(l)}$ so that $a^{(l)}=\rho\left(z^{(l)}\right)$. $a^{(0)}=x_i$ because the input must equal the initial activation. The subscript $\theta$ of the neural network $f_\theta$ denotes the tuple of all trainable parameters in the neural network.
