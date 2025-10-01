@@ -1,80 +1,83 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Car-The-Garden - Autonomous Navigation
+description: Miniature autonomous vehicle navigating the Korean driving test using search algorithms
+img: assets/img/9.jpg
+importance: 4
 category: fun
+github: https://github.com/codingJang/Car-The-Garden
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Car-The-Garden is a robotics project that implements autonomous navigation for a miniature vehicle to complete a scaled-down version of the standard Korean driving test course. The project demonstrates practical applications of classic search algorithms in real-world navigation scenarios.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### The Challenge
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+The Korean driving test includes various challenging maneuvers:
+- Parallel parking
+- T-junction navigation
+- Narrow path following
+- Obstacle avoidance
+- Precise turning and positioning
+
+Implementing these in an autonomous system requires:
+- Accurate path planning
+- Real-time decision making
+- Sensor integration
+- Motor control precision
+
+### Technical Approach
+
+**Search Algorithms**
+- **Left-First Search**: Prioritizes left-side paths for certain scenarios
+- **Right-First Search**: Prioritizes right-side paths for alternative navigation
+- Adaptive algorithm selection based on course requirements
+
+**Navigation System**
+- Sensor data processing for environment awareness
+- Real-time path planning and execution
+- Motor control for precise movements
+- Course completion optimization
+
+### Implementation Details
+
+The system combines:
+- **Sensing**: Environmental detection (likely using ultrasonic/infrared sensors)
+- **Planning**: Search algorithm-based path finding
+- **Control**: Motor actuation for steering and speed
+- **Execution**: Real-time navigation through the course
+
+### Learning Outcomes
+
+This project provided hands-on experience with:
+- Robotics hardware integration
+- Classical AI search algorithms
+- Real-time system constraints
+- Sensor-motor coordination
+- Practical problem-solving in robotics
+
+### Technical Stack
+
+- **Hardware**: Miniature vehicle platform, sensors, motors
+- **Software**: Python or C for control logic
+- **Algorithms**: Search algorithms (BFS/DFS variants)
+- **Skills**: Embedded systems, robotics, algorithm implementation
+
+### Significance
+
+Car-The-Garden demonstrates:
+- Practical application of theoretical algorithms
+- Integration of software and hardware systems
+- Problem decomposition in complex tasks
+- Real-world constraint handling
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Bringing classic algorithms to life through autonomous robotics.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Project Type**: Project Head  
+**Duration**: 2019  
+**Focus**: Autonomous Navigation, Robotics, Search Algorithms

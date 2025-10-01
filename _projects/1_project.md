@@ -1,81 +1,64 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: SOUL - Currency War Simulation
+description: Multi-agent reinforcement learning project simulating currency wars to derive new economical and political strategies
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+github: https://github.com/codingJang/SOUL_Project
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+SOUL is an ambitious research project funded by the Korea Foundation for Advanced Studies (KFAS) that uses multi-agent reinforcement learning to simulate currency wars and derive novel economical and political strategies.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Goal
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+The primary objective is to simulate complex economic scenarios involving currency competition between multiple agents, allowing us to:
+- Understand emergent behaviors in currency markets
+- Derive new strategic insights for economic policy
+- Demonstrate the power of cooperative AI through communication
+
+### Technical Approach
+
+**Multi-Agent Reinforcement Learning**
+- Implemented game-playing AI agents using Deep Q-Learning
+- Agents learn to cooperate and compete through communication channels
+- Utilized Long Short-Term Memory (LSTM) networks for sequential decision-making
+
+**Infrastructure**
+- Deployed on Google Cloud Platform for scalable training
+- Managed distributed training across multiple compute instances
+- Optimized for large-scale simulations with thousands of interactions
+
+### Key Achievements
+
+- **Funding**: Secured 10 million KRW (~$10,000 CAD) in project funding
+- **Resource Management**: Successfully allocated resources for computing infrastructure, expert mentoring, accommodation, and educational materials
+- **Knowledge Transfer**: Communicated complex AI concepts including LSTM to team members with non-technical backgrounds
+- **Ongoing Research**: Project continues to evolve with new findings since February 2022
+
+### Technical Stack
+
+- **Languages**: Python
+- **Frameworks**: PyTorch, PettingZoo (for multi-agent environments)
+- **Libraries**: NumPy, Pandas, Matplotlib
+- **Infrastructure**: Google Cloud Platform
+
+### Team & Role
+
+As Project Head, I:
+- Lead the technical architecture and implementation
+- Manage team coordination and resource allocation
+- Communicate with stakeholders and mentor team members
+- Drive research direction and publication efforts
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    This project demonstrates the intersection of economics, game theory, and cutting-edge AI techniques.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Project Status**: Finished (Feb 2022 - Jan 2023)  
+**Organization**: Korea Foundation for Advanced Studies (KFAS)  
+**Location**: Seoul, South Korea

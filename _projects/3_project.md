@@ -1,81 +1,81 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: QuPid - VR Quantum Computing Education
+description: Virtual reality laboratory for teaching quantum computing concepts, focusing on the qubit
+img: assets/img/5.jpg
 importance: 3
-category: work
+category: fun
+github: https://github.com/codingJang/QuPid
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+QuPid is a Virtual Reality educational platform designed to make the abstract and counter-intuitive concepts of quantum computing accessible and understandable. The project focuses on explaining the qubit - the fundamental unit of quantum information.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### The Challenge
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+Quantum computing concepts are notoriously difficult to grasp because they:
+- Involve counter-intuitive phenomena (superposition, entanglement)
+- Require understanding of complex mathematics
+- Lack tangible real-world analogies
+- Are abstract and invisible in nature
+
+Traditional teaching methods struggle to convey these concepts effectively, especially to beginners.
+
+### The Solution
+
+QuPid creates an immersive VR laboratory where users can:
+- **Visualize quantum states** in an intuitive 3D environment
+- **Interact with qubits** through natural hand gestures
+- **Experiment with quantum gates** and see immediate effects
+- **Experience superposition** and measurement collapse visually
+
+### Key Features
+
+**Interactive Qubit Visualization**
+- 3D representation of quantum states on the Bloch sphere
+- Real-time updates as quantum gates are applied
+- Visual representation of superposition states
+
+**Hands-On Learning**
+- Apply quantum gates through VR controllers
+- Build simple quantum circuits interactively
+- See the effects of measurement on quantum states
+
+**Immersive Environment**
+- Full VR laboratory setting
+- Step-by-step guided tutorials
+- Self-paced exploration mode
+
+### Educational Impact
+
+QuPid makes quantum computing education:
+- **Accessible**: No advanced mathematics required to start
+- **Intuitive**: Visual and interactive learning
+- **Engaging**: VR immersion increases retention
+- **Practical**: Hands-on experience with quantum concepts
+
+### Technical Implementation
+
+- **Platform**: Virtual Reality (VR)
+- **Development**: Unity/C# (likely)
+- **Target Hardware**: VR headsets (Oculus, HTC Vive, etc.)
+- **Focus**: Educational technology and visualization
+
+### Future Directions
+
+Potential expansions include:
+- Multi-qubit systems and entanglement visualization
+- More advanced quantum algorithms (Deutsch-Jozsa, Grover's, etc.)
+- Multiplayer collaborative learning
+- Integration with actual quantum computing platforms
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Making the quantum world tangible through virtual reality.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Project Type**: Independent Developer  
+**Duration**: 2020 - 2021  
+**Technologies**: VR, Interactive Education, Quantum Computing
