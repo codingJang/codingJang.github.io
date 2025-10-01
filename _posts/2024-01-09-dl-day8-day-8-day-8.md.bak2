@@ -24,7 +24,7 @@ $\text{subject to}$ 문구가 없으므로 제약 조건은 특별히 없는 상
 
 $f'(\theta)=0$이 되는 지점을 전체 실수 구간에서 탐색하는 것은 어렵지만, 한 지점에서의 $f'(\theta)$을 계산하여 그 부호를 확인하는 것은 쉽다. 따라서 $f'(\theta)$가 $0$보다 크면 $\theta$를 조금 작게 하고, $f'(\theta)$가 $0$보다 작으면 $\theta$를 조금 키우는 과정을 계속 반복해보자. 이 과정을 계속하다보면 $f(\theta)$는 계속 작아지게 된다.
 
-![Untitled](/assets/img/blog/deep-learning/untitled.jpeg)
+![Untitled](Day%208%20%EC%9D%BC%EB%B3%80%EC%88%98%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EB%AC%B8%EC%A0%9C%EC%99%80%20%EA%B2%BD%EC%82%AC%ED%95%98%EA%B0%95%EB%B2%95%20161f0f24f9318032a355d6c77b9562e5/Untitled.jpeg)
 
 이 과정을 수식으로 표현하면 아래와 같다:
 

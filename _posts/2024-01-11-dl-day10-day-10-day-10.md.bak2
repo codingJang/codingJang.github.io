@@ -22,11 +22,11 @@ $$
 \textrm{(image with 5 pixels)}=(r_1,g_1,b_1,r_2,g_2,b_2,r_3,g_3,b_3,r_4,g_4,b_4,r_5,g_5, b_5)\\=(0,0,1,1,1,1,1,0,0,0,0,0,1,1,0)
 $$
 
-![Untitled](/assets/img/blog/deep-learning/untitled.png)
+![Untitled](Day%2010%20%EB%8B%A4%EB%B3%80%EC%88%98%EB%A1%9C%EC%9D%98%20%ED%99%95%EC%9E%A5%EA%B3%BC%20%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D%20161f0f24f9318072b790d52afd98d2a8/Untitled.png)
 
 이와 같은 원리로, 더 많은 픽셀을 사용하면 아래와 같은 이미지를 얻는다. 픽셀의 개수가 많아질수록 이미지를 더욱 상세하게 표현할 수 있게 된다.
 
-![Untitled](/assets/img/blog/deep-learning/untitled_1.png)
+![Untitled](Day%2010%20%EB%8B%A4%EB%B3%80%EC%88%98%EB%A1%9C%EC%9D%98%20%ED%99%95%EC%9E%A5%EA%B3%BC%20%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D%20161f0f24f9318072b790d52afd98d2a8/Untitled%201.png)
 
 비슷한 원리로, 소리·텍스트·문서·프로그램 등의 정보 역시 모두 벡터로 표현할 수 있으며, 적절한 실험 장비 혹은 센서가 주어진다면 미각·촉각·온도 등의 정보도 모두 표현할 수 있다고 말할 수 있다.
 
@@ -34,11 +34,11 @@ $$
 
 중학교, 고등학교 수준에서 배우는 ‘함수’는 대개 숫자 하나를 입력으로 받아 다른 숫자 하나를 내놓는 형태이다.
 
-![Untitled](/assets/img/blog/deep-learning/untitled_2.png)
+![Untitled](Day%2010%20%EB%8B%A4%EB%B3%80%EC%88%98%EB%A1%9C%EC%9D%98%20%ED%99%95%EC%9E%A5%EA%B3%BC%20%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D%20161f0f24f9318072b790d52afd98d2a8/Untitled%202.png)
 
 대학교 수준 이상으로 넘어가면 벡터를 받아 벡터를 내놓는 함수에 대해서도 논하게 된다. 이를 다변수 벡터함수multivariate vector function라고 부른다.
 
-![Untitled](/assets/img/blog/deep-learning/untitled_3.png)
+![Untitled](Day%2010%20%EB%8B%A4%EB%B3%80%EC%88%98%EB%A1%9C%EC%9D%98%20%ED%99%95%EC%9E%A5%EA%B3%BC%20%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D%20161f0f24f9318072b790d52afd98d2a8/Untitled%203.png)
 
 인공신경망도 결국은 벡터가 들어가서 벡터가 나오는 함수에 불과하다. 다만 차이가 있다면, 인공신경망 내에 “파라미터”들이 있어서 파라미터를 바꾸면 함수의 형태가 바뀐다. 아래 영상을 보면서 인공신경망이 무엇인지 감을 잡아보자.
 

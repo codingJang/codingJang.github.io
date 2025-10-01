@@ -10,7 +10,7 @@ categories: education
 
 ### 국소 최소점과 전역 최소점
 
-![Untitled](/assets/img/blog/deep-learning/untitled_day_9_161f0f24f931802a97f3e1b6.png)
+![Untitled](Day%209%20%EA%B5%AD%EC%86%8C%20%EC%B5%9C%EC%86%8C%EC%A0%90%EA%B3%BC%20%EC%A0%84%EC%97%AD%20%EC%B5%9C%EC%86%8C%EC%A0%90%20161f0f24f931802a97f3e1b6d06aea24/Untitled.png)
 
 함수 $f(\theta)$의 국소 최소점local minimum $\theta_\text{local}$은 자신의 근방[^1]에 있는 모든 점에 대해 $f(\theta)\ge f(\theta_\text{local})$을 만족하는 점이다. 일변수 실함수 $f$를 그린 위의 그래프에서 가로축을 $\theta$-축으로 둘 때, $\theta=0$과 $\theta=10$은 자신의 근방에 있는 점들보다 항상 함수값이 작기 때문에 국소 최소점이다. 최소점에서의 함수값을 최소값이라고 한다. 따라서, 함수 $f$는 국소 최소점 $\theta=0$에서 국소 최소값 $f(0)=0$를 가지고, 국소 최소점  $\theta=10$에서 국소 최소값 $f(10)=50$을 갖는다.
 

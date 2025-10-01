@@ -46,7 +46,7 @@ In any case, the above scenario is a very simple one, so finding the optimal sol
 
 It's challenging to search for points where $f'(\theta) = 0$ across the entire range of real numbers, but it's fairly easy to calculate $f'(\theta)$ at a particular point and check its sign. If so, it seems like it’s good idea to slightly decrease $\theta$ whenever $f'(\theta)$ is greater than $0$. Similarly, let’s slightly increase $\theta$ whenever $f'(\theta)$ is less than $0$. If we continue this process, $f(\theta)$ will keep decreasing.
 
-![Untitled](/assets/img/blog/deep-learning/untitled.jpeg)
+![Untitled](../Day%208%20%EC%9D%BC%EB%B3%80%EC%88%98%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EB%AC%B8%EC%A0%9C%EC%99%80%20%EA%B2%BD%EC%82%AC%ED%95%98%EA%B0%95%EB%B2%95%20161f0f24f9318032a355d6c77b9562e5/Untitled.jpeg)
 
 The process can be expressed with the following equation:
 
@@ -135,7 +135,7 @@ Let's apply gradient descent to the function $f(\theta) = (\theta + 3)^2$. Speci
 
 ## Local Minima and Global Minima
 
-![Untitled](/assets/img/blog/deep-learning/untitled_day_9_161f0f24f931802a97f3e1b6.png)
+![Untitled](../Day%209%20%EA%B5%AD%EC%86%8C%20%EC%B5%9C%EC%86%8C%EC%A0%90%EA%B3%BC%20%EC%A0%84%EC%97%AD%20%EC%B5%9C%EC%86%8C%EC%A0%90%20161f0f24f931802a97f3e1b6d06aea24/Untitled.png)
 
 The **local minimum point** of a function $f(\theta)$, denoted as $\theta_\text{local}$, is a point where the function value is less than or equal to the values in the neighborhood[^5] of $\theta$, i.e., $f(\theta)\ge f(\theta_\text{local})$ for $\theta$ in the neighborhood of $\theta_\text{local}$. In the graph of the univariate real function $f$ above, with the horizontal axis as the $\theta$-axis, the points $\theta=0$ and $\theta=10$ are local minima points because their function values are always less than those of their neighboring points. The function value at a minimum point is called the minimum value. Thus, the function $f$ has a local minimum value of $f(0)=0$ at $\theta=0$ and a local minimum value of $f(10)=50$ at $\theta=10$.
 
