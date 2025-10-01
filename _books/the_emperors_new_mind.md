@@ -2,6 +2,7 @@
 layout: book-review
 title: The Emperor's New Mind
 author: Roger Penrose
+cover: assets/img/book_covers/the_emperors_new_mind.jpg
 isbn: 0198784929
 categories: physics mathematics philosophy artificial-intelligence cognitive-science
 tags: quantum-mechanics consciousness computability
