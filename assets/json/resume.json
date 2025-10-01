@@ -29,6 +29,49 @@
       }
     ]
   },
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Multi-agent Systems",
+        "Reinforcement Learning",
+        "Deep Learning",
+        "AI Security"
+      ]
+    },
+    {
+      "name": "Applied AI",
+      "icon": "fa-solid fa-lightbulb",
+      "keywords": [
+        "Robotics",
+        "Penetration Testing"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "QuPid - VR Quantum Computing Education",
+      "summary": "Created a VR laboratory to explain basic but hard-to-grasp concepts in quantum computing, specifically the qubit.",
+      "highlights": ["Virtual Reality", "Educational Technology", "Quantum Computing"],
+      "startDate": "2020",
+      "url": "https://github.com/codingJang/QuPid"
+    },
+    {
+      "name": "Car-The-Garden - Autonomous Navigation",
+      "summary": "Applied left-first and right-first search algorithms to navigate a miniature version of the standard Korean driving test.",
+      "highlights": ["Autonomous Navigation", "Search Algorithms", "Robotics"],
+      "startDate": "2019",
+      "url": "https://github.com/codingJang/Car-The-Garden"
+    },
+    {
+      "name": "Rev-Missiles! - Game Reverse Engineering",
+      "summary": "Reverse engineered the mobile game 'MISSILES!' to add more missiles and features.",
+      "highlights": ["Reverse Engineering", "Game Development", "Mobile Apps"],
+      "startDate": "2018",
+      "url": "https://github.com/codingJang/Rev-Missiles"
+    }
+  ],
   "publications": [
     {
       "name": "Q-Guided Flow Q-Learning",
@@ -56,7 +99,7 @@
       "summary": "Developed a contactless feedback system using computer vision to detect and correct Forward Head Posture, achieving 81% improvement."
     }
   ],
-  "work": [
+  "selected projects": [
     {
       "name": "Korea Foundation for Advanced Studies (KFAS)",
       "position": "Project Head, SOUL",
@@ -84,18 +127,6 @@
         "Processing 3D webcam data and providing audio feedback led to 81% improvement in participants' FHP",
         "Became 2020 Regeneron ISEF finalist"
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Raspberry Pi Foundation",
-      "position": "Translator",
-      "summary": "Translated multiple educational articles in the Raspberry Pi Foundation's Project page to Korean."
-    },
-    {
-      "organization": "South Vancouver Neighborhood House (SVNH)",
-      "position": "Volunteer Educator",
-      "summary": "Assist community engagement programs and teach math and science to community members."
     }
   ],
   "education": [
@@ -234,48 +265,16 @@
       "icon": ""
     }
   ],
-  "interests": [
+  "volunteer": [
     {
-      "name": "Artificial Intelligence",
-      "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Multi-agent Systems",
-        "Reinforcement Learning",
-        "Deep Learning",
-        "AI Security"
-      ]
+      "organization": "Raspberry Pi Foundation",
+      "position": "Translator",
+      "summary": "Translated multiple educational articles in the Raspberry Pi Foundation's Project page to Korean."
     },
     {
-      "name": "Applied AI",
-      "icon": "fa-solid fa-lightbulb",
-      "keywords": [
-        "Computer Vision",
-        "Quantum Computing Education",
-        "Autonomous Systems"
-      ]
+      "organization": "South Vancouver Neighborhood House (SVNH)",
+      "position": "Volunteer Educator",
+      "summary": "Assist community engagement programs and teach math and science to community members."
     }
   ],
-  "projects": [
-    {
-      "name": "QuPid - VR Quantum Computing Education",
-      "summary": "Created a VR laboratory to explain basic but hard-to-grasp concepts in quantum computing, specifically the qubit.",
-      "highlights": ["Virtual Reality", "Educational Technology", "Quantum Computing"],
-      "startDate": "2020",
-      "url": "https://github.com/codingJang/QuPid"
-    },
-    {
-      "name": "Car-The-Garden - Autonomous Navigation",
-      "summary": "Applied left-first and right-first search algorithms to navigate a miniature version of the standard Korean driving test.",
-      "highlights": ["Autonomous Navigation", "Search Algorithms", "Robotics"],
-      "startDate": "2019",
-      "url": "https://github.com/codingJang/Car-The-Garden"
-    },
-    {
-      "name": "Rev-Missiles! - Game Reverse Engineering",
-      "summary": "Reverse engineered the mobile game 'MISSILES!' to add more missiles and features.",
-      "highlights": ["Reverse Engineering", "Game Development", "Mobile Apps"],
-      "startDate": "2018",
-      "url": "https://github.com/codingJang/Rev-Missiles"
-    }
-  ]
 }
