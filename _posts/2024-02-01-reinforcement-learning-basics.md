@@ -9,18 +9,16 @@ toc:
   sidebar: left
 ---
 
+이 시리즈는 DeepMind X UCL의 강화학습 강의 노트와 PettingZoo 라이브러리 소개로 구성되어 있습니다.
+
 ## DeepMind X UCL Deep RL Series
 
-[DeepMind X UCL | 4. Theoretical Fundamentals of Dynamic Programming](/assets/blog/reinforcement-learning-basics/DeepMind%20X%20UCL%204%20Theoretical%20Fundamentals%20of%20Dynam%207478da99308c409ebe009bf4f8209c13.md)
-
-[DeepMind X UCL | 5. Model-free Prediction](/assets/blog/reinforcement-learning-basics/DeepMind%20X%20UCL%205%20Model-free%20Prediction%2094516d82c58143ba9ac04f5d72e72fcc.md)
-
-[DeepMind X UCL | 6. Model-free Control](/assets/blog/reinforcement-learning-basics/DeepMind%20X%20UCL%206%20Model-free%20Control%20c55a856c97414c309f4e93dff6774282.md)
-
-[DeepMind X UCL | 7. Function Approximation](/assets/blog/reinforcement-learning-basics/DeepMind%20X%20UCL%207%20Function%20Approximation%2086cf033e13e0489a902a735dba94a33c.md)
-
-[DeepMind X UCL | 8. Planning and Models](/assets/blog/reinforcement-learning-basics/DeepMind%20X%20UCL%208%20Planning%20and%20Models%201d1f0f24f9318074b36ff0f1e69098a4.md)
+- [DeepMind X UCL | 4. Theoretical Fundamentals of Dynamic Programming](/blog/2024/rl-deepmind-x-ucl-4-theoretical-fundamentals-of-dynam/)
+- [DeepMind X UCL | 5. Model-free Prediction](/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58/)
+- [DeepMind X UCL | 6. Model-free Control](/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/)
+- [DeepMind X UCL | 7. Function Approximation](/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/)
+- [DeepMind X UCL | 8. Planning and Models](/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/)
 
 ## etc.
 
-[Introduction to PettingZoo](/assets/blog/reinforcement-learning-basics/Introduction%20to%20PettingZoo%201f62ce393bc3449abd16466e77e86746.md)
+- [Introduction to PettingZoo](/blog/2024/rl-introduction-to-pettingzoo-1f62ce393bc3449abd16466/)
