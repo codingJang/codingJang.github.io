@@ -395,55 +395,55 @@ ninja.data = [{
             window.location.href = "/blog/2024/rl-introduction-to-pettingzoo-1f62ce393bc3449abd16466/";
           
         },
-      },{id: "post-rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318",
+      },{id: "post-deepmind-x-ucl-8-planning-and-models",
         
-          title: "Rl Deepmind X Ucl 8 Planning And Models 1d1f0f24f9318",
+          title: "DeepMind X UCL | 8. Planning and Models",
         
-        description: "",
+        description: "Reinforcement Learning Basics Series",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/";
           
         },
-      },{id: "post-rl-deepmind-x-ucl-7-function-approximation-86cf033e13",
+      },{id: "post-deepmind-x-ucl-7-function-approximation",
         
-          title: "Rl Deepmind X Ucl 7 Function Approximation 86cf033e13",
+          title: "DeepMind X UCL | 7. Function Approximation",
         
-        description: "",
+        description: "Reinforcement Learning Basics Series",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/";
           
         },
-      },{id: "post-rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c",
+      },{id: "post-deepmind-x-ucl-6-model-free-control",
         
-          title: "Rl Deepmind X Ucl 6 Model Free Control C55a856c97414c",
+          title: "DeepMind X UCL | 6. Model-free Control",
         
-        description: "",
+        description: "Reinforcement Learning Basics Series",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/";
           
         },
-      },{id: "post-rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58",
+      },{id: "post-deepmind-x-ucl-5-model-free-prediction",
         
-          title: "Rl Deepmind X Ucl 5 Model Free Prediction 94516d82c58",
+          title: "DeepMind X UCL | 5. Model-free Prediction",
         
-        description: "",
+        description: "Reinforcement Learning Basics Series",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58/";
           
         },
-      },{id: "post-rl-deepmind-x-ucl-4-theoretical-fundamentals-of-dynam",
+      },{id: "post-deepmind-x-ucl-4-theoretical-fundamentals-of-dynamic-programming",
         
-          title: "Rl Deepmind X Ucl 4 Theoretical Fundamentals Of Dynam",
+          title: "DeepMind X UCL | 4. Theoretical Fundamentals of Dynamic Programming",
         
-        description: "",
+        description: "Reinforcement Learning Basics Series",
         section: "Posts",
         handler: () => {
           
