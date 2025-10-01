@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Open-source projects and research implementations in AI, reinforcement learning, quantum computing education, and computer vision.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Educational materials and tutorials covering deep learning, reinforcement learning, mathematics, and more.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
