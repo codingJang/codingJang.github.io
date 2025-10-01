@@ -2,96 +2,134 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yejun Jang
+    - name: Email
+      value: jangyejun@snu.ac.kr
     - name: Languages
-      value: English, German
+      value: English, Korean
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Electrical and Computer Engineering
+      institution: Seoul National University, Seoul, South Korea
+      year: 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "CGPA: 3.51/4.3"
+        - Student Designed Major in AI-based Molecular Simulation
+        - Expected graduation December 2026
+    - title: High School Diploma
+      institution: Sejong Academy of Science and Arts (SASA), Seoul, South Korea
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 4.10/4.3"
+        - Majored in Computer Science and Physics
+        - Mar 2020 – Sep 2020 exchange at KAIST (CGPA 3.85/4.3)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Project Head, SOUL
+      institution: Korea Foundation for Advanced Studies (KFAS), Seoul, South Korea
+      year: Feb 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Simulating currency wars using reinforcement learning to derive new economical & political strategies
+        - Trained game-playing AI agents that learn to cooperate via communication using Deep Q-Learning on Google Cloud
+        - Communicated complex AI concepts including LSTM to teammates with non-technical backgrounds
+        - Secured funding of 10 million KRW (~$10,000 CAD) and managed allocation for computing, mentoring, and resources
+        - title: "GitHub: <a href='https://github.com/codingJang/soul'>codingJang/soul</a>"
+    - title: Software Lead, FHP-RTFS
+      institution: Sejong Academy of Science and Arts (SASA), Seoul, South Korea
+      year: Feb 2019 - Feb 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Built a contactless feedback system for alerting incorrect body posture when using digital devices
+        - Developed a measurement criterion for Forward Head Posture (FHP) using computer vision techniques
+        - Processing 3D webcam data and providing audio feedback led to 81% improvement in participants' FHP
+        - Became 2020 Regeneron ISEF finalist
+        - title: "GitHub: <a href='https://github.com/codingJang/FHP-RTFS'>codingJang/FHP-RTFS</a>"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: QuPid - VR Quantum Computing Education
+      year: 2020 - 2021
+      description:
+        - Created a VR laboratory to explain basic but hard-to-grasp concepts in quantum computing, specifically the qubit
+        - title: "GitHub: <a href='https://github.com/codingJang/QuPid'>codingJang/QuPid</a>"
+    - title: Car-The-Garden - Autonomous Navigation
+      year: 2019
+      description:
+        - Applied left-first and right-first search algorithms to navigate a miniature version of the standard Korean driving test
+        - title: "GitHub: <a href='https://github.com/codingJang/Car-The-Garden'>codingJang/Car-The-Garden</a>"
+    - title: Rev-Missiles! - Game Reverse Engineering
+      year: 2018
+      description:
+        - Reverse engineered the mobile game "MISSILES!" to add more missiles and features
+        - title: "GitHub: <a href='https://github.com/codingJang/Rev-Missiles'>codingJang/Rev-Missiles</a>"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Regeneron International Science and Engineering Fair (ISEF) Finalist
+        - SASA Campus Awards (Research)
+    - year: 2019
       items:
-        - Max Planck Medal
+        - Korea Science and Engineering Fair (KSEF) Gold Award (1st) - Became ISEF finalist
+        - Korea Biz-school Youth Startup Competition Grand Award (1st) - Awarded by Korean Minister of SMEs and Startups
+        - SASA Science Creativity Competition Gold Award (1st)
+        - SASA Physics Cinematography Contest Gold Award (1st)
+        - SASA English Creative Writing Contest Gold Award (1st)
+    - year: 2018
+      items:
+        - SASA Creative Research Conference Gold Award (1st)
+        - SASA STEAM Artwork Conference Gold Award (1st)
+        - AP Academic Achievement Awards - Top 4% in Physics I & II and 3 other subjects
 
-- title: Academic Interests
+- title: Scholarships
+  type: time_table
+  contents:
+    - year: 2022 - Present
+      items:
+        - "Korea Foundation for Advanced Studies (KFAS) Injaerim Scholarship Program"
+        - "$5,000/year + $10,000 maximum project fund per team"
+        - "Attended critical thinking, communication, and negotiation strategy programs"
+    - year: 2020
+      items:
+        - "Korea Advanced Institute of Science and Technology (KAIST) Science Talent Scholar"
+        - "Full Scholarship"
+    - year: 2019
+      items:
+        - "National Research Foundation of Korea Science Talent Scholar"
+        - "Full Scholarship"
+
+- title: Volunteering
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Raspberry Pi Foundation
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Translated multiple educational articles in the Raspberry Pi Foundation's Project page to Korean
+    - title: South Vancouver Neighborhood House (SVNH)
       items:
-        - Description 1.
-        - Description 2.
+        - Assist community engagement programs
+        - Teach math and science to community members
 
-- title: Other Interests
-  type: list
+- title: Skills
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Deep Learning & AI
+      items:
+        - Multi-agent reinforcement learning
+        - Generative AI (VAE, GAN)
+        - Sequential models (LSTM)
+        - Deep Q-Learning
+    - title: Programming Languages
+      items:
+        - "Python, C, C#"
+    - title: Libraries & Frameworks
+      items:
+        - "PyTorch, NumPy, Pandas, PettingZoo, PyGame, Matplotlib"
+    - title: Cloud & Infrastructure
+      items:
+        - Google Cloud Platform
