@@ -271,6 +271,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2024/tutoring-tutoring.md/";
+          
+        },
+      },{id: "post-tutoring",
+        
+          title: "Tutoring",
+        
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2024/tutoring-tutoring/";
           
         },
@@ -406,6 +417,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/";
           
         },
+      },{id: "post-rl-deepmind-x-ucl-7-function-approximation-86cf033e13-md",
+        
+          title: "Rl Deepmind X Ucl 7 Function Approximation 86cf033e13.md",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13.md/";
+          
+        },
       },{id: "post-rl-deepmind-x-ucl-7-function-approximation-86cf033e13",
         
           title: "Rl Deepmind X Ucl 7 Function Approximation 86cf033e13",
@@ -417,6 +439,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/";
           
         },
+      },{id: "post-rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c-md",
+        
+          title: "Rl Deepmind X Ucl 6 Model Free Control C55a856c97414c.md",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c.md/";
+          
+        },
       },{id: "post-rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c",
         
           title: "Rl Deepmind X Ucl 6 Model Free Control C55a856c97414c",
@@ -426,6 +459,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/";
+          
+        },
+      },{id: "post-rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58-md",
+        
+          title: "Rl Deepmind X Ucl 5 Model Free Prediction 94516d82c58.md",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58.md/";
           
         },
       },{id: "post-rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58",
@@ -579,6 +623,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2024/dl-day5-day-5-day-5.md/";
+          
+        },
+      },{id: "post-day-5-day-5-기초-파이썬-연습-i",
+        
+          title: "Day 5: Day 5 기초 파이썬 연습 I",
+        
+        description: "딥러닝의 기초 - Day 5",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2024/dl-day5-day-5-day-5/";
           
         },
@@ -591,6 +646,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/dl-day4-day-4-day-4/";
+          
+        },
+      },{id: "post-day-3-day-3-행렬곱의-의미",
+        
+          title: "Day 3: Day 3 행렬곱의 의미",
+        
+        description: "딥러닝의 기초 - Day 3",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day3-day-3-day-3.md/";
           
         },
       },{id: "post-day-3-day-3-행렬곱의-의미",
@@ -635,6 +701,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/deep-learning-basics/";
+          
+        },
+      },{id: "post-introduction-to-deep-learning",
+        
+          title: "Introduction to Deep Learning",
+        
+        description: "A comprehensive guide for beginners - from linear algebra to backpropagation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/deep-learning-intro-en.md/";
           
         },
       },{id: "post-introduction-to-deep-learning",
