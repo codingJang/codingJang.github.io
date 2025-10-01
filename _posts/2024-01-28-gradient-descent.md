@@ -64,7 +64,7 @@ $$
 
 is always $\alpha$. This means that even when approaching the minimum value, $\theta^{(k)}$ is updated only by a fixed step-size of $\alpha$. In other words, if we only consider the sign, we won’t converge to the minimum value and will instead be oscillating by a magnitude of $\alpha$! Therefore, we should gradually decelerate as we approach the exact minimum value.
 
-On the other hand, we can know when we're close to the minimum value by noticing that the magnitude of $|f'(\theta)|$ has decreased, i.e., $f'(\theta)$ is close to $0$. Can we use this information to improve the equation? In fact, since $f'(\theta^{(k)})$ is already a real number with a sign, there's no need to use the $\text{sgn}$ function. Removing the $\text{sgn}$ function gives:
+On the other hand, we can know when we're close to the minimum value by noticing that the magnitude of $\lvert f'(\theta)\rvert$ has decreased, i.e., $f'(\theta)$ is close to $0$. Can we use this information to improve the equation? In fact, since $f'(\theta^{(k)})$ is already a real number with a sign, there's no need to use the $\text{sgn}$ function. Removing the $\text{sgn}$ function gives:
 
 $$
 \begin{equation} \theta^{(k+1)}=\theta^{(k)}-\alpha f'(\theta^{(k)})\end{equation}

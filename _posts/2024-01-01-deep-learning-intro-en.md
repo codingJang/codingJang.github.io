@@ -323,7 +323,7 @@ Now, consider the following:
 (c) A $2 \times 2$ matrix $I$ maps every vector in $\mathbb{R}^2$ to itself. Find $I$, and show that $I$ is symmetric.
 
 (d) Prove $\mathbf{x} \cdot \mathbf{x} \ge 0$ for any $\mathbf{x}=[x_1, x_2, \cdots, x_n]^T \in \mathbb{R}^n$, then prove that $\mathbf{x} \cdot \mathbf{x}=0$ if and only if $\mathbf{x} =\mathbf{0}$.
-*Remark.* Since we have proven this fact, we can naturally define the length of a vector $\mathbf{x}$ as $||\mathbf{x}||=\sqrt{\mathbf{x} \cdot \mathbf{x}}=\sqrt{x_1^2+x_2^2+ \cdots x_n^2}$. If there exists a vector $\mathbf{x}$ such that $\mathbf{x} \cdot \mathbf{x}<0$, the inside of the square root will become negative, which would be a total disaster!
+*Remark.* Since we have proven this fact, we can naturally define the length of a vector $\mathbf{x}$ as $\lVert\mathbf{x}\rVert=\sqrt{\mathbf{x} \cdot \mathbf{x}}=\sqrt{x_1^2+x_2^2+ \cdots x_n^2}$. If there exists a vector $\mathbf{x}$ such that $\mathbf{x} \cdot \mathbf{x}<0$, the inside of the square root will become negative, which would be a total disaster!
 
 *Note. $[x_1, x_2, \cdots, x_n]^T$ is a column vector with components $x_1, x_2, \cdots,x_n$. Keep the definition of transposition in mind.*
 

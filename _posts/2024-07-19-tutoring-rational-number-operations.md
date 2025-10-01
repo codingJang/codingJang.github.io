@@ -25,7 +25,7 @@ categories: education
 
 아래 문제의 출처는 **에이급 수학(중학교 1학년 1학기)**입니다.
 
-**첫번째 문제.** $|A|$를 구해봅시다.
+**첫번째 문제.** $\lvert A\rvert$를 구해봅시다.
 
 $$
 A=3^4 \div \left(-1\frac{1}{2}\right)^2-\left(\left(-\frac{3}{4}\right)^3\times\left(2\frac{2}{3}\right)^2-\left(-2\right)^4\right)
