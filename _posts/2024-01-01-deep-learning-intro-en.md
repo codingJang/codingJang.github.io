@@ -164,10 +164,7 @@ $$
 -3x_1 -2x_2 +x_3 = 0
 $$
 
-(a) Solve for the set of vectors $\mathbf{v}=\begin{bmatrix}
-   x_1 \\
-   x_2 \\x_3
-\end{bmatrix} \in \mathbb{R}^3$ which satisfies the system of equations shown above.
+(a) Solve for the set of vectors $\mathbf{v}=\begin{bmatrix} x_1 \\ x_2 \\x_3 \end{bmatrix} \in \mathbb{R}^3$ which satisfies the system of equations shown above.
 
 (b) Express $\mathbf{v}$ as a linear combination of two linearly independent vectors.
 
