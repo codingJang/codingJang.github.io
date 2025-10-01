@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - codingJang
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - codingJang/SOUL_Project
+  - codingJang/codingJang-2019_FHP-Feedback-System
+  - codingJang/QuPid
+  - codingJang/Car-The-Garden
+  - codingJang/CongestionControl
+  - codingJang/2019-OOP-Python-asdf
