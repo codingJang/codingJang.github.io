@@ -89,7 +89,7 @@ $$
 \sum_{k=1}^{n} {k}=1+2+3+\cdots+n=\frac{n(n+1)}{2}
 $$
 
-![시그마 k 합 공식을 그림으로 증명하는 방법 (math.utah.edu)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%88%98%EC%97%B4%EA%B3%BC%20%EC%9E%85%EC%B2%B4%EB%8F%84%ED%98%95%EC%9D%98%20%EB%B6%80%ED%94%BC%20161f0f24f931809e80d0e567096c6ae1/Untitled.png)
+![시그마 k 합 공식을 그림으로 증명하는 방법 (math.utah.edu)](/assets/img/blog/tutoring/untitled.png)
 
 시그마 k 합 공식을 그림으로 증명하는 방법 (math.utah.edu)
 
@@ -115,7 +115,7 @@ $$
 
 ## 부피를 수열의 합으로 나타낸다면?
 
-![닮음 삼각형을 발견](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%88%98%EC%97%B4%EA%B3%BC%20%EC%9E%85%EC%B2%B4%EB%8F%84%ED%98%95%EC%9D%98%20%EB%B6%80%ED%94%BC%20161f0f24f931809e80d0e567096c6ae1/Untitled%201.png)
+![닮음 삼각형을 발견](/assets/img/blog/tutoring/untitled_1.png)
 
 닮음 삼각형을 발견
 

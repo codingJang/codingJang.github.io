@@ -20,7 +20,7 @@ categories: education
 
 기원전 4000년 전 수메리아 인들이 처음으로 숫자를 사용했던 것으로 알려져 있다. 숫자에 대한 기록이 남아 있었던 것이 그 정도로 오래되었다면, 실제로 인간이 숫자를 세기 시작한 지는 더 오래 되었을지도 모른다.
 
-![오스트레일리아의 왈피리족 (출처: [austrade.gov.au](http://austrade.gov.au/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%201%EC%B4%88%EC%9D%98%20%EA%B8%B8%EC%9D%B4,%201%EB%AF%B8%ED%84%B0%EC%9D%98%20%EC%8B%9C%EA%B0%84%20161f0f24f93180a9a487cc6e710f1c8e/Untitled.png)
+![오스트레일리아의 왈피리족 (출처: [austrade.gov.au](http://austrade.gov.au/))](/assets/img/blog/tutoring/untitled__1_1_161f0f24f93180a9a487cc6e7.png)
 
 오스트레일리아의 왈피리족 (출처: [austrade.gov.au](http://austrade.gov.au/))
 
@@ -32,7 +32,7 @@ categories: education
 
 안타깝게도, 세상은 넓고 우주는 크다.
 
-![우리 은하 (The Milky Way) (출처: [exoplanets.nasa.gov](http://exoplanets.nasa.gov/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%201%EC%B4%88%EC%9D%98%20%EA%B8%B8%EC%9D%B4,%201%EB%AF%B8%ED%84%B0%EC%9D%98%20%EC%8B%9C%EA%B0%84%20161f0f24f93180a9a487cc6e710f1c8e/Untitled%201.png)
+![우리 은하 (The Milky Way) (출처: [exoplanets.nasa.gov](http://exoplanets.nasa.gov/))](/assets/img/blog/tutoring/untitled_1__1_1_161f0f24f93180a9a487cc6e7.png)
 
 우리 은하 (The Milky Way) (출처: [exoplanets.nasa.gov](http://exoplanets.nasa.gov/))
 
@@ -58,7 +58,7 @@ $600,000,000,000,000,000,000,000,000$ 개가 몇 개인지 상상은 가나? 그
 
 좀 전처럼 말도 안 되게 큰 숫자를 상상하는 것은 너무 고통스러운 일이다. 아니, 아무리 똑똑한 인간이라도 상상할 수 없다. 천문학에서는 우주 전체의 크기부터 가장 작은 미립자의 크기까지를 전부 생각해야 한다. 0을 하나 붙일 때마다 10배씩 커지는 폭발적인 크기를 인간의 뇌로는 도저히 감당할 수 없다. 따라서 큰 숫자를 나타내기 위해 단위는 천문학자들에게 꼭 필요하다.
 
-![우주를 관찰하는 천문학자 (출처: [onetravel.com](http://onetravel.com/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%201%EC%B4%88%EC%9D%98%20%EA%B8%B8%EC%9D%B4,%201%EB%AF%B8%ED%84%B0%EC%9D%98%20%EC%8B%9C%EA%B0%84%20161f0f24f93180a9a487cc6e710f1c8e/Untitled%202.png)
+![우주를 관찰하는 천문학자 (출처: [onetravel.com](http://onetravel.com/))](/assets/img/blog/tutoring/untitled_2.png)
 
 우주를 관찰하는 천문학자 (출처: [onetravel.com](http://onetravel.com/))
 
@@ -68,7 +68,7 @@ $600,000,000,000,000,000,000,000,000$ 개가 몇 개인지 상상은 가나? 그
 
 빛이 1년 동안 가는 이 천문학적인 거리를 천문학자들은 1 광년(1 light-year, $1\;\textrm {ly}$)이라고 부른다. 미항공우주국(NASA)에 따르면, 지금까지 관측된 단독 별들 중 가장 멀리 떨어져 있는 별은 이카루스(Icarus)이다.
 
-![이카루스 (Icarus) (출처: [smithsonianmag.com](http://smithsonianmag.com/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%201%EC%B4%88%EC%9D%98%20%EA%B8%B8%EC%9D%B4,%201%EB%AF%B8%ED%84%B0%EC%9D%98%20%EC%8B%9C%EA%B0%84%20161f0f24f93180a9a487cc6e710f1c8e/Untitled%203.png)
+![이카루스 (Icarus) (출처: [smithsonianmag.com](http://smithsonianmag.com/))](/assets/img/blog/tutoring/untitled_3.png)
 
 이카루스 (Icarus) (출처: [smithsonianmag.com](http://smithsonianmag.com/))
 
@@ -126,7 +126,7 @@ $$
 
 시공간(spacetime)이라는 개념에 대해 들어봤는가? 이 말은 단순히 시간과 공간을 함께 부르기 위해 생겨난 것처럼 보이지만, 사실 그것보다 더 깊은 의미를 가지고 있다.
 
-![특수 상대성 이론에 의한 길이 수축 (출처: [alternativephysics.org](http://alternativephysics.org/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%201%EC%B4%88%EC%9D%98%20%EA%B8%B8%EC%9D%B4,%201%EB%AF%B8%ED%84%B0%EC%9D%98%20%EC%8B%9C%EA%B0%84%20161f0f24f93180a9a487cc6e710f1c8e/Untitled%204.png)
+![특수 상대성 이론에 의한 길이 수축 (출처: [alternativephysics.org](http://alternativephysics.org/))](/assets/img/blog/tutoring/untitled_4.png)
 
 특수 상대성 이론에 의한 길이 수축 (출처: [alternativephysics.org](http://alternativephysics.org/))
 
@@ -136,7 +136,7 @@ $$
 
 ## 상대성 이론의 수학적 언어
 
-![미분 기하학 (Differential Geometry) (출처: wikipedia.org)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%201%EC%B4%88%EC%9D%98%20%EA%B8%B8%EC%9D%B4,%201%EB%AF%B8%ED%84%B0%EC%9D%98%20%EC%8B%9C%EA%B0%84%20161f0f24f93180a9a487cc6e710f1c8e/Untitled%205.png)
+![미분 기하학 (Differential Geometry) (출처: wikipedia.org)](/assets/img/blog/tutoring/untitled_5.png)
 
 미분 기하학 (Differential Geometry) (출처: wikipedia.org)
 
@@ -168,7 +168,7 @@ $$
 
 ## 단위의 설정이 중요한 이유
 
-![단위와 수의 관계 (출처: [gettyimagesbank.com](http://gettyimagesbank.com/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%201%EC%B4%88%EC%9D%98%20%EA%B8%B8%EC%9D%B4,%201%EB%AF%B8%ED%84%B0%EC%9D%98%20%EC%8B%9C%EA%B0%84%20161f0f24f93180a9a487cc6e710f1c8e/Untitled%206.png)
+![단위와 수의 관계 (출처: [gettyimagesbank.com](http://gettyimagesbank.com/))](/assets/img/blog/tutoring/untitled_6.png)
 
 단위와 수의 관계 (출처: [gettyimagesbank.com](http://gettyimagesbank.com/))
 

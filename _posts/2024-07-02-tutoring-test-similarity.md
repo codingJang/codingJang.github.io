@@ -13,22 +13,22 @@ categories: education
 
 **문제 1**
 
-![Untitled](TEST%2001%20%EB%8F%84%ED%98%95%EC%9D%98%20%EB%8B%AE%EC%9D%8C%20161f0f24f93180d29f25c8f66c09ee22/Untitled.png)
+![Untitled](/assets/img/blog/tutoring/untitled_test_01_161f0f24f93180d29f25c8.png)
 
 **문제 2**
 
-![Untitled](TEST%2001%20%EB%8F%84%ED%98%95%EC%9D%98%20%EB%8B%AE%EC%9D%8C%20161f0f24f93180d29f25c8f66c09ee22/Untitled%201.png)
+![Untitled](/assets/img/blog/tutoring/untitled_1_test_01_161f0f24f93180d29f25c8.png)
 
 **문제 3**
 
-![Untitled](TEST%2001%20%EB%8F%84%ED%98%95%EC%9D%98%20%EB%8B%AE%EC%9D%8C%20161f0f24f93180d29f25c8f66c09ee22/Untitled%202.png)
+![Untitled](/assets/img/blog/tutoring/untitled_2_test_01_161f0f24f93180d29f25c8.png)
 
 **문제 4**
 
-![Untitled](TEST%2001%20%EB%8F%84%ED%98%95%EC%9D%98%20%EB%8B%AE%EC%9D%8C%20161f0f24f93180d29f25c8f66c09ee22/Untitled%203.png)
+![Untitled](/assets/img/blog/tutoring/untitled_3_test_01_161f0f24f93180d29f25c8.png)
 
 **문제 5**
 
-![Untitled](TEST%2001%20%EB%8F%84%ED%98%95%EC%9D%98%20%EB%8B%AE%EC%9D%8C%20161f0f24f93180d29f25c8f66c09ee22/Untitled%204.png)
+![Untitled](/assets/img/blog/tutoring/untitled_4_test_01_161f0f24f93180d29f25c8.png)
 
 [TEST 01 : 정답](TEST%2001%20%EB%8F%84%ED%98%95%EC%9D%98%20%EB%8B%AE%EC%9D%8C%20161f0f24f93180d29f25c8f66c09ee22/TEST%2001%20%EC%A0%95%EB%8B%B5%20161f0f24f931816aaf11fba168b9af13.md)

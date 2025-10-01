@@ -27,7 +27,7 @@ categories: education
 
 ## 질문 1
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%82%BC%EA%B0%81%ED%95%A8%EC%88%98%20161f0f24f931803bb39df191a19a659a/Untitled.png)
+![Untitled](/assets/img/blog/tutoring/untitled__161f0f24f931803bb39df191a19a6.png)
 
 위 그림과 같이 원점 $O=(0,0)$을 중심으로 반지름이 $1$인 원이 그려져 있다. 점 $P$는 원 위의 점이며, 선분 $OP$가 양의 $x$축과 이루는 각도를 $\theta$라 하자. $(단, 0<\theta<90\degree)$
 

@@ -46,7 +46,7 @@ $$
 
 재밌는 것은, 큐비트가 $(복소수, 복소수)$의 형태라면 이를 표현하기 위해서는 실수 변수 $4$개를 써야 할 것 같지만, 실제로는 경도와 위도를 이용하여 구면 위의 점으로 표현한다는 것이다. 아래와 같이, 큐비트의 상태를 표현하기 위한 구면을 블로흐 구면(Bloch Sphere)이라고 한다.
 
-![위키백과 - 블로흐 구면 (Bloch Sphere)](%ED%81%90%EB%B9%84%ED%8A%B8%EC%9D%98%20%EC%9D%B4%ED%95%B4%20(%EC%9E%91%EC%84%B1%20%EC%A4%91)%204cdc4b1b0bcd4f6a80b04889f30e1d4b/Untitled.png)
+![위키백과 - 블로흐 구면 (Bloch Sphere)](/assets/img/blog/qubit/untitled_qubit-understanding.png)
 
 위키백과 - 블로흐 구면 (Bloch Sphere)
 

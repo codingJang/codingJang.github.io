@@ -8,7 +8,7 @@ categories: education
 ---
 
 
-![마리오카트의 쿠파 성 (출처: 나무위키)](%EC%A0%84%EB%9E%B5%20%EC%96%B4%EB%A0%A4%EC%9A%B4%20%EB%AC%B8%EC%A0%9C%EA%B0%80%20%ED%92%80%EB%A6%AC%EB%8A%94%20%EC%9D%B4%EC%9C%A0%20161f0f24f931809c9bf9e8ee042d6da7/Untitled.png)
+![마리오카트의 쿠파 성 (출처: 나무위키)](/assets/img/blog/tutoring/untitled__161f0f24f931809c9bf9e8ee042d6.png)
 
 마리오카트의 쿠파 성 (출처: 나무위키)
 

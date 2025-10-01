@@ -16,8 +16,8 @@ A palindrome is a number that reads the same forward and backward. How many thre
 
 ## Challenge #2
 
-![](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%20161f0f24f93180f1981ff081072da407/Untitled.png)
+![](/assets/img/blog/tutoring/untitled__161f0f24f93180f1981ff081072da.png)
 
 ## Challenge #3
 
-![](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%20161f0f24f93180f1981ff081072da407/Untitled%201.png)
+![](/assets/img/blog/tutoring/untitled_1__161f0f24f93180f1981ff081072da.png)

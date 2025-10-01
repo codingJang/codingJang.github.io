@@ -12,7 +12,7 @@ categories: education
 
 ## 소개
 
-![소인수분해의 과정 (출처: 천재교육)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%20%ED%98%B8%EC%A0%9C%EB%B2%95%20161f0f24f93180a49e4ad85867e9ab86/Untitled.png)
+![소인수분해의 과정 (출처: 천재교육)](/assets/img/blog/tutoring/untitled__161f0f24f93180a49e4ad85867e9a.png)
 
 소인수분해의 과정 (출처: 천재교육)
 
@@ -37,7 +37,7 @@ $$
 
 ## 유클리드 호제법 (Euclidean Algorithm)
 
-![유클리드 호제법과 타일 채우기 (출처: [senalyst.com](http://senalyst.com/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%20%ED%98%B8%EC%A0%9C%EB%B2%95%20161f0f24f93180a49e4ad85867e9ab86/Untitled%201.png)
+![유클리드 호제법과 타일 채우기 (출처: [senalyst.com](http://senalyst.com/))](/assets/img/blog/tutoring/untitled_1__161f0f24f93180a49e4ad85867e9a.png)
 
 유클리드 호제법과 타일 채우기 (출처: [senalyst.com](http://senalyst.com/))
 
@@ -61,7 +61,7 @@ $6$을 $2$로 나눈 몫은 $3$, 나머지는 $0$ → $\textrm{gcd}(8, 6) = \tex
 
 ## 유클리드 호제법의 시각화
 
-![$60 \times 24$ 벽면을 남김없이 채우기 위한 정사각형 타일의 최대 크기는?](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%20%ED%98%B8%EC%A0%9C%EB%B2%95%20161f0f24f93180a49e4ad85867e9ab86/Untitled%202.png)
+![$60 \times 24$ 벽면을 남김없이 채우기 위한 정사각형 타일의 최대 크기는?](/assets/img/blog/tutoring/untitled_2__161f0f24f93180a49e4ad85867e9a.png)
 
 $60 \times 24$ 벽면을 남김없이 채우기 위한 정사각형 타일의 최대 크기는?
 
@@ -109,7 +109,7 @@ $a,b$는 서로소여야하는데, $a$와 $b$의 $1$보다 큰 공약수 $k$가 
 
 ## 근데 이게 왜 좋죠?
 
-![IBM사의 슈퍼컴퓨터 Summit (출처: ibm.com)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C%20%ED%98%B8%EC%A0%9C%EB%B2%95%20161f0f24f93180a49e4ad85867e9ab86/Untitled%203.png)
+![IBM사의 슈퍼컴퓨터 Summit (출처: ibm.com)](/assets/img/blog/tutoring/untitled_3__161f0f24f93180a49e4ad85867e9a.png)
 
 IBM사의 슈퍼컴퓨터 Summit (출처: ibm.com)
 

@@ -81,7 +81,7 @@ $$
 
 ## 소인수분해를 이용하여 약분한다
 
-![소인수분해 (출처: [onlinemath4all.com](http://onlinemath4all.com/))](%EB%B3%B4%EC%B6%A9%20%EC%9E%90%EB%A3%8C%20%EC%9C%A0%EB%A6%AC%EC%88%98%EC%9D%98%20%EC%82%AC%EC%B9%99%20%EC%97%B0%EC%82%B0%20161f0f24f9318037bf63fc6fbb5b4222/Untitled.png)
+![소인수분해 (출처: [onlinemath4all.com](http://onlinemath4all.com/))](/assets/img/blog/tutoring/untitled__161f0f24f9318037bf63fc6fbb5b4.png)
 
 소인수분해 (출처: [onlinemath4all.com](http://onlinemath4all.com/))
 
@@ -114,7 +114,7 @@ $X$를 계산하기 위해 $3^4=81$을 계산하고, $\left(-\frac{3}{2}\right)^
 
 ## 복잡한 계산은 이름을 붙여 뒤로 미룬다
 
-![알파벳 (출처: [javascript.plainenglish.io](http://javascript.plainenglish.io/))](%EB%B3%B4%EC%B6%A9%20%EC%9E%90%EB%A3%8C%20%EC%9C%A0%EB%A6%AC%EC%88%98%EC%9D%98%20%EC%82%AC%EC%B9%99%20%EC%97%B0%EC%82%B0%20161f0f24f9318037bf63fc6fbb5b4222/Untitled%201.png)
+![알파벳 (출처: [javascript.plainenglish.io](http://javascript.plainenglish.io/))](/assets/img/blog/tutoring/untitled_1__161f0f24f9318037bf63fc6fbb5b4.png)
 
 알파벳 (출처: [javascript.plainenglish.io](http://javascript.plainenglish.io/))
 

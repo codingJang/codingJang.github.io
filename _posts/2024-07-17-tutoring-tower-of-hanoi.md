@@ -20,7 +20,7 @@ categories: education
 
 하노이의 탑 문제에 대해 알아보자.
 
-![하노이의 탑 (출처: Wikipedia)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%ED%95%98%EB%85%B8%EC%9D%B4%EC%9D%98%20%ED%83%91%20161f0f24f9318047ba72e83be080bb65/Untitled.png)
+![하노이의 탑 (출처: Wikipedia)](/assets/img/blog/tutoring/untitled__161f0f24f9318047ba72e83be080b.png)
 
 하노이의 탑 (출처: Wikipedia)
 

@@ -14,7 +14,7 @@ categories: education
 
 ## 수열이란?
 
-![등차 수열과 등비 수열 (출처: [owlcation.com](http://owlcation.com/))](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20COVID-19%EA%B3%BC%20%EB%93%B1%EB%B9%84%EC%88%98%EC%97%B4%20161f0f24f931806582a9e4e02b00dfc4/Untitled.png)
+![등차 수열과 등비 수열 (출처: [owlcation.com](http://owlcation.com/))](/assets/img/blog/tutoring/untitled__covid-19_161f0f24f931806582a9.png)
 
 등차 수열과 등비 수열 (출처: [owlcation.com](http://owlcation.com/))
 
@@ -51,7 +51,7 @@ $$
 ## 그래서 이게 COVID-19이랑 무슨 관련이 있는거죠?
 
 ![전염병 발생 초기 단계에서 중국 본토를 제외한 지역의 COVID-19 확진자 수
-(출처: 3blue1brown / 데이터: Worldometer)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20COVID-19%EA%B3%BC%20%EB%93%B1%EB%B9%84%EC%88%98%EC%97%B4%20161f0f24f931806582a9e4e02b00dfc4/Untitled%201.png)
+(출처: 3blue1brown / 데이터: Worldometer)](/assets/img/blog/tutoring/untitled_1__covid-19_161f0f24f931806582a9.png)
 
 전염병 발생 초기 단계에서 중국 본토를 제외한 지역의 COVID-19 확진자 수
 (출처: 3blue1brown / 데이터: Worldometer)
@@ -113,7 +113,7 @@ $$
         
     - 전염병의 전파에 영향을 미치는 요인들을 최대한 많이 말해보자.
         
-        ![코로나19 방역 수칙 (식품의약품안전처)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20COVID-19%EA%B3%BC%20%EB%93%B1%EB%B9%84%EC%88%98%EC%97%B4%20161f0f24f931806582a9e4e02b00dfc4/Untitled%202.png)
+        ![코로나19 방역 수칙 (식품의약품안전처)](/assets/img/blog/tutoring/untitled_2__covid-19_161f0f24f931806582a9.png)
         
         코로나19 방역 수칙 (식품의약품안전처)
         

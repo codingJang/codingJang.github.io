@@ -10,9 +10,9 @@ categories: education
 
 ## GCD and LCM
 
-![](%EB%B3%B4%EC%B6%A9%20%EC%9E%90%EB%A3%8C%20%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%20%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98%20161f0f24f931802cbe25e788d3d23642/Untitled.png)
+![](/assets/img/blog/tutoring/untitled__161f0f24f931802cbe25e788d3d23.png)
 
-![](%EB%B3%B4%EC%B6%A9%20%EC%9E%90%EB%A3%8C%20%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%20%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98%20161f0f24f931802cbe25e788d3d23642/Untitled%201.png)
+![](/assets/img/blog/tutoring/untitled_1__161f0f24f931802cbe25e788d3d23.png)
 
 위의 그림을 이용하여 최대공약수와 최소공배수의 성질들을 설명해보자.
 

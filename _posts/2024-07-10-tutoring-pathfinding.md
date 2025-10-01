@@ -13,14 +13,14 @@ categories: education
 한 도시에 아래와 같이 도로가 연결되어 있는 두 지점 $A$와 $B$가 있다. 
 $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EA%B8%B8%20%EC%B0%BE%EA%B8%B0%20161f0f24f93180d49552e6002b713243/Untitled.png)
+![Untitled](/assets/img/blog/tutoring/untitled__161f0f24f93180d49552e6002b713.png)
 
 ## 두번째 질문
 
 이번에는 $P$로 나타내어진 사거리가 공사 중이라, 이를 피해서 가야 한다고 한다.
 이번에는 $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EA%B8%B8%20%EC%B0%BE%EA%B8%B0%20161f0f24f93180d49552e6002b713243/Untitled%201.png)
+![Untitled](/assets/img/blog/tutoring/untitled_1__161f0f24f93180d49552e6002b713.png)
 
 ## 세번째 질문
 
@@ -28,7 +28,7 @@ $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 이제는 $P$를 지날 수는 있으나, 직진이나 좌회전은 불가능하고 우회전만이 가능하다.
 $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EA%B8%B8%20%EC%B0%BE%EA%B8%B0%20161f0f24f93180d49552e6002b713243/Untitled%201.png)
+![Untitled](/assets/img/blog/tutoring/untitled_1__161f0f24f93180d49552e6002b713.png)
 
 ## 네번째 질문
 
@@ -36,7 +36,7 @@ $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 세로로 $M$개, 가로로 $N$개의 블럭이 있는 직사각형 모양의 도시를 생각하자.
 꼭짓점 $A$에서 반대편 꼭짓점 $B$로 가는 최단 경로의 개수는 몇 개인가?
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EA%B8%B8%20%EC%B0%BE%EA%B8%B0%20161f0f24f93180d49552e6002b713243/Untitled%202.png)
+![Untitled](/assets/img/blog/tutoring/untitled_2__161f0f24f93180d49552e6002b713.png)
 
 ## 다섯번째 질문
 
@@ -44,7 +44,7 @@ $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 세로로 $M$개, 가로로 $N$개의 블럭이 있는 직사각형 모양의 도시에서, 점 $P=\rm(x,y)$는 지날 수 없다고 한다.
 꼭짓점 $A$에서 반대편 꼭짓점 $B$로 가는 최단 경로의 개수는 몇 개인가?
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EA%B8%B8%20%EC%B0%BE%EA%B8%B0%20161f0f24f93180d49552e6002b713243/Untitled%203.png)
+![Untitled](/assets/img/blog/tutoring/untitled_3__161f0f24f93180d49552e6002b713.png)
 
 ## 여섯 번째 질문
 
@@ -52,7 +52,7 @@ $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 아래와 같은 상황에서 점 $P$에서 우회전만이 가능할 때,
 꼭짓점 $A$에서 반대편 꼭짓점 $B$로 가는 최단 경로의 개수는 몇 개인가?
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EA%B8%B8%20%EC%B0%BE%EA%B8%B0%20161f0f24f93180d49552e6002b713243/Untitled%203.png)
+![Untitled](/assets/img/blog/tutoring/untitled_3__161f0f24f93180d49552e6002b713.png)
 
 ## 최종 보스 : HW
 
@@ -60,4 +60,4 @@ $A$에서 $B$로 가는 최단 경로의 개수는 몇 개일까?
 점 $A$에서 출발하여 원들을 따라 점 $B$로 가는 최단 경로의 개수를 구하시오.
 (단, 점 $A$와 점 $B$는 각 점이 속해 있는 원의 중심과 높이가 같다)
 
-![Untitled](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EA%B8%B8%20%EC%B0%BE%EA%B8%B0%20161f0f24f93180d49552e6002b713243/Untitled%204.png)
+![Untitled](/assets/img/blog/tutoring/untitled_4__161f0f24f93180d49552e6002b713.png)

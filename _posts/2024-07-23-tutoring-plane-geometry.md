@@ -19,7 +19,7 @@ categories: education
 
 아래 그림에서 $\angle DBF= \angle EBF$일 때, 모든 각의 크기를 구하여라.
 
-![Untitled](%EC%A0%84%EB%9E%B5%20%ED%8F%89%EB%A9%B4%20%EA%B8%B0%ED%95%98%ED%95%99%20161f0f24f93180428dcbf05b9af4a99d/Untitled.png)
+![Untitled](/assets/img/blog/tutoring/untitled__161f0f24f93180428dcbf05b9af4a.png)
 
 ## 결정 조건을 활용하여 보조선을 긋자
 
@@ -67,7 +67,7 @@ categories: education
 아래 그림과 같이 직각삼각형 $ABC$에 내접하는 원의 선분 $AB$와의 접점을 $T$라고 하자.
 선분 $AT$의 길이를 구하시오.
 
-![Untitled](%EC%A0%84%EB%9E%B5%20%ED%8F%89%EB%A9%B4%20%EA%B8%B0%ED%95%98%ED%95%99%20161f0f24f93180428dcbf05b9af4a99d/Untitled%201.png)
+![Untitled](/assets/img/blog/tutoring/untitled_1__161f0f24f93180428dcbf05b9af4a.png)
 
 ## 닮음과 합동으로 길이와 각도를 구하자
 
@@ -80,7 +80,7 @@ categories: education
 $CD$가 $\angle ACB$의 이등분선이고, 선분 $BC$의 길이는 $15$이다.
 삼각형 $CDB$의 넓이가 $30$일 때, 선분 $AD$의 길이를 구하여라.
 
-![Untitled](%EC%A0%84%EB%9E%B5%20%ED%8F%89%EB%A9%B4%20%EA%B8%B0%ED%95%98%ED%95%99%20161f0f24f93180428dcbf05b9af4a99d/Untitled%202.png)
+![Untitled](/assets/img/blog/tutoring/untitled_2__161f0f24f93180428dcbf05b9af4a.png)
 
 ## 정의는 가장 좋은 성질이다
 
@@ -104,7 +104,7 @@ $CD$가 $\angle ACB$의 이등분선이고, 선분 $BC$의 길이는 $15$이다.
     세 변 중 두 변의 길이가 같은 삼각형
     
 
-![Untitled](%EC%A0%84%EB%9E%B5%20%ED%8F%89%EB%A9%B4%20%EA%B8%B0%ED%95%98%ED%95%99%20161f0f24f93180428dcbf05b9af4a99d/Untitled%203.png)
+![Untitled](/assets/img/blog/tutoring/untitled_3__161f0f24f93180428dcbf05b9af4a.png)
 
 ## 도형의 성질을 익히고 활용하자
 
@@ -142,7 +142,7 @@ $CD$가 $\angle ACB$의 이등분선이고, 선분 $BC$의 길이는 $15$이다.
     원주각의 크기는 같은 호 위에 있을 때 항상 같다.
     
 
-![Untitled](%EC%A0%84%EB%9E%B5%20%ED%8F%89%EB%A9%B4%20%EA%B8%B0%ED%95%98%ED%95%99%20161f0f24f93180428dcbf05b9af4a99d/Untitled%204.png)
+![Untitled](/assets/img/blog/tutoring/untitled_4__161f0f24f93180428dcbf05b9af4a.png)
 
 ## 그 외
 

@@ -10,7 +10,7 @@ categories: education
 
 ## 질량 퍼센트 농도의 개념
 
-![소금물 만들기 (출처: BBC)](%EB%B3%B4%EC%B6%A9%20%EC%9E%90%EB%A3%8C%20%EC%86%8C%EA%B8%88%EB%AC%BC%EC%9D%98%20%EB%86%8D%EB%8F%84%208afc38377483482faa71a9b1f953c3fb/Untitled.png)
+![소금물 만들기 (출처: BBC)](/assets/img/blog/tutoring/untitled__8afc38377483482faa71a9b1f953c.png)
 
 소금물 만들기 (출처: BBC)
 

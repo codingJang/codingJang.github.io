@@ -8,13 +8,13 @@ categories: education
 ---
 
 
-![라파엘로의 "아테네 학당" (출처: Wikipedia)](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%9E%90%EC%99%80%20%EC%BB%B4%ED%8D%BC%EC%8A%A4%20161f0f24f93180c5b98ef3a3182bdc48/Untitled.png)
+![라파엘로의 "아테네 학당" (출처: Wikipedia)](/assets/img/blog/tutoring/untitled__161f0f24f93180c5b98ef3a3182bd.png)
 
 라파엘로의 "아테네 학당" (출처: Wikipedia)
 
 아테네의 철학자와 사상가들이 한데 모인 이 그림에는
 
-![](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%9E%90%EC%99%80%20%EC%BB%B4%ED%8D%BC%EC%8A%A4%20161f0f24f93180c5b98ef3a3182bdc48/Untitled%201.png)
+![](/assets/img/blog/tutoring/untitled_1__161f0f24f93180c5b98ef3a3182bd.png)
 
 작도를 가르쳐주고 있는 유클리드가 있다...
 
@@ -95,7 +95,7 @@ categories: education
 
 ## 준비 활동
 
-![](%EB%8F%84%EC%A0%84%20%EA%B3%BC%EC%A0%9C%20%EC%9E%90%EC%99%80%20%EC%BB%B4%ED%8D%BC%EC%8A%A4%20161f0f24f93180c5b98ef3a3182bdc48/Untitled%202.png)
+![](/assets/img/blog/tutoring/untitled_2__161f0f24f93180c5b98ef3a3182bd.png)
 
 [https://www.euclidea.xyz/en/game/packs](https://www.euclidea.xyz/en/game/packs)
 
