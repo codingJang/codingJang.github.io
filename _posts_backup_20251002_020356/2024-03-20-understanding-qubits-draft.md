@@ -30,7 +30,7 @@ $$
 
 이것이 선형대수학에서 자주 등장하는 선형 결합(linear combination)의 개념이다. 앞으로는 $\{\left|0 \right>, \left|1 \right>\}$을 서로 수직인 두 단위 벡터처럼 생각해주기를 바란다. 2차원 평면 상의 벡터 $\vec{v}$를 $x$축 방향 단위 벡터 $\rm{\hat{i}}$와 $y$축 방향 단위 벡터 $\rm{\hat{j}}$의 선형 결합 $\vec{v}=x\,\rm{\hat{i}}+y\,\rm{\hat{j}}$로 표현하듯, 큐비트 역시도 상태 $\left|0\right>$과 상태 $\left|1\right>$의 선형 결합으로 표현할 수 있다.
 
-한편, 벡터는 여러 수의 묶음, 즉 순서쌍으로도 이해할 수 있다. 큐비트 역시도 두 수 $\alpha,\:\beta$의 순서쌍으로 표현할 수 있기 때문에 2차원 벡터이다. 여기서 $\ket{0}=\begin{bmatrix} 1 \\\\\\ 0\end{bmatrix}$, $\ket{1}=\begin{bmatrix} 0 \\\\\\ 1\end{bmatrix}$로 정의하면 아래처럼 표현하는 것도 가능하다:
+한편, 벡터는 여러 수의 묶음, 즉 순서쌍으로도 이해할 수 있다. 큐비트 역시도 두 수 $\alpha,\:\beta$의 순서쌍으로 표현할 수 있기 때문에 2차원 벡터이다. 여기서 $\ket{0}=\begin{bmatrix} 1 \\ 0\end{bmatrix}$, $\ket{1}=\begin{bmatrix} 0 \\ 1\end{bmatrix}$로 정의하면 아래처럼 표현하는 것도 가능하다:
 
 $$
 \begin{equation}q=\alpha \ket{0} + \beta \ket{1}=\begin{bmatrix} \alpha\\\beta \end{bmatrix}\end{equation}

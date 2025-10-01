@@ -185,11 +185,11 @@ $$
 
 (a) What are transformations? What are linear transformations?
 
-(b) Suppose the matrix $A=\begin{bmatrix}1 & 2 \\\\\\ 3 & 4 \end{bmatrix}$ represents a linear transformation from $\mathbb{R}^2$ to $\mathbb{R}^2$. Where do the two canonical basis vectors $\mathbf{i}=\begin{bmatrix} 1 \\\\\\ 0 \end{bmatrix}$ and $\mathbf{j} = \begin{bmatrix} 0 \\\\\\ 1 \end{bmatrix}$ map to?
+(b) Suppose the matrix $A=\begin{bmatrix}1 & 2 \\ 3 & 4 \end{bmatrix}$ represents a linear transformation from $\mathbb{R}^2$ to $\mathbb{R}^2$. Where do the two canonical basis vectors $\mathbf{i}=\begin{bmatrix} 1 \\ 0 \end{bmatrix}$ and $\mathbf{j} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$ map to?
 
-(c) Where do the vectors $\mathbf{v}=\begin{bmatrix} 2 \\\\\\ 3 \end{bmatrix}$ and $\mathbf{w} = \begin{bmatrix} -1 \\\\\\ 2 \end{bmatrix}$ map to? Explain your answers.
+(c) Where do the vectors $\mathbf{v}=\begin{bmatrix} 2 \\ 3 \end{bmatrix}$ and $\mathbf{w} = \begin{bmatrix} -1 \\ 2 \end{bmatrix}$ map to? Explain your answers.
 
-(d) Answer (b), (c) in the case where the matrix $A$ is replaced by the matrix $B=\begin{bmatrix}-1 & 2 \\\\\\ 2 & -4 \end{bmatrix}$.
+(d) Answer (b), (c) in the case where the matrix $A$ is replaced by the matrix $B=\begin{bmatrix}-1 & 2 \\ 2 & -4 \end{bmatrix}$.
 
 *Note. Matrices are usually denoted by capital letters. In some cases, we will use boldface capital letters too.*
 
@@ -217,17 +217,17 @@ $$
 
 *Practicing matrix-vector multiplication.* Using the matrix-vector multiplication rule in Prob 3.2, reduce the following matrix-vector products into a single vector (fill in the ?s) :
 
-(a) $A\mathbf{x}=\begin{bmatrix} 1 & 3 \\\\\\ 5 & -3\end{bmatrix} \begin{bmatrix} 2 \\\\\\ 1\end{bmatrix}= \begin{bmatrix} ? \\\\\\ ?\end{bmatrix}$
+(a) $A\mathbf{x}=\begin{bmatrix} 1 & 3 \\ 5 & -3\end{bmatrix} \begin{bmatrix} 2 \\ 1\end{bmatrix}= \begin{bmatrix} ? \\ ?\end{bmatrix}$
 
-(b) $B\mathbf{y}=\begin{bmatrix} -3 & -1 \\\\\\ 2 & 2\end{bmatrix} \begin{bmatrix} -1 \\\\\\ 1\end{bmatrix}= \begin{bmatrix} ? \\\\\\ ?\end{bmatrix}$
+(b) $B\mathbf{y}=\begin{bmatrix} -3 & -1 \\ 2 & 2\end{bmatrix} \begin{bmatrix} -1 \\ 1\end{bmatrix}= \begin{bmatrix} ? \\ ?\end{bmatrix}$
 
 Now, (c) extend the definition of the matrix-vector multiplication into higher dimensions. In other words, **find the analogous formula for calculating matrix-vector products for $3 \times 3$ matrices and $3$-tuples(vectors).** You can do this for $n \times n$ matrices and $n$-tuples(vectors), for any $n$. Did you find it?
 
 Then, using the formula you have found, calculate the following matrix-vector multiplication:
 
-(d) $C\mathbf{v}=\begin{bmatrix} 1 & 3 & -1 \\\\\\ 5 & -3 & 1 \\\\\\ 2 & 1 &  -2\end{bmatrix} \begin{bmatrix} 2 \\\\\\ 1 \\\\\\ 2\end{bmatrix}= \begin{bmatrix} ? \\\\\\ ? \\\\\\ ?\end{bmatrix}$
+(d) $C\mathbf{v}=\begin{bmatrix} 1 & 3 & -1 \\ 5 & -3 & 1 \\ 2 & 1 &  -2\end{bmatrix} \begin{bmatrix} 2 \\ 1 \\ 2\end{bmatrix}= \begin{bmatrix} ? \\ ? \\ ?\end{bmatrix}$
 
-(e) $D\mathbf{w}=\begin{bmatrix} -3 & -1 & 4 \\\\\\ 2 & 2 & -1 \\\\\\ 3 & -1 & 3\end{bmatrix} \begin{bmatrix} -1 \\\\\\ 1 \\\\\\ 3\end{bmatrix}= \begin{bmatrix} ? \\\\\\ ? \\\\\\ ?\end{bmatrix}$
+(e) $D\mathbf{w}=\begin{bmatrix} -3 & -1 & 4 \\ 2 & 2 & -1 \\ 3 & -1 & 3\end{bmatrix} \begin{bmatrix} -1 \\ 1 \\ 3\end{bmatrix}= \begin{bmatrix} ? \\ ? \\ ?\end{bmatrix}$
 
 *Vocab. product = 곱, dimension = 차원, analogous = 대응되는·비슷한.*
 
@@ -239,7 +239,7 @@ Then, using the formula you have found, calculate the following matrix-vector mu
 
 ### Prob 4.1
 
-*Composition of matrices.* In the video, we have learned how applying two $2 \times 2$ matrices $M_1$ and $M_2$ consecutively to the basis vectors $\mathbf{i}$ and $\mathbf{j}$ gives the columns of the product matrix $M_2 M_1$. For example, applying the rotation $M_1= \begin{bmatrix} 0 & -1 \\\\\\ 1 & 0 \end{bmatrix}$ and then the shear $M_2= \begin{bmatrix} 1 & 1 \\\\\\ 0 & 1 \end{bmatrix}$to the vector $\mathbf{i}= \begin{bmatrix} 1 \\\\\\ 0 \end{bmatrix}$ gives $\begin{bmatrix} 1 \\\\\\ 1 \end{bmatrix}$, which is the first column of the matrix $M_2 M_1$.
+*Composition of matrices.* In the video, we have learned how applying two $2 \times 2$ matrices $M_1$ and $M_2$ consecutively to the basis vectors $\mathbf{i}$ and $\mathbf{j}$ gives the columns of the product matrix $M_2 M_1$. For example, applying the rotation $M_1= \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$ and then the shear $M_2= \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}$to the vector $\mathbf{i}= \begin{bmatrix} 1 \\ 0 \end{bmatrix}$ gives $\begin{bmatrix} 1 \\ 1 \end{bmatrix}$, which is the first column of the matrix $M_2 M_1$.
 
 *Note. The ordering of the multiplication is from right to left, in the same way we compose functions, $(g \circ f)(x)=g(f(x))$.*
 
@@ -302,9 +302,9 @@ $$
 
 *The transpose of a matrix, row vectors, column vectors, and the length of a vector.* The transpose of an $m \times n$ matrix $A$ is simply the matrix $A$ flipped along the diagonal, and is denoted by $A^T$. You may also think of this as interchanging the rows and columns of the matrix.
 
-As an example, in the case where $A=\begin{bmatrix}1 & 2 & 3 \\\\\\ 4 & 5 & 6 \end{bmatrix}$, the transpose of $A$ or $A^T=\begin{bmatrix} 1 & 4 \\\\\\ 2 & 5 \\\\\\ 3 & 6 \end{bmatrix}$. 
+As an example, in the case where $A=\begin{bmatrix}1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}$, the transpose of $A$ or $A^T=\begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}$. 
 
-Also, viewing the $n$-dimensional vector $\mathbf{x}$ as an $n \times 1$ matrix, we can consider its transpose too. For example, given the vector $\mathbf{x}=\begin{bmatrix} 1 \\\\\\ 2 \\\\\\ 3 \end{bmatrix}$, the transpose of $\mathbf{x}$ or $\mathbf{x}^T=\begin{bmatrix} 1 & 2 & 3 \end{bmatrix}$. 
+Also, viewing the $n$-dimensional vector $\mathbf{x}$ as an $n \times 1$ matrix, we can consider its transpose too. For example, given the vector $\mathbf{x}=\begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}$, the transpose of $\mathbf{x}$ or $\mathbf{x}^T=\begin{bmatrix} 1 & 2 & 3 \end{bmatrix}$. 
 
 We will now distinguish these two types of vectors as *column vectors* and *row vectors*.
 
@@ -396,7 +396,7 @@ $$
 W=\begin{bmatrix} -3 & -1 \\ 2 & 2  \\ 3 & -1\end{bmatrix}\in\mathbb{R}^{3\times2}.
 $$
 
-*Note. $\mathbb{R}^{m\times n}$ denotes the set of all $m \times n$ matrices.* Notice how the input $\mathbf{x}=\begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix} \in \mathbb{R}^2$ is mapped to $W\mathbf{x}=x_1\begin{bmatrix} -3 \\\\\\ 2 \\\\\\ 3 \end{bmatrix} + x_2\begin{bmatrix} -1 \\\\\\ 2 \\\\\\ 1 \end{bmatrix}\in\mathbb{R}^3$.
+*Note. $\mathbb{R}^{m\times n}$ denotes the set of all $m \times n$ matrices.* Notice how the input $\mathbf{x}=\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} \in \mathbb{R}^2$ is mapped to $W\mathbf{x}=x_1\begin{bmatrix} -3 \\ 2 \\ 3 \end{bmatrix} + x_2\begin{bmatrix} -1 \\ 2 \\ 1 \end{bmatrix}\in\mathbb{R}^3$.
 
 (a) From what we’ve learned, we can say that $W\mathbf{x}$ is a linear combination of $[-3 \;\; 2 \;\; 3 ]^T$ and $[-1 \;\; 2 \;\; 1]^T$. If $\mathbf{x}$ moves around all of $\mathbb{R}^2$, where does $W\mathbf{x}$ move around in $\mathbb{R}^3$? Determine the shape of the set given below:
 
@@ -408,11 +408,11 @@ $$
 
 (b) Can you find a point in $\mathbb{R}^3$ where $W\mathbf{x}$ cannot reach? Find a point in $\mathbb{R}^3$ that lies outside of $\textrm{Im}(L_W)$.
 
-(c) Suppose $W$ is replaced by $W'=\begin{bmatrix} 3 & -1 \\\\\\ -6 & 2  \\\\\\ 3 & -1\end{bmatrix}.$ What happens to the shape of $\textrm{Im}(L_W)$?
+(c) Suppose $W$ is replaced by $W'=\begin{bmatrix} 3 & -1 \\ -6 & 2  \\ 3 & -1\end{bmatrix}.$ What happens to the shape of $\textrm{Im}(L_W)$?
 
 (d) State all possible shapes of $\textrm{Im}(L_M)$ for $M \in \mathbb{R}^{3 \times 2}$, and the corresponding conditions of $M$ for each shape. Can $\textrm{Im}(L_M)$ be equal to $\mathbb{R}^3$?
 
-(e) Solve (a), (b), (c) for $W^T=\begin{bmatrix} -3 & 2 & 3 \\\\\\ -1 & 2 & -1 \end{bmatrix}$ , $(W')^T=\begin{bmatrix} 3 & -6 & 3 \\\\\\ -1  & 2 & -1\end{bmatrix}$. How are the circumstances different?
+(e) Solve (a), (b), (c) for $W^T=\begin{bmatrix} -3 & 2 & 3 \\ -1 & 2 & -1 \end{bmatrix}$ , $(W')^T=\begin{bmatrix} 3 & -6 & 3 \\ -1  & 2 & -1\end{bmatrix}$. How are the circumstances different?
 
 (f) Solve (d) with $M \in \mathbb{R}^{2 \times 3}$ instead of $M \in \mathbb{R}^{3 \times 2}$. Can $\textrm{Im}(L_M)$ be equal to $\mathbb{R}^2$?
 
