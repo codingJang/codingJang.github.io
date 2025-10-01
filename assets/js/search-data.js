@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "My curriculum vitae showcasing my research experience, education, awards, and technical skills in AI and deep learning.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -440,40 +440,38 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-presented-research-on-preventing-ai-poisoning-attacks-at-cisc-w-2024-great-discussions-on-ai-security",
+          title: 'Presented research on preventing AI poisoning attacks at CISC-W 2024. Great discussions on...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-presented-our-work-on-dqn-for-penetration-testing-at-the-korean-institute-of-communications-and-information-sciences-symposium",
+          title: 'Presented our work on DQN for penetration testing at the Korean Institute of...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-q-guided-flow-q-learning-has-been-accepted-to-corl-2025-workshop-rememberl-tada",
+          title: 'Our paper “Q-Guided Flow Q-Learning” has been accepted to CoRL 2025 Workshop RemembeRL!...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-soul-currency-war-simulation",
+          title: 'SOUL - Currency War Simulation',
+          description: "Multi-agent reinforcement learning project simulating currency wars to derive new economical and political strategies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-fhp-rtfs-posture-correction-system",
+          title: 'FHP-RTFS - Posture Correction System',
+          description: "Real-time feedback system for Forward Head Posture using markerless skeletal tracking - ISEF 2020 Finalist",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-qupid-vr-quantum-computing-education",
+          title: 'QuPid - VR Quantum Computing Education',
+          description: "Virtual reality laboratory for teaching quantum computing concepts, focusing on the qubit",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-car-the-garden-autonomous-navigation",
+          title: 'Car-The-Garden - Autonomous Navigation',
+          description: "Miniature autonomous vehicle navigating the Korean driving test using search algorithms",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-rev-missiles-game-reverse-engineering",
+          title: 'Rev-Missiles! - Game Reverse Engineering',
+          description: "Reverse engineering and modification of the mobile game &quot;MISSILES!&quot;",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
@@ -501,7 +499,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%61%6E%67%79%65%6A%75%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6A%61%6E%67%79%65%6A%75%6E@%73%6E%75.%61%63.%6B%72", "_blank");
         },
       },{
         id: 'social-github',
