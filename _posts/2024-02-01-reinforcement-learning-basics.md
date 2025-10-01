@@ -1,15 +1,16 @@
 ---
 layout: post
-title: 강화학습의 기초
+title: Reinforcement Learning Basics
 date: 2024-02-01 10:00:00
-description: DeepMind X UCL 강화학습 시리즈 노트 및 PettingZoo 소개
-tags: reinforcement-learning deep-learning DeepMind tutorial korean
+description: DeepMind X UCL reinforcement learning series notes and PettingZoo introduction
+tags: reinforcement-learning deep-learning DeepMind tutorial english
 categories: education
 toc:
   sidebar: left
+lang: en
 ---
 
-이 시리즈는 DeepMind X UCL의 강화학습 강의 노트와 PettingZoo 라이브러리 소개로 구성되어 있습니다.
+This series consists of lecture notes from the DeepMind X UCL reinforcement learning course and an introduction to the PettingZoo library.
 
 ## DeepMind X UCL Deep RL Series
 
@@ -19,6 +20,6 @@ toc:
 - [DeepMind X UCL | 7. Function Approximation](/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/)
 - [DeepMind X UCL | 8. Planning and Models](/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/)
 
-## etc.
+## Other Resources
 
 - [Introduction to PettingZoo](/blog/2024/rl-introduction-to-pettingzoo-1f62ce393bc3449abd16466/)

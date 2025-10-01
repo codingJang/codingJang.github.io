@@ -19,7 +19,7 @@ A comprehensive 14-day course covering linear algebra, neural networks, and back
 
 DeepMind X UCL series notes and introduction to multi-agent systems.
 
-- **[강화학습의 기초 (Korean)](/blog/2024/reinforcement-learning-basics/)** - DeepMind X UCL 강화학습 시리즈 노트
+- **[Reinforcement Learning Basics](/blog/2024/reinforcement-learning-basics/)** - DeepMind X UCL RL series notes and PettingZoo introduction
 
 ## Mathematics
 
