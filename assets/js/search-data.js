@@ -51,13 +51,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -395,73 +388,73 @@ ninja.data = [{
         
           title: "Introduction to PettingZoo",
         
-        description: "강화학습의 기초 시리즈",
+        description: "Multi-agent reinforcement learning library for Python",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-introduction-to-pettingzoo-1f62ce393bc3449abd16466/";
           
         },
-      },{id: "post-deepmind-x-ucl",
+      },{id: "post-rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318",
         
-          title: "DeepMind X UCL",
+          title: "Rl Deepmind X Ucl 8 Planning And Models 1d1f0f24f9318",
         
-        description: "강화학습의 기초 시리즈",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/";
           
         },
-      },{id: "post-deepmind-x-ucl",
+      },{id: "post-rl-deepmind-x-ucl-7-function-approximation-86cf033e13",
         
-          title: "DeepMind X UCL",
+          title: "Rl Deepmind X Ucl 7 Function Approximation 86cf033e13",
         
-        description: "강화학습의 기초 시리즈",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/";
           
         },
-      },{id: "post-deepmind-x-ucl",
+      },{id: "post-rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c",
         
-          title: "DeepMind X UCL",
+          title: "Rl Deepmind X Ucl 6 Model Free Control C55a856c97414c",
         
-        description: "강화학습의 기초 시리즈",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/";
           
         },
-      },{id: "post-deepmind-x-ucl",
+      },{id: "post-rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58",
         
-          title: "DeepMind X UCL",
+          title: "Rl Deepmind X Ucl 5 Model Free Prediction 94516d82c58",
         
-        description: "강화학습의 기초 시리즈",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58/";
           
         },
-      },{id: "post-deepmind-x-ucl",
+      },{id: "post-rl-deepmind-x-ucl-4-theoretical-fundamentals-of-dynam",
         
-          title: "DeepMind X UCL",
+          title: "Rl Deepmind X Ucl 4 Theoretical Fundamentals Of Dynam",
         
-        description: "강화학습의 기초 시리즈",
+        description: "",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/rl-deepmind-x-ucl-4-theoretical-fundamentals-of-dynam/";
           
         },
-      },{id: "post-강화학습의-기초",
+      },{id: "post-reinforcement-learning-basics",
         
-          title: "강화학습의 기초",
+          title: "Reinforcement Learning Basics",
         
-        description: "DeepMind X UCL 강화학습 시리즈 노트 및 PettingZoo 소개",
+        description: "DeepMind X UCL reinforcement learning series notes and PettingZoo introduction",
         section: "Posts",
         handler: () => {
           
