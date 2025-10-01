@@ -29,7 +29,7 @@ categories: education
 
 ![Untitled](/assets/img/blog/tutoring/untitled__161f0f24f931803bb39df191a19a6.png)
 
-위 그림과 같이 원점 $O=(0,0)$을 중심으로 반지름이 $1$인 원이 그려져 있다. 점 $P$는 원 위의 점이며, 선분 $OP$가 양의 $x$축과 이루는 각도를 $\theta$라 하자. $(단, 0<\theta<90\degree)$
+위 그림과 같이 원점 $O=(0,0)$을 중심으로 반지름이 $1$인 원이 그려져 있다. 점 $P$는 원 위의 점이며, 선분 $OP$가 양의 $x$축과 이루는 각도를 $\theta$라 하자. $(단, 0<\theta<90^\circ)$
 
 색칠된 선분의 길이는 $\sin{\theta}, \cos{\theta},\tan{\theta},\sec{\theta},\csc{\theta},\cot{\theta}$ 중 하나이다.
 각 선분의 길이를 구해보자.

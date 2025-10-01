@@ -43,7 +43,7 @@ categories: education
         
     - 직사각형
         
-        평행사변형이면서 한 각의 크기가 $90 \degree$이다.
+        평행사변형이면서 한 각의 크기가 $90 ^\circ$이다.
         
     - 마름모
         
@@ -76,7 +76,7 @@ categories: education
 
 **예시 3**
 
-아래와 같이 $\angle A$의 크기가 $90 \degree$인 직각삼각형 $ABC$가 있다.
+아래와 같이 $\angle A$의 크기가 $90 ^\circ$인 직각삼각형 $ABC$가 있다.
 $CD$가 $\angle ACB$의 이등분선이고, 선분 $BC$의 길이는 $15$이다.
 삼각형 $CDB$의 넓이가 $30$일 때, 선분 $AD$의 길이를 구하여라.
 
