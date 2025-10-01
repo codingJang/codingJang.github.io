@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://codingJang.github.io./sitemap.xml
+Sitemap: https://codingJang.github.io/sitemap.xml

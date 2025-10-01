@@ -513,6 +513,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2024/gradient-descent.md/";
+          
+        },
+      },{id: "post-gradient-descent",
+        
+          title: "Gradient Descent",
+        
+        description: "Understanding optimization problems, gradient descent algorithms, and local vs global minima",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2024/gradient-descent/";
           
         },
@@ -525,6 +536,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/dl-day14-day-14-day-14/";
+          
+        },
+      },{id: "post-day-13-day-13-역전파의-계산",
+        
+          title: "Day 13: Day 13 역전파의 계산",
+        
+        description: "딥러닝의 기초 - Day 13",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day13-day-13-day-13.md/";
           
         },
       },{id: "post-day-13-day-13-역전파의-계산",
@@ -568,6 +590,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2024/dl-day10-day-10-day-10.md/";
+          
+        },
+      },{id: "post-day-10-day-10-다변수로의-확장과-인공신경망",
+        
+          title: "Day 10: Day 10 다변수로의 확장과 인공신경망",
+        
+        description: "딥러닝의 기초 - Day 10",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2024/dl-day10-day-10-day-10/";
           
         },
@@ -579,7 +612,29 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2024/dl-day9-day-9-day-9.md/";
+          
+        },
+      },{id: "post-day-9-day-9-국소-최소점과-전역-최소점",
+        
+          title: "Day 9: Day 9 국소 최소점과 전역 최소점",
+        
+        description: "딥러닝의 기초 - Day 9",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2024/dl-day9-day-9-day-9/";
+          
+        },
+      },{id: "post-day-8-day-8-일변수-최적화-문제와-경사하강법",
+        
+          title: "Day 8: Day 8 일변수 최적화 문제와 경사하강법",
+        
+        description: "딥러닝의 기초 - Day 8",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dl-day8-day-8-day-8.md/";
           
         },
       },{id: "post-day-8-day-8-일변수-최적화-문제와-경사하강법",
@@ -801,7 +856,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("./feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
