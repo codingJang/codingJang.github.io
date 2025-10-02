@@ -5,17 +5,7 @@ title: blog
 nav: true
 nav_order: 1
 pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
-  exclude:
-    unlisted: true
+  enabled: false
 ---
 
 <div class="post">
@@ -105,15 +95,9 @@ pagination:
 
   <ul class="post-list">
 
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
+    {% assign postlist = site.posts | where_exp: "post", "post.unlisted != true" %}
 
     {% for post in postlist %}
-
-    {% unless post.unlisted %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -189,14 +173,8 @@ pagination:
 {% endif %}
     </li>
 
-    {% endunless %}
-
     {% endfor %}
 
   </ul>
-
-{% if page.pagination.enabled %}
-{% include pagination.liquid %}
-{% endif %}
 
 </div>
