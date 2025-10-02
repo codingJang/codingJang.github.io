@@ -16,7 +16,7 @@ GLIE stands for **Greedy in the Limit with Infinite Exploration**. It is used to
 1. **Greedy in the Limit** means that the policy eventually converges to a greedy policy, i.e.
     
     $$
-    \lim_{t \rightarrow \infty} {\pi_t(a|s)}=I(a=\argmax_{a' \in A}{q_t(s,a')})
+    \lim_{t \rightarrow \infty} {\pi_t(a|s)}=I(a=\operatorname{argmax}_{a' \in A}{q_t(s,a')})
     $$
     
 2. **Infinite Exploration** means that all state-action pairs are explored infinitely many times, i.e.
@@ -34,16 +34,16 @@ Greedy policy alone will not explore enough, and the $\epsilon$-greedy policy wi
 In lecture 04, we covered different types of Bellman operators:
 
 $$
-\begin{aligned} (T_V^*f)(s)&=\max_{a \in A} \biggl[ {r(s, a) + \gamma \mathbb{E} \left[f(s')|s, a\right]} \bigg], \;\forall f \in V \\ (T_V^\pi f)(s)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s') \bigg| s, a \bigg], \;\forall f \in V \\(T_Q^*f)(s,a)&=\mathbb{E} \bigg[r(s, a) + \gamma \max_{a'\in A} f(s',a') \bigg|s, a\bigg], \;\forall f \in Q \\ (T_Q^\pi f)(s, a)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s',a') \bigg| s, a \bigg], \;\forall f \in Q \end{aligned}
+\begin{aligned} (T_V^{*}f)(s)&=\max_{a \in A} \biggl[ {r(s, a) + \gamma \mathbb{E} \left[f(s')|s, a\right]} \bigg], \;\forall f \in V \\ (T_V^\pi f)(s)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s') \bigg| s, a \bigg], \;\forall f \in V \\(T_Q^{*}f)(s,a)&=\mathbb{E} \bigg[r(s, a) + \gamma \max_{a'\in A} f(s',a') \bigg|s, a\bigg], \;\forall f \in Q \\ (T_Q^\pi f)(s, a)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s',a') \bigg| s, a \bigg], \;\forall f \in Q \end{aligned}
 $$
 
-To apply a Bellman operator we need exact knowledge of the transition dynamics of the system. We can avoid this problem using a sampled version of the operator. It turns out that the sampled versions of the above Bellman operators correspond to different model-free algorithms, except for $(T_V^*f)(s)$:
+To apply a Bellman operator we need exact knowledge of the transition dynamics of the system. We can avoid this problem using a sampled version of the operator. It turns out that the sampled versions of the above Bellman operators correspond to different model-free algorithms, except for $(T_V^{*}f)(s)$:
 
 $$
-\begin{aligned} &(T_V^*f)(s)  \leftrightarrow \text{(None)} \\ &(T_V^\pi f)(s)\leftrightarrow \text{(TD)} \\ &\leftrightarrow v_{t+1}(S_t)=v_t(S_t)+\alpha_t\bigg(R_{t+1}+\gamma v_t(S_{t+1})-v_t(S_t)\bigg)\\&(T_Q^*f)(s,a)\leftrightarrow \text{(Q-learning)} \\& \leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma \max_{a' \in A}{q_t(S_{t+1}, a')-q_t(S_t, A_t)\bigg)}\\ &(T_Q^\pi f)(s, a) \leftrightarrow \text{(SARSA)} \\ &\leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma q_t(S_{t+1}, A_{t+1})-q_t(S_t, A_t)\bigg) \end{aligned}
+\begin{aligned} &(T_V^{*}f)(s)  \leftrightarrow \text{(None)} \\ &(T_V^\pi f)(s)\leftrightarrow \text{(TD)} \\ &\leftrightarrow v_{t+1}(S_t)=v_t(S_t)+\alpha_t\bigg(R_{t+1}+\gamma v_t(S_{t+1})-v_t(S_t)\bigg)\\&(T_Q^{*}f)(s,a)\leftrightarrow \text{(Q-learning)} \\& \leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma \max_{a' \in A}{q_t(S_{t+1}, a')-q_t(S_t, A_t)\bigg)}\\ &(T_Q^\pi f)(s, a) \leftrightarrow \text{(SARSA)} \\ &\leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma q_t(S_{t+1}, A_{t+1})-q_t(S_t, A_t)\bigg) \end{aligned}
 $$
 
-It is evident that we cannot build a sampled version of the operator $(T_V^*f)(s)$ - Since the $\max_{a \in A}$ and the $\mathbb{E}$ operator do not commute, $(T_V^*f)(s)$ cannot be expressed as an expectation from which we can sample upon.
+It is evident that we cannot build a sampled version of the operator $(T_V^{*}f)(s)$ - Since the $\max_{a \in A}$ and the $\mathbb{E}$ operator do not commute, $(T_V^{*}f)(s)$ cannot be expressed as an expectation from which we can sample upon.
 
 SARSA is relatively simple - it’s simply the $q$-version of TD. However, Q-learning has some interesting properties that deserves attention of its own.
 
@@ -66,15 +66,15 @@ $$
 q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma \max_{a' \in A}{q_t(S_{t+1}, a')-q_t(S_t, A_t)\bigg)}
 $$
 
-Here, there is no policy $\pi$ involved - you can use any behavior policy $\mu$ to converge to the optimal value function $q^*$, as long as it is a infinite exploration policy. Once $q^*$ is learned, we can use the (optimal) greedy policy for exploitation:
+Here, there is no policy $\pi$ involved - you can use any behavior policy $\mu$ to converge to the optimal value function $q^{*}$, as long as it is a infinite exploration policy. Once $q^{*}$ is learned, we can use the (optimal) greedy policy for exploitation:
 
 $$
-{\pi^*(a|s)}=I(a=\argmax_{a'\in A}{q^*(s,a')}).
+{\pi^{*}(a|s)}=I(a=\operatorname{argmax}_{a'\in A}{q^{*}(s,a')}).
 $$
 
 ### Theorem
 
-Q-learning converges to the optimal $q$-value function, $q\rightarrow q^*$, as long as we take each action in each state indefinitely often AND decay the step sizes in such a way that $\sum_t\alpha_t=\infty$ and $\sum_t \alpha_t^2<\infty$.
+Q-learning converges to the optimal $q$-value function, $q\rightarrow q^{*}$, as long as we take each action in each state indefinitely often AND decay the step sizes in such a way that $\sum_t\alpha_t=\infty$ and $\sum_t \alpha_t^2<\infty$.
 
 For example,  
 $\alpha_t= 1/t^\omega, \omega \in (0.5, 1)$.
@@ -90,20 +90,20 @@ $$
 To write things differently:
 
 $$
-\max_{a' \in A}{q_t(S_{t+1}, a')}=q_t\left(S_{t+1}, \argmax_{a' \in A} q_t(S_{t+1}, a')\right)
+\max_{a' \in A}{q_t(S_{t+1}, a')}=q_t\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q_t(S_{t+1}, a')\right)
 $$
 
-Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^*(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\argmax_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S_t, A_t)$ towards the noise-added value. Similar logic applies to the case where  $q^*(S_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
+Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^{*}(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\operatorname{argmax}_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S_t, A_t)$ towards the noise-added value. Similar logic applies to the case where  $q^{*}(S_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
 
 ### Double Q-Learning
 
 How can we solve this problem? We can store two action value functions, $q$ and $q'$, and alternate between the two targets below:
 
 $$
-\text{(target for }q \text{):}\;\;R_{t+1} + \gamma q'\left(S_{t+1}, \argmax_{a' \in A} q(S_{t+1},a')\right) \\ \text{(target for }q' \text{):}\;\;R_{t+1} + \gamma q\left(S_{t+1}, \argmax_{a' \in A} q'(S_{t+1},a')\right)
+\text{(target for }q \text{):}\;\;R_{t+1} + \gamma q'\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q(S_{t+1},a')\right) \\ \text{(target for }q' \text{):}\;\;R_{t+1} + \gamma q\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q'(S_{t+1},a')\right)
 $$
 
-This eliminates the influence of noise by decoupling the selection ($\argmax$) step and the evaluation step.
+This eliminates the influence of noise by decoupling the selection ($\operatorname{argmax}$) step and the evaluation step.
 
 ![Q-learning overestimates, whereas double Q-learning does not. 
 (Source: DeepMind X UCL Deep RL lectures)](/assets/img/blog/reinforcement-learning/screenshot_2023-08-30_at_3.44.02_pm.png)

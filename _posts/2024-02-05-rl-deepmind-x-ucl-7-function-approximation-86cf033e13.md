@@ -16,7 +16,7 @@ It is hard to build lookup tables if the state space $S$ or the action space $A$
 Therefore, we will estimate the value function using function approximation. In many cases, the function approximation will involve some parameter vector $\mathbf{w}$:
 
 $$
-\begin{aligned} v_{\mathbf{w}}(s) &\approx v^\pi(s) \;(\text{or} \; v^*(s)), \\ q_{\mathbf{w}}(s,a)&\approx q^\pi(s,a) \;(\text{or} \; q^*(s,a)). \end{aligned}
+\begin{aligned} v_{\mathbf{w}}(s) &\approx v^\pi(s) \;(\text{or} \; v^{*}(s)), \\ q_{\mathbf{w}}(s,a)&\approx q^\pi(s,a) \;(\text{or} \; q^{*}(s,a)). \end{aligned}
 $$
 
 The parameter vector $\mathbf{w}$ will usually be some high dimensional vector that we can adjust to approximate the the value function. In a deep RL setup, we can also imagine $v_\mathbf{w}(s)$ and $q_\mathbf{w} (s, a)$ as a neural network, a rich class of nonlinear function that maps the state space to a range of values $(v_\mathbf{w}(s):S \rightarrow \mathbb{R})$ or the state-action space to a range of values $(q_\mathbf{w}(s, a) : S \times A \rightarrow \mathbb{R})$.
