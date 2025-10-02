@@ -34,16 +34,16 @@ Greedy policy alone will not explore enough, and the $\epsilon$-greedy policy wi
 In lecture 04, we covered different types of Bellman operators:
 
 $$
-\begin{aligned} (T_V^\starf)(s)&=\max_{a \in A} \biggl[ {r(s, a) + \gamma \mathbb{E} \left[f(s')|s, a\right]} \bigg], \;\forall f \in V \\ (T_V^\pi f)(s)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s') \bigg| s, a \bigg], \;\forall f \in V \\(T_Q^\starf)(s,a)&=\mathbb{E} \bigg[r(s, a) + \gamma \max_{a'\in A} f(s',a') \bigg|s, a\bigg], \;\forall f \in Q \\ (T_Q^\pi f)(s, a)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s',a') \bigg| s, a \bigg], \;\forall f \in Q \end{aligned}
+\begin{aligned} (T_V^\star f)(s)&=\max_{a \in A} \biggl[ {r(s, a) + \gamma \mathbb{E} \left[f(s')|s, a\right]} \bigg], \;\forall f \in V \\ (T_V^\pi f)(s)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s') \bigg| s, a \bigg], \;\forall f \in V \\(T_Q^\star f)(s,a)&=\mathbb{E} \bigg[r(s, a) + \gamma \max_{a'\in A} f(s',a') \bigg|s, a\bigg], \;\forall f \in Q \\ (T_Q^\pi f)(s, a)&=\mathbb{E}^\pi \bigg[ r(s, a) + \gamma  f(s',a') \bigg| s, a \bigg], \;\forall f \in Q \end{aligned}
 $$
 
-To apply a Bellman operator we need exact knowledge of the transition dynamics of the system. We can avoid this problem using a sampled version of the operator. It turns out that the sampled versions of the above Bellman operators correspond to different model-free algorithms, except for $(T_V^\starf)(s)$:
+To apply a Bellman operator we need exact knowledge of the transition dynamics of the system. We can avoid this problem using a sampled version of the operator. It turns out that the sampled versions of the above Bellman operators correspond to different model-free algorithms, except for $(T_V^\star f)(s)$:
 
 $$
-\begin{aligned} &(T_V^\starf)(s)  \leftrightarrow \text{(None)} \\ &(T_V^\pi f)(s)\leftrightarrow \text{(TD)} \\ &\leftrightarrow v_{t+1}(S_t)=v_t(S_t)+\alpha_t\bigg(R_{t+1}+\gamma v_t(S_{t+1})-v_t(S_t)\bigg)\\&(T_Q^\starf)(s,a)\leftrightarrow \text{(Q-learning)} \\& \leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma \max_{a' \in A}{q_t(S_{t+1}, a')-q_t(S_t, A_t)\bigg)}\\ &(T_Q^\pi f)(s, a) \leftrightarrow \text{(SARSA)} \\ &\leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma q_t(S_{t+1}, A_{t+1})-q_t(S_t, A_t)\bigg) \end{aligned}
+\begin{aligned} &(T_V^\star f)(s)  \leftrightarrow \text{(None)} \\ &(T_V^\pi f)(s)\leftrightarrow \text{(TD)} \\ &\leftrightarrow v_{t+1}(S_t)=v_t(S_t)+\alpha_t\bigg(R_{t+1}+\gamma v_t(S_{t+1})-v_t(S_t)\bigg)\\&(T_Q^\star f)(s,a)\leftrightarrow \text{(Q-learning)} \\& \leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma \max_{a' \in A}{q_t(S_{t+1}, a')-q_t(S_t, A_t)\bigg)}\\ &(T_Q^\pi f)(s, a) \leftrightarrow \text{(SARSA)} \\ &\leftrightarrow q_{t+1}(S_t, A_t) = q_t(S_t, A_t) + \alpha_t \bigg(R_{t+1} + \gamma q_t(S_{t+1}, A_{t+1})-q_t(S_t, A_t)\bigg) \end{aligned}
 $$
 
-It is evident that we cannot build a sampled version of the operator $(T_V^\starf)(s)$ - Since the $\max_{a \in A}$ and the $\mathbb{E}$ operator do not commute, $(T_V^\starf)(s)$ cannot be expressed as an expectation from which we can sample upon.
+It is evident that we cannot build a sampled version of the operator $(T_V^\star f)(s)$ - Since the $\max_{a \in A}$ and the $\mathbb{E}$ operator do not commute, $(T_V^\star f)(s)$ cannot be expressed as an expectation from which we can sample upon.
 
 SARSA is relatively simple - it’s simply the $q$-version of TD. However, Q-learning has some interesting properties that deserves attention of its own.
 

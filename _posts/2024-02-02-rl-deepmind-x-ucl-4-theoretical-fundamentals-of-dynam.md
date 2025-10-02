@@ -13,14 +13,14 @@ lang: en
 
 Let $X$ be a complete normed vector space, equipped with a norm $\|\cdot\|$ and $T:X \rightarrow X$ a $\gamma$-contraction mapping, then:
 
-1. $T$ has a unique fixed point $x^* \in X$ s.t. $T x^*=x^*$
-2. $\forall x_0 \in X$, the sequence $x_{n+1}=Tx_n$ converges to $x^*$ in a geometric fashion:
+1. $T$ has a unique fixed point $x^\star \in X$ s.t. $T x^\star=x^\star$
+2. $\forall x_0 \in X$, the sequence $x_{n+1}=Tx_n$ converges to $x^\star$ in a geometric fashion:
     
     $$
-    \|x_n-x^*\| \le \gamma^n\|x_0-x^*\|
+    \|x_n-x^\star\| \le \gamma^n\|x_0-x^\star\|
     $$
     
-    Thus, $\lim_{n\rightarrow\infty}\|x_n-x^*\|\le \lim_{n\rightarrow\infty}\gamma^n\|x_0-x^*\|=0.$
+    Thus, $\lim_{n\rightarrow\infty}\|x_n-x^\star\|\le \lim_{n\rightarrow\infty}\gamma^n\|x_0-x^\star\|=0.$
     
 
 ## What does this mean?
@@ -34,7 +34,7 @@ It means that if the distance between two points after applying some operator $T
 Given an MDP, $M=\langle S, A, p, r, \gamma \rangle$, let $V=V_S$ be the space of bounded real-valued functions over $S$. We define, point-wise, the Bellman Optimality Operator $T_V^\star:V\rightarrow V$ as:
 
 $$
-(T_V^\starf)(s)=\max_{a \in A} \biggl[ {r(s, a) + \gamma \mathbb{E} \left[f(s')|s, a\right]} \bigg], \;\forall f \in V
+(T_V^\star f)(s)=\max_{a \in A} \biggl[ {r(s, a) + \gamma \mathbb{E} \left[f(s')|s, a\right]} \bigg], \;\forall f \in V
 $$
 
 Sometimes we drop the index and use $T^\star=T_V^\star$.
@@ -103,19 +103,19 @@ This is the q-version of the previous Bellman Expectation Operator $T_V^\pi$. It
 
 ## Properties of the Bellman Operators
 
-### Properties: Bellman Optimality Operator $T_V^\star \;(= T^\star)$
+### Properties: Bellman Optimality Operator $T_V^\star \;(= T^\star )$
 
 1. $T^\star$ has a unique fixed point $v^\star$.
 2. $T^\star$ is a $\gamma$-contraction with respect to $\|\cdot\|_\infty$:
     
     $$
-    \|T^\starv-T^\staru\|_\infty \le \gamma \|v-u\|_\infty, \forall u,v \in V
+    \|T^\star v-T^\star u\|_\infty \le \gamma \|v-u\|_\infty, \forall u,v \in V
     $$
     
 3. $T^\star$ is monotonic:
 
 $$
-\forall u,v \in V \text{ s.t. } u \le v \text{ component-wise, then } T^\staru \le T^\starv
+\forall u,v \in V \text{ s.t. } u \le v \text{ component-wise, then } T^\star u \le T^\star v
 $$
 
 **The properties are similar for all other operators.**
