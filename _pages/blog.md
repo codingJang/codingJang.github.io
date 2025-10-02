@@ -56,7 +56,7 @@ pagination:
   </div>
   {% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign featured_posts = site.posts | where: "featured", "true" | where_exp: "post", "post.unlisted != true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -110,6 +110,8 @@ pagination:
     {% endif %}
 
     {% for post in postlist %}
+
+    {% unless post.unlisted %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -184,6 +186,8 @@ pagination:
 </div>
 {% endif %}
     </li>
+
+    {% endunless %}
 
     {% endfor %}
 

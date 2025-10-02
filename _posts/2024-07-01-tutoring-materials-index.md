@@ -7,6 +7,7 @@ tags: education tutoring mathematics korean
 categories: education
 toc:
   sidebar: left
+unlisted: true
 ---
 
 ## 전략
