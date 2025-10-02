@@ -14,6 +14,8 @@ pagination:
   trail:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
+  exclude:
+    unlisted: true
 ---
 
 <div class="post">
