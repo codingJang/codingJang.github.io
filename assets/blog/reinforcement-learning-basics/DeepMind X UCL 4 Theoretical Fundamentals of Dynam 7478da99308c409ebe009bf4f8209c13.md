@@ -4,14 +4,14 @@
 
 Let $X$ be a complete normed vector space, equipped with a norm $\|\cdot\|$ and $T:X \rightarrow X$ a $\gamma$-contraction mapping, then:
 
-1. $T$ has a unique fixed point $x^* \in X$ s.t. $T x^*=x^*$
-2. $\forall x_0 \in X$, the sequence $x_{n+1}=Tx_n$ converges to $x^*$ in a geometric fashion:
+1. $T$ has a unique fixed point $x^\ast \in X$ s.t. $T x^\ast=x^\ast$
+2. $\forall x_0 \in X$, the sequence $x_{n+1}=Tx_n$ converges to $x^\ast$ in a geometric fashion:
     
     $$
-    \|x_n-x^*\| \le \gamma^n\|x_0-x^*\|
+    \|x_n-x^\ast\| \le \gamma^n\|x_0-x^\ast\|
     $$
     
-    Thus, $\lim_{n\rightarrow\infty}\|x_n-x^*\|\le \lim_{n\rightarrow\infty}\gamma^n\|x_0-x^*\|=0.$
+    Thus, $\lim_{n\rightarrow\infty}\|x_n-x^\ast\|\le \lim_{n\rightarrow\infty}\gamma^n\|x_0-x^\ast\|=0.$
     
 
 ## What does this mean?
@@ -20,19 +20,19 @@ It means that if the distance between two points after applying some operator $T
 
 ## Definitions of the Bellman Operators
 
-### Definition: Bellman Optimality Operator $T_V^*$
+### Definition: Bellman Optimality Operator $T_V^\ast$
 
-Given an MDP, $M=\langle S, A, p, r, \gamma \rangle$, let $V=V_S$ be the space of bounded real-valued functions over $S$. We define, point-wise, the Bellman Optimality Operator $T_V^*:V\rightarrow V$ as:
+Given an MDP, $M=\langle S, A, p, r, \gamma \rangle$, let $V=V_S$ be the space of bounded real-valued functions over $S$. We define, point-wise, the Bellman Optimality Operator $T_V^\ast:V\rightarrow V$ as:
 
 $$
 (T_V^*f)(s)=\max_{a \in A} \biggl[ {r(s, a) + \gamma \mathbb{E} \left[f(s')|s, a\right]} \bigg], \;\forall f \in V
 $$
 
-Sometimes we drop the index and use $T^*=T_V^*$.
+Sometimes we drop the index and use $T^\ast=T_V^\ast$.
 
 ### What is this operator?
 
-This operator is a $\gamma$-contraction with the unique fixed point being $f=v^*$, the optimal value function of the MDP. Therefore, if we apply this operator iteratively to some (value) function $v$, it will converge to the optimal value function $v^*$. This is why we attempt to approximate this specific operator (possibly with a neural network).
+This operator is a $\gamma$-contraction with the unique fixed point being $f=v^\ast$, the optimal value function of the MDP. Therefore, if we apply this operator iteratively to some (value) function $v$, it will converge to the optimal value function $v^\ast$. This is why we attempt to approximate this specific operator (possibly with a neural network).
 
 ### Definition: Bellman Expectation Operator $T^\pi_V$
 
@@ -56,9 +56,9 @@ Sometimes we drop the index and use $T^\pi=T_V^\pi$.
 
 Same as the Bellman Optimality Operator, this operator is a $\gamma$-contraction except the unique fixed point being $f=v^\pi$, the value function for policy $\pi$ in a given MDP. Therefore, we can evaluate the policy $\pi$ by repeatedly applying this operator to the initial (value) function $v$. We then know whether the policy $\pi$ is doing well or not.
 
-### Definition: Bellman Optimality Operator $T_Q^*$
+### Definition: Bellman Optimality Operator $T_Q^\ast$
 
-Given an MDP, $M=\langle S, A, p, r, \gamma \rangle$, let $Q=Q_{S, A}$ be the space of bounded real-valued functions over $S\times A$. We define the Bellman Optimality Operator $T_Q^*:Q\rightarrow Q$ as:
+Given an MDP, $M=\langle S, A, p, r, \gamma \rangle$, let $Q=Q_{S, A}$ be the space of bounded real-valued functions over $S\times A$. We define the Bellman Optimality Operator $T_Q^\ast:Q\rightarrow Q$ as:
 
 $$
 (T_Q^* f)(s, a)=\mathbb{E} \bigg[ r(s, a) + \gamma  \max_{a'\in A}f(s',a') \bigg| s, a \bigg], \;\forall f \in Q
@@ -72,7 +72,7 @@ $$
 
 ### What is this operator?
 
-This is the q-version of the previous Bellman Optimality Operator $T_V^*$. Similarly, this operator is a $\gamma$-contraction with the unique fixed point being $f=q^*$, the optimal q-value function of the MDP. Therefore, if we apply this operator iteratively to some (value) function $q$, it will converge to the optimal value function $q^*$. We may attempt to approximate this operator too.
+This is the q-version of the previous Bellman Optimality Operator $T_V^\ast$. Similarly, this operator is a $\gamma$-contraction with the unique fixed point being $f=q^\ast$, the optimal q-value function of the MDP. Therefore, if we apply this operator iteratively to some (value) function $q$, it will converge to the optimal value function $q^\ast$. We may attempt to approximate this operator too.
 
 ### Definition: Bellman Expectation Operator $T^\pi_Q$
 
@@ -90,23 +90,23 @@ $$
 
 ### What is this operator?
 
-This is the q-version of the previous Bellman Expectation Operator $T_V^\pi$. It is also a $\gamma$-contraction, with the unique fixed point being $f=q^\pi$. Therefore, we can evaluate the policy $\pi$ by repeatedly applying this operator to the initial value function $q$. We then know the performance of the policy $\pi$. Since this is a q-value function, we can also use it to greedify our policy $\pi$ by $\pi \leftarrow \argmax_{a\in A} q^\pi(s, a)$.
+This is the q-version of the previous Bellman Expectation Operator $T_V^\pi$. It is also a $\gamma$-contraction, with the unique fixed point being $f=q^\pi$. Therefore, we can evaluate the policy $\pi$ by repeatedly applying this operator to the initial value function $q$. We then know the performance of the policy $\pi$. Since this is a q-value function, we can also use it to greedify our policy $\pi$ by $\pi \leftarrow \arg\max_{a\in A} q^\pi(s, a)$.
 
 ## Properties of the Bellman Operators
 
-### Properties: Bellman Optimality Operator $T_V^* \;(= T^*)$
+### Properties: Bellman Optimality Operator $T_V^\ast \;(= T^\ast)$
 
-1. $T^*$ has a unique fixed point $v^*$.
-2. $T^*$ is a $\gamma$-contraction with respect to $\|\cdot\|_\infty$:
+1. $T^\ast$ has a unique fixed point $v^\ast$.
+2. $T^\ast$ is a $\gamma$-contraction with respect to $\|\cdot\|_\infty$:
     
     $$
     \|T^*v-T^*u\|_\infty \le \gamma \|v-u\|_\infty, \forall u,v \in V
     $$
     
-3. $T^*$ is monotonic:
+3. $T^\ast$ is monotonic:
 
 $$
-\forall u,v \in V \text{ s.t. } u \le v \text{ component-wise, then } T^*u \le T^*v
+\forall u,v \in V \text{ s.t. } u \le v \text{ component-wise, then } T^\ast u \le T^\ast v
 $$
 
 **The properties are similar for all other operators.**
@@ -124,13 +124,13 @@ An example of divergence induced by some approximation is explored in the lectur
 Consider an MDP. Let $q:S\times A \rightarrow \mathbb{R}$ be an arbitrary function and let $\pi$ be the greedy policy associated with $q$, then:
 
 $$
-\|q^* - q^\pi \|_\infty \le \frac{2\gamma}{1-\gamma} \|q^*-q\|_{\infty}
+\|q^\ast - q^\pi \|_\infty \le \frac{2\gamma}{1-\gamma} \|q^\ast-q\|_{\infty}
 $$
 
-where $q^*$ is the optimal value function associated with this MDP.
+where $q^\ast$ is the optimal value function associated with this MDP.
 
 We can gain insights from this theorem:
 
 1. Small values of $\gamma$ give a better (lower) upper bound for the potential loss of the performance. (Why?)
-2. If $\gamma=0$, then $q^*=q^\pi$. Therefore, the greedy policy associated with any $q$ yields the optimal value function.
-3. If $q=q^*$, it means that the value function, from which you are about to make the greedy policy out of, is the optimal value function. The greedy policy is the optimal policy, hence $q^*=q^\pi$ in this case.
+2. If $\gamma=0$, then $q^\ast=q^\pi$. Therefore, the greedy policy associated with any $q$ yields the optimal value function.
+3. If $q=q^\ast$, it means that the value function, from which you are about to make the greedy policy out of, is the optimal value function. The greedy policy is the optimal policy, hence $q^\ast=q^\pi$ in this case.
