@@ -14,11 +14,11 @@ This series consists of lecture notes from the DeepMind X UCL reinforcement lear
 
 ## DeepMind X UCL Deep RL Series
 
-- [DeepMind X UCL | 4. Theoretical Fundamentals of Dynamic Programming](/blog/2024/rl-deepmind-x-ucl-4-theoretical-fundamentals-of-dynam/)
-- [DeepMind X UCL | 5. Model-free Prediction](/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58/)
-- [DeepMind X UCL | 6. Model-free Control](/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/)
-- [DeepMind X UCL | 7. Function Approximation](/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/)
-- [DeepMind X UCL | 8. Planning and Models](/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/)
+- [DeepMind X UCL \| 4. Theoretical Fundamentals of Dynamic Programming](/blog/2024/rl-deepmind-x-ucl-4-theoretical-fundamentals-of-dynam/)
+- [DeepMind X UCL \| 5. Model-free Prediction](/blog/2024/rl-deepmind-x-ucl-5-model-free-prediction-94516d82c58/)
+- [DeepMind X UCL \| 6. Model-free Control](/blog/2024/rl-deepmind-x-ucl-6-model-free-control-c55a856c97414c/)
+- [DeepMind X UCL \| 7. Function Approximation](/blog/2024/rl-deepmind-x-ucl-7-function-approximation-86cf033e13/)
+- [DeepMind X UCL \| 8. Planning and Models](/blog/2024/rl-deepmind-x-ucl-8-planning-and-models-1d1f0f24f9318/)
 
 ## Other Resources
 
