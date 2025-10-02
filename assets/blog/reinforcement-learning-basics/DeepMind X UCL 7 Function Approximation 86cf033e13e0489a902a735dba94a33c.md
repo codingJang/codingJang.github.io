@@ -118,7 +118,7 @@ The above update is called **TD with Linear Approximation**.
 With linear value function approximation and suitably decaying step size $\alpha_t \rightarrow 0$, it is known that MC converges to:
 
 $$
-\mathbf{w}_\text{MC} =\argmin_\mathbf{w} {\mathbb{E}^\pi[(G_t-v_\mathbf{w}(S_t))^2]}=\mathbb{E}^\pi [\mathbf{x}_t \mathbf{x}_t^\top]^{-1} \mathbb{E}^\pi[G_t\mathbf{x}_t]
+\mathbf{w}_\text{MC} =\arg\min_\mathbf{w} {\mathbb{E}^\pi[(G_t-v_\mathbf{w}(S_t))^2]}=\mathbb{E}^\pi [\mathbf{x}_t \mathbf{x}_t^\top]^{-1} \mathbb{E}^\pi[G_t\mathbf{x}_t]
 $$
 
 We can verify this by setting the gradient of ${\mathbb{E}^\pi[(G_t-v_\mathbf{w}(S_t))^2]}$ with respect to $\mathbf{w}$ to zero:
