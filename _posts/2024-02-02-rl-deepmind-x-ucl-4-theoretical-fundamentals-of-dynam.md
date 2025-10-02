@@ -8,20 +8,18 @@ categories: education
 lang: en
 ---
 
-
 ## The Banach Fixed Point Theorem
 
 Let $X$ be a complete normed vector space, equipped with a norm $\|\cdot\|$ and $T:X \rightarrow X$ a $\gamma$-contraction mapping, then:
 
 1. $T$ has a unique fixed point $x^* \in X$ s.t. $T x^*=x^*$
 2. $\forall x_0 \in X$, the sequence $x_{n+1}=Tx_n$ converges to $x^*$ in a geometric fashion:
-    
-    $$
-    \|x_n-x^*\| \le \gamma^n\|x_0-x^*\|
-    $$
-    
-    Thus, $\lim_{n\rightarrow\infty}\|x_n-x^*\|\le \lim_{n\rightarrow\infty}\gamma^n\|x_0-x^*\|=0.$
-    
+
+   $$
+   \|x_n-x^*\| \le \gamma^n\|x_0-x^*\|
+   $$
+
+   Thus, $\lim_{n\rightarrow\infty}\|x_n-x^*\|\le \lim_{n\rightarrow\infty}\gamma^n\|x_0-x^*\|=0.$
 
 ## What does this mean?
 
@@ -107,11 +105,11 @@ This is the q-version of the previous Bellman Expectation Operator $T_V^\pi$. It
 
 1. $T^*$ has a unique fixed point $v^*$.
 2. $T^*$ is a $\gamma$-contraction with respect to $\|\cdot\|_\infty$:
-    
-    $$
-    \|T^*v-T^*u\|_\infty \le \gamma \|v-u\|_\infty, \forall u,v \in V
-    $$
-    
+
+   $$
+   \|T^*v-T^*u\|_\infty \le \gamma \|v-u\|_\infty, \forall u,v \in V
+   $$
+
 3. $T^*$ is monotonic:
 
 $$

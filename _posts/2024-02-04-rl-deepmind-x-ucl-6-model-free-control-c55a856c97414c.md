@@ -8,17 +8,16 @@ categories: education
 lang: en
 ---
 
-
 ## GLIE
 
 GLIE stands for **Greedy in the Limit with Infinite Exploration**. It is used to describe a set of desirable properties of a policy. GLIE is a combination of the following two properties:
 
 1. **Greedy in the Limit** means that the policy eventually converges to a greedy policy, i.e.
-    
-    $$
-    \lim_{t \rightarrow \infty} {\pi_t(a|s)}=I(a=\operatorname{argmax}_{a' \in A}{q_t(s,a')})
-    $$
-    
+
+   $$
+   \lim_{t \rightarrow \infty} {\pi_t(a|s)}=I(a=\operatorname{argmax}_{a' \in A}{q_t(s,a')})
+   $$
+
 2. **Infinite Exploration** means that all state-action pairs are explored infinitely many times, i.e.
 
 $$
@@ -93,7 +92,7 @@ $$
 \max_{a' \in A}{q_t(S_{t+1}, a')}=q_t\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q_t(S_{t+1}, a')\right)
 $$
 
-Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^*(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\operatorname{argmax}_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S_t, A_t)$ towards the noise-added value. Similar logic applies to the case where  $q^*(S_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
+Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^*(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\operatorname{argmax}_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S_t, A_t)$ towards the noise-added value. Similar logic applies to the case where $q^*(S_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
 
 ### Double Q-Learning
 
@@ -108,7 +107,7 @@ This eliminates the influence of noise by decoupling the selection ($\operatorna
 ![Q-learning overestimates, whereas double Q-learning does not. 
 (Source: DeepMind X UCL Deep RL lectures)](/assets/img/blog/reinforcement-learning/screenshot_2023-08-30_at_3.44.02_pm.png)
 
-Q-learning overestimates, whereas double Q-learning does not. 
+Q-learning overestimates, whereas double Q-learning does not.
 (Source: DeepMind X UCL Deep RL lectures)
 
 The above plot shows how decoupling indeed eliminates the overestimation in Q-learning. We can also apply this method to SARSA whenever the behavior policy is (soft) greedy and has correlation with $q$ (we call this double SARSA).
