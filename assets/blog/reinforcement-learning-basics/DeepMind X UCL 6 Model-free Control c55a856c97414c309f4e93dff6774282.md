@@ -7,7 +7,7 @@ GLIE stands for **Greedy in the Limit with Infinite Exploration**. It is used to
 1. **Greedy in the Limit** means that the policy eventually converges to a greedy policy, i.e.
     
     $$
-    \lim_{t \rightarrow \infty} {\pi_t(a|s)}=I(a=\argmax_{a' \in A}{q_t(s,a')})
+    \lim_{t \rightarrow \infty} {\pi_t(a|s)}=I(a=\operatorname{argmax}_{a' \in A}{q_t(s,a')})
     $$
     
 2. **Infinite Exploration** means that all state-action pairs are explored infinitely many times, i.e.
@@ -60,7 +60,7 @@ $$
 Here, there is no policy $\pi$ involved - you can use any behavior policy $\mu$ to converge to the optimal value function $q^*$, as long as it is a infinite exploration policy. Once $q^*$ is learned, we can use the (optimal) greedy policy for exploitation:
 
 $$
-{\pi^*(a|s)}=I(a=\argmax_{a'\in A}{q^*(s,a')}).
+{\pi^*(a|s)}=I(a=\operatorname{argmax}_{a'\in A}{q^*(s,a')}).
 $$
 
 ### Theorem
@@ -81,20 +81,20 @@ $$
 To write things differently:
 
 $$
-\max_{a' \in A}{q_t(S_{t+1}, a')}=q_t\left(S_{t+1}, \argmax_{a' \in A} q_t(S_{t+1}, a')\right)
+\max_{a' \in A}{q_t(S_{t+1}, a')}=q_t\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q_t(S_{t+1}, a')\right)
 $$
 
-Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^*(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\argmax_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S_t, A_t)$ towards the noise-added value. Similar logic applies to the case where  $q^*(S_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
+Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^*(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\operatorname{argmax}_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S_t, A_t)$ towards the noise-added value. Similar logic applies to the case where  $q^*(S_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
 
 ### Double Q-Learning
 
 How can we solve this problem? We can store two action value functions, $q$ and $q'$, and alternate between the two targets below:
 
 $$
-\text{(target for }q \text{):}\;\;R_{t+1} + \gamma q'\left(S_{t+1}, \argmax_{a' \in A} q(S_{t+1},a')\right) \\ \text{(target for }q' \text{):}\;\;R_{t+1} + \gamma q\left(S_{t+1}, \argmax_{a' \in A} q'(S_{t+1},a')\right)
+\text{(target for }q \text{):}\;\;R_{t+1} + \gamma q'\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q(S_{t+1},a')\right) \\ \text{(target for }q' \text{):}\;\;R_{t+1} + \gamma q\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q'(S_{t+1},a')\right)
 $$
 
-This eliminates the influence of noise by decoupling the selection ($\argmax$) step and the evaluation step.
+This eliminates the influence of noise by decoupling the selection ($\operatorname{argmax}$) step and the evaluation step.
 
 ![Q-learning overestimates, whereas double Q-learning does not. 
 (Source: DeepMind X UCL Deep RL lectures)](DeepMind%20X%20UCL%206%20Model-free%20Control%20c55a856c97414c309f4e93dff6774282/Screenshot_2023-08-30_at_3.44.02_PM.png)

@@ -99,7 +99,7 @@ $$
 
 ### What is this operator?
 
-This is the q-version of the previous Bellman Expectation Operator $T_V^\pi$. It is also a $\gamma$-contraction, with the unique fixed point being $f=q^\pi$. Therefore, we can evaluate the policy $\pi$ by repeatedly applying this operator to the initial value function $q$. We then know the performance of the policy $\pi$. Since this is a q-value function, we can also use it to greedify our policy $\pi$ by $\pi \leftarrow \argmax_{a\in A} q^\pi(s, a)$.
+This is the q-version of the previous Bellman Expectation Operator $T_V^\pi$. It is also a $\gamma$-contraction, with the unique fixed point being $f=q^\pi$. Therefore, we can evaluate the policy $\pi$ by repeatedly applying this operator to the initial value function $q$. We then know the performance of the policy $\pi$. Since this is a q-value function, we can also use it to greedify our policy $\pi$ by $\pi \leftarrow \operatorname{argmax}_{a\in A} q^\pi(s, a)$.
 
 ## Properties of the Bellman Operators
 
