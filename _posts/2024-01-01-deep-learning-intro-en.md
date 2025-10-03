@@ -51,10 +51,7 @@ A basic walkthrough of linear algebra and python
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, p.7.*
 > 
 
-$\mathbf{v}=\begin{bmatrix}
-   x_1 \\\\
-   x_2
-\end{bmatrix}$is an element of the $n$-space, that is, $\mathbf{v} \in \mathbb{R}^n$. What is $n$?
+$\mathbf{v}=\begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}$is an element of the $n$-space, that is, $\mathbf{v} \in \mathbb{R}^n$. What is $n$?
 
 *Note.*
 
@@ -104,14 +101,10 @@ $$
 Solve the below exercises from the book *Contemporary Linear Algebra.*
 
 > **Exercise 11.** 
-Let $\mathbf{u}=(-3,1,2,4,4)$, $\;\mathbf{v}=(4,0,-8,1,2)$,  and  $\mathbf{w}=(6,-1,-4,3,-5)$. Find the components of
-
-(a) $\mathbf{v}-\mathbf{w}$
-
-(b) $6\mathbf{u}+2\mathbf{v}$
-
-(c) $(2\mathbf{v}-7\mathbf{w})-(8\mathbf{v}+\mathbf{u})$
-
+Let $\mathbf{u}=(-3,1,2,4,4)$, $\;\mathbf{v}=(4,0,-8,1,2)$,  and  $\mathbf{w}=(6,-1,-4,3,-5)$. Find the components of \
+(a) $\mathbf{v}-\mathbf{w}$ \
+(b) $6\mathbf{u}+2\mathbf{v}$ \
+(c) $(2\mathbf{v}-7\mathbf{w})-(8\mathbf{v}+\mathbf{u})$ \
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, p.13.*
 > 
 
