@@ -133,7 +133,7 @@ $$
 \begin{aligned} \Delta \mathbf{w}_{k+1} &= \sum_{t=0}^{T-1} {\alpha (G_t-v(S_t))\mathbf{x}(S_t)} \\ &= \sum_{t=0}^{T-1} {\alpha \left(\sum_{k=t}^{T-1} {\gamma^{k-t}\delta_k}\right)\mathbf{x}(S_t)} \\&= \sum_{k=0}^{T-1} { \alpha \delta_k\left(\sum_{t=0}^{k} {\gamma^{k-t}}\mathbf{x}(S_t)\right)}  \end{aligned}
 $$
 
-Defining the eligibility trace $\mathbf{e}_k := \sum_{t=0}^{k} {\gamma^{k-t}}\mathbf{x}(S_t)$ and renaming the summation index $k$ to $t$, we have:
+Defining the eligibility trace $\mathbf{e}\_{k} := \sum_{t=0}^{k} {\gamma^{k-t}}\mathbf{x}(S_t)$ and renaming the summation index $k$ to $t$, we have:
 
 $$
 \begin{aligned} \Delta \mathbf{w}_{k+1} &= \sum_{k=0}^{T-1} {\alpha\delta_k\mathbf{e}_k} \\ &= \sum_{t=0}^{T-1} {\alpha\delta_t\mathbf{e}_t},  \end{aligned}

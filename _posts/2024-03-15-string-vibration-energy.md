@@ -70,7 +70,7 @@ $$
 앞서 언급한 두 요소를 조합하면 에너지 밀도는 아래와 같다:
 
 $$
-u(x)=\frac{1}{2} \left(\rho \left(\frac{\partial y}{\partial t} \right)^2 + T \left(\frac{\partial y}{\partial x} \right)^2 \right) \tag{A}\;\;\;\;\textrm{(Energy\;Density)}
+u(x)=\frac{1}{2} \left(\rho \left(\frac{\partial y}{\partial t} \right)^2 + T \left(\frac{\partial y}{\partial x} \right)^2 \right) \tag{A}\;\;\;\;\textrm{(Energy Density)}
 $$
 
 ### **더 자세한 접근.**
@@ -170,7 +170,7 @@ $$
 의 내적이므로, $\mathcal{F}= \textbf{F}\cdot\textbf{v} = -T\sin\theta \frac{\partial y}{\partial t}$이다. 작은 각에 대한 근사 $\sin\theta \approx \tan\theta$, $\cos \theta \approx 1$을 사용하면 드디어 에너지 선속을 구하는 공식을 얻는다.
 
 $$
-\mathcal{F}=-T\frac{\partial y}{\partial x}\frac{\partial y}{\partial t}\;\;\;\;\textrm{(Energy\;Flux\;Definition)} \tag{B}
+\mathcal{F}=-T\frac{\partial y}{\partial x}\frac{\partial y}{\partial t}\;\;\;\;\textrm{(Energy Flux Definition)} \tag{B}
 $$
 
 에너지 밀도 $u$의 경우에서와 같이 앞으로 진행하거나 뒤로 진행하는 파동만이 존재할 때 위의 식을 단순화할 수 있다. 앞으로 진행하는 파동만이 존재한다면 다음의 단방향 파동 방정식이 성립한다.

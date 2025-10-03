@@ -93,14 +93,14 @@ $$
 \max_{a' \in A}{q_t(S_{t+1}, a')}=q_t\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q_t(S_{t+1}, a')\right)
 $$
 
-Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^\star(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\operatorname{argmax}_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S_t, A_t)$ towards the noise-added value. Similar logic applies to the case where  $q^\star(S_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
+Suppose that the value function is currently inaccurate and has high noise. For simplicity, assume that the optimal q-value function $q^\star(S_{t+1},a')$ stays constant regardless of the action $a'$ taken. For some of the $a'$s, the noise will add up to increase $q$. Therefore, the $\operatorname{argmax}\_{a' \in A}$ will choose the $a'$ with the highest noise value then update $q(S\_{t}, A\_{t})$ towards the noise-added value. Similar logic applies to the case where  $q^\star(S\_{t+1},a')$ is not constant with respect to $a'$. Hence, Q-learning tends to overestimate the optimal $q$-value function.
 
 ### Double Q-Learning
 
 How can we solve this problem? We can store two action value functions, $q$ and $q'$, and alternate between the two targets below:
 
 $$
-\text{(target for }q \text{):}\;\;R_{t+1} + \gamma q'\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q(S_{t+1},a')\right) \\ \text{(target for }q' \text{):}\;\;R_{t+1} + \gamma q\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q'(S_{t+1},a')\right)
+\text{(target for }q \text{):}\;\;R_{t+1} + \gamma q'\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q(S_{t+1},a')\right) \\\\ \text{(target for }q' \text{):}\;\;R_{t+1} + \gamma q\left(S_{t+1}, \operatorname{argmax}_{a' \in A} q'(S_{t+1},a')\right)
 $$
 
 This eliminates the influence of noise by decoupling the selection ($\operatorname{argmax}$) step and the evaluation step.
@@ -145,7 +145,7 @@ This technique of sampling from a new distribution $d'$ to yield an estimate for
 
 ### Importance Sampling for Off-Policy MC
 
-Suppose you want to estimate the $v$-value function $v^\pi$ for some policy $\pi$ using MC, and that the trajectory $\tau_t=\{S_t, A_t, R_{t+1} , \cdots \}$ is generated with some behavior policy $\mu$. We can get an importance sample for $G_t=G(\tau_t)=R_{t+1}+\gamma R_{t+2} + \cdots$ by reweighing the target with $\frac{p(\tau_t|\pi)}{p(\tau_t|\mu)}$ (Suppose $N=1)$:
+Suppose you want to estimate the $v$-value function $v^\pi$ for some policy $\pi$ using MC, and that the trajectory $\tau_t=\{S_t, A_t, R_{t+1} , \cdots \}$ is generated with some behavior policy $\mu$. We can get an importance sample for $G_t=G(\tau_t)=R_{t+1}+\gamma R_{t+2} + \cdots$ by reweighing the target with $\frac{p(\tau_t\|\pi)}{p(\tau_t\|\mu)}$ (Suppose $N=1$):
 
 $$
 \frac{p(\tau_t|\pi)}{p(\tau_t|\mu)} G_t = \frac{p(A_t|S_t,\pi)p(R_{t+1},S_{t+1}|S_t,A_t)p(A_{t+1}|S_{t+1},\pi) \cdots}{p(A_t|S_t,\mu)p(R_{t+1},S_{t+1}|S_t,A_t)p(A_{t+1}|S_{t+1},\mu) \cdots} G_t
