@@ -94,7 +94,7 @@ $\mathbf{x}= (x_1,
 find the set of $\mathbf{x}$ satisfying the below equation by filling in the blank.
 
 $$
-3x_1+x_2=0 \\\\ \textrm{Solution:} \; \{(t, \Box t) \;|\; t \in \mathbb{R} \}
+3x_1+x_2=0 \\\\ \textrm{Solution:} \\; \{(t, \Box t) \\;|\\; t \in \mathbb{R} \}
 $$
 
 *Vocab. 2-dimensional vector = 이차원 벡터, satisfy = 만족하다.*
@@ -105,9 +105,13 @@ Solve the below exercises from the book *Contemporary Linear Algebra.*
 
 > **Exercise 11.** 
 Let $\mathbf{u}=(-3,1,2,4,4)$, $\;\mathbf{v}=(4,0,-8,1,2)$,  and  $\mathbf{w}=(6,-1,-4,3,-5)$. Find the components of
+
 (a) $\mathbf{v}-\mathbf{w}$
+
 (b) $6\mathbf{u}+2\mathbf{v}$
+
 (c) $(2\mathbf{v}-7\mathbf{w})-(8\mathbf{v}+\mathbf{u})$
+
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, p.13.*
 > 
 
