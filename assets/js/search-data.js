@@ -307,6 +307,28 @@ ninja.data = [{
             window.location.href = "/blog/2024/tutoring-test-similarity/";
           
         },
+      },{id: "post-tutoring-test-similarity-answer",
+        
+          title: "Tutoring Test Similarity Answer",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-test-similarity-answer/";
+          
+        },
+      },{id: "post-tutoring-test-polynomials-answer",
+        
+          title: "Tutoring Test Polynomials Answer",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-test-polynomials-answer/";
+          
+        },
       },{id: "post-과외-자료-모음",
         
           title: "과외 자료 모음",
