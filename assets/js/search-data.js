@@ -318,39 +318,6 @@ ninja.data = [{
             window.location.href = "/blog/2024/tutoring-materials-index/";
           
         },
-      },{id: "post-ai를-적용하기-좋은-주제에-관하여",
-        
-          title: "AI를 적용하기 좋은 주제에 관하여",
-        
-        description: "인공지능을 효과적으로 적용하기 위한 데이터셋 구축 및 선정 가이드",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/ai-application-topics/";
-          
-        },
-      },{id: "post-벡터와-벡터-공간",
-        
-          title: "벡터와 벡터 공간",
-        
-        description: "선형대수학의 기초 - 벡터와 벡터 공간의 정의",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vectors-and-vector-spaces/";
-          
-        },
-      },{id: "post-군의-정의와-예시",
-        
-          title: "군의 정의와 예시",
-        
-        description: "추상대수학의 기초 - 군론 입문",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/group-theory-basics/";
-          
-        },
       },{id: "post-머신러닝은-양자역학-시뮬레이션을-가속화할-수-있을까",
         
           title: "머신러닝은 양자역학 시뮬레이션을 가속화할 수 있을까?",
