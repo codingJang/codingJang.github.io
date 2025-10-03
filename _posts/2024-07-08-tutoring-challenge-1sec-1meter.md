@@ -88,7 +88,7 @@ $$
 $3a=b$이고 $a \neq 0,\;b\neq0$이라고 하자. 두 수가 서로 같다는 것은 서로 나누었을 때 $1$이 된다는 것이다. 즉,
 
 $$
-⁍
+\frac{3a}{b}=1
 $$
 
 같은 방식으로, 단위를 하나의 문자처럼 생각하고 식 $(2)$를 다시 쓰면 아래와 같다.
@@ -164,7 +164,7 @@ $$
 이렇게 하면 모든 길이와 시간 단위를 통일해서 나타낼 수 있다. 심지어, 상대성 이론에서 자주 사용되는 수식의 대부분은 $c=1$을 대입하면 대칭적인 식으로 변하거나 훨씬 간단한 식으로 바뀐다.
 
 $$
-\textrm{새로운 공간 좌표:}\;\;\; x'=\gamma(x-vt) \;\rightarrow\; x'=\gamma(x-vt) \newline \textrm{새로운 시간 좌표:}\;\;\; t'=\gamma\left(t-\frac{v}{c^2}x \right) \;\rightarrow\; t'=\gamma(t-vx) \newline \textrm{물체의 에너지:}\;\;\; E^2 =(mc^2)^2+p^2c^2 \;\rightarrow\; E^2=m^2+p^2 \newline \textrm{블랙홀의 반지름:}\;\;\;R_S=\frac{2GM}{c^2} \;\rightarrow\; R_S=2M
+\textrm{새로운 공간 좌표:}\;\;\; x'=\gamma(x-vt) \;\rightarrow\; x'=\gamma(x-vt) \\ \textrm{새로운 시간 좌표:}\;\;\; t'=\gamma\left(t-\frac{v}{c^2}x \right) \;\rightarrow\; t'=\gamma(t-vx) \\ \textrm{물체의 에너지:}\;\;\; E^2 =(mc^2)^2+p^2c^2 \;\rightarrow\; E^2=m^2+p^2 \\ \textrm{블랙홀의 반지름:}\;\;\;R_S=\frac{2GM}{c^2} \;\rightarrow\; R_S=2M
 $$
 
 ## 단위의 설정이 중요한 이유

@@ -92,7 +92,7 @@ unlisted: true
     예를 들어, $[1\rightarrow 2]$와 $[1\rightarrow 3]$는 각각 $막대\;1$에서 $막대\;2$로, $막대\;1$에서 $막대\;3$으로 원반을 옮기는 기본 이동을 나타내며, 아래와 같이 이 둘을 더하여 새로운 과정을 만들 수 있다.
     
     $$
-    ⁍
+    [1\rightarrow 2]+[1\rightarrow 3]=[1\rightarrow 2,\;1\rightarrow 3]
     $$
     
     단, 덧셈의 교환 법칙은 성립하지 않는다.
@@ -100,7 +100,7 @@ unlisted: true
     또한 아래와 같이 과정과 과정을 더하여 새로운 과정을 만들 수도 있다.
     
     $$
-    [1\rightarrow 2,\;1\rightarrow3]+[2\rightarrow3]=[1\rightarrow 2,\;1\rightarrow3,\;2\rightarrow3]
+    [1\rightarrow 2,\;1\rightarrow 3]+[2\rightarrow 3]=[1\rightarrow 2,\;1\rightarrow 3,\;2\rightarrow 3]
     $$
     
     한편 $p(n, a\rightarrow b)$은 하노이 탑 문제에서 $n$개의 원반을 $막대\;a$에서 $막대\;b$로 옮기는 과정이다.

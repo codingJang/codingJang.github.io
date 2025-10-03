@@ -14,7 +14,7 @@ unlisted: true
 $z$의 켤레복소수(complex conjugate) $z^\star$를 아래와 같이 정의한다.
 
 $$
-z^\star=a-bi
+z^*=a-bi
 $$
 
-이때, $zz^\star$는 항상 양의 실수(positive real number)일까?
+이때, $zz^\*$는 항상 양의 실수(positive real number)일까?

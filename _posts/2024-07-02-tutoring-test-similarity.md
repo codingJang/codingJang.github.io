@@ -32,4 +32,4 @@ unlisted: true
 
 ![Untitled](/assets/img/blog/tutoring/untitled_4_test_01_161f0f24f93180d29f25c8.png)
 
-[TEST 01 : 정답](TEST%2001%20%EB%8F%84%ED%98%95%EC%9D%98%20%EB%8B%AE%EC%9D%8C%20161f0f24f93180d29f25c8f66c09ee22/TEST%2001%20%EC%A0%95%EB%8B%B5%20161f0f24f931816aaf11fba168b9af13.md)
+[TEST 01 : 정답](2024-07-02-tutoring-test-similarity-answer.md)
