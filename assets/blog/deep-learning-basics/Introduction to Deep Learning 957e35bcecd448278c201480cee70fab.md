@@ -47,14 +47,14 @@ $\mathbf{v}=\begin{bmatrix}
 Give an example for each arithmetic rule (a) through (g), using $2$-tuples.
 
 > If $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$ are vectors in $R^n$, and if $k$ and $l$ are scalars, then:
-(a) $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
-(b) $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
-(c) $\mathbf{u}+\mathbf{0}=\mathbf{0}+\mathbf{u}=\mathbf{u}$
-(d) $\mathbf{u}+(-\mathbf{u})=0$
-(e) $(k+l)\mathbf{u}=k\mathbf{u}+l\mathbf{u}$
-(f) $k(\mathbf{u}+\mathbf{v})=k\mathbf{u}+k\mathbf{v}$
-(g) $k(l\mathbf{u})=(kl)\mathbf{u}$
-(h) $1\mathbf{u}=\mathbf{u}$
+(a) $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$ \
+(b) $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$ \
+(c) $\mathbf{u}+\mathbf{0}=\mathbf{0}+\mathbf{u}=\mathbf{u}$ \
+(d) $\mathbf{u}+(-\mathbf{u})=0$ \
+(e) $(k+l)\mathbf{u}=k\mathbf{u}+l\mathbf{u}$ \
+(f) $k(\mathbf{u}+\mathbf{v})=k\mathbf{u}+k\mathbf{v}$ \
+(g) $k(l\mathbf{u})=(kl)\mathbf{u}$ \
+(h) $1\mathbf{u}=\mathbf{u}$ \
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, p.9.*
 > 
 
@@ -82,9 +82,9 @@ Solve the below exercises from the book *Contemporary Linear Algebra.*
 
 > **Exercise 11.** 
 Let $\mathbf{u}=(-3,1,2,4,4)$, $\;\mathbf{v}=(4,0,-8,1,2)$,  and  $\mathbf{w}=(6,-1,-4,3,-5)$. Find the components of
-(a) $\mathbf{v}-\mathbf{w}$
-(b) $6\mathbf{u}+2\mathbf{v}$
-(c) $(2\mathbf{v}-7\mathbf{w})-(8\mathbf{v}+\mathbf{u})$
+(a) $\mathbf{v}-\mathbf{w}$ \
+(b) $6\mathbf{u}+2\mathbf{v}$ \
+(c) $(2\mathbf{v}-7\mathbf{w})-(8\mathbf{v}+\mathbf{u})$ \
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, p.13.*
 > 
 
