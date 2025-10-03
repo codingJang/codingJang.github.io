@@ -313,7 +313,7 @@ $$
 
 Now, consider the following:
 
-(a) Express the matrix vector product using the dot product. More specifically, let $\mathbf{r}\_{i}(A)$ be the $i$-th row vector of the matrix $A$ and $\mathbf{c}\_{j}(B)$ be the $j$-th column vector of the matrix $B$. What is $(AB)\_{ij}$, the $i$-th row, $j$-th column element of the matrix $AB?$
+(a) Express the matrix vector product using the dot product. More specifically, let $\mathbf{r}\_{i}(A)$ be the $i$-th row vector of the matrix $A$ and $\mathbf{c}\_{j}(B)$ be the $j$-th column vector of the matrix $B$. What is $(AB)\_{ij}$, the $i$-th row, $j$-th column element of the matrix $AB$?
 
 (b) If the transpose of an $m\times n$ matrix $A$ is equal to itself, or $A=A^T$, what must be the relation between $m$ and $n$? (When $A=A^T$, $A$ is called a symmetric matrix.)
 
@@ -609,9 +609,9 @@ Explain what a stochastic gradient descent is. More specifically,
 
 ### Prob 4.1 (HARD)
 
-The objective of this problem is to approximate some arbitrary function $f_{\textrm{true}}$, using only the input-output pairs of the function. For example, If we already know that $f_{\textrm{true}}$ passes through the points $(1, 2),\:(4,-6),\:(7,3),\:(10,1),\cdots$, we might want to find an approximation of $f_{\textrm{true}}$ by finding another function $f$ that also passes through these points. We will try to find this approximate $f$ using a neural network.
+The objective of this problem is to approximate some arbitrary function $f_{\textrm{true}}$, using only the input-output pairs of the function. For example, If we already know that $f_{\textrm{true}}$ passes through the points $(1, 2),\\:(4,-6),\\:(7,3),\\:(10,1),\cdots$, we might want to find an approximation of $f_{\textrm{true}}$ by finding another function $f$ that also passes through these points. We will try to find this approximate $f$ using a neural network.
 
-Suppose we have $N$ input-output pairs of the true underlying function $f_{\textrm{true}}$, $(x_1,y_1),\:(x_2,y_2),\cdots,\:(x_N,y_N)$, which are fixed. Then, since $f_{\textrm{true}}$ should pass through these datapoints,
+Suppose we have $N$ input-output pairs of the true underlying function $f_{\textrm{true}}$, $(x_1,y_1),\\:(x_2,y_2),\cdots,\\:(x_N,y_N)$, which are fixed. Then, since $f_{\textrm{true}}$ should pass through these datapoints,
 
 $$
 y_i=f_{\textrm{true}}(x_i), \textrm{ for each } i=1,2,\cdots,N.
@@ -648,7 +648,7 @@ Answer the following:
 
 (b) Draw the full tree diagram of the neural network $f_\theta$ (with $L=3$) as in `2:14`.
 
-(c) Suppose we have $4$ datapoints, $(1, 2),\:(4,-6),\:(7,3),\:(10,1)$. If all the weights and biases are equal to $1$, that is, if $\theta=(1,1,\cdots,1)$,  what is the value of the cost function $C(\theta)$?
+(c) Suppose we have $4$ datapoints, $(1, 2),\\:(4,-6),\\:(7,3),\\:(10,1)$. If all the weights and biases are equal to $1$, that is, if $\theta=(1,1,\cdots,1)$,  what is the value of the cost function $C(\theta)$?
 
 (d) To minimize $C(\theta)$, we should update the parameters $\theta$ using gradient descent. Calculate the gradient $\nabla C(\theta)$ at $\theta=(1,1,\cdots,1)$. Use the ordinary chain rule.
 
@@ -670,7 +670,7 @@ Where $W^{(l)}$ and $\mathbf{b}^{(l)}$ is the weight matrix and the bias vector 
 
 (b) Draw the full tree diagram of the neural network $f_\theta$.
 
-(c) Suppose we have $2$ datapoints, $(1, 2),\:(4,-6)$. Suppose all the weights and biases are equal to $1$, then calculate the cost function $C(\theta)$.
+(c) Suppose we have $2$ datapoints, $(1, 2),\\:(4,-6)$. Suppose all the weights and biases are equal to $1$, then calculate the cost function $C(\theta)$.
 
 (d) Calculate the gradient $\nabla C(\theta)$ at $\theta=(1,1,\cdots,1)$. Use the multivariable chain rule.
 
