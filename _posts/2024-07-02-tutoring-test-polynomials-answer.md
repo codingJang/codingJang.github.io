@@ -21,7 +21,7 @@ $f(x)=(x+1)(x+2)$,
 
 $f(x)=(x+3/2)^2-1/4$이므로
 
-![Untitled](../../assets/img/blog/tutoring/Untitled_TEST02_1.png)
+![Untitled](/assets/img/blog/tutoring/Untitled_TEST02_1.png)
 
 **문제 2 정답:**
 
@@ -29,7 +29,7 @@ $f(x)=(x+3/2)^2-1/4$이므로
 
 $f(x)=(x+2)^2+1$이므로
 
-![Untitled](../../assets/img/blog/tutoring/Untitled_TEST02_2.png)
+![Untitled](/assets/img/blog/tutoring/Untitled_TEST02_2.png)
 
 **문제 3 정답:**
 
@@ -37,7 +37,7 @@ $f(x)=-(2x-1)(x-1)$
 
 $f(x)=-2(x+3/4)^2+1/8$이므로
 
-![Untitled](../../assets/img/blog/tutoring/Untitled_TEST02_3.png)
+![Untitled](/assets/img/blog/tutoring/Untitled_TEST02_3.png)
 
 **[문제 4~문제 6]** 다음 다항식을 인수분해하시오.
 
