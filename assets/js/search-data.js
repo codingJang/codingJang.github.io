@@ -285,20 +285,9 @@ ninja.data = [{
             window.location.href = "/blog/2024/tutoring-tips-and-tricks/";
           
         },
-      },{id: "post-test",
+      },{id: "post-test-01",
         
-          title: "TEST",
-        
-        description: "수학 교육 자료",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tutoring-test-polynomials/";
-          
-        },
-      },{id: "post-test",
-        
-          title: "TEST",
+          title: "TEST 01",
         
         description: "수학 교육 자료",
         section: "Posts",
@@ -307,22 +296,33 @@ ninja.data = [{
             window.location.href = "/blog/2024/tutoring-test-similarity/";
           
         },
-      },{id: "post-tutoring-test-similarity-answer",
+      },{id: "post-test-01-정답",
         
-          title: "Tutoring Test Similarity Answer",
+          title: "TEST 01 정답",
         
-        description: "",
+        description: "수학 교육 자료",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2024/tutoring-test-similarity-answer/";
           
         },
-      },{id: "post-tutoring-test-polynomials-answer",
+      },{id: "post-test-02",
         
-          title: "Tutoring Test Polynomials Answer",
+          title: "TEST 02",
         
-        description: "",
+        description: "수학 교육 자료",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tutoring-test-polynomials/";
+          
+        },
+      },{id: "post-test-02-정답",
+        
+          title: "TEST 02 정답",
+        
+        description: "수학 교육 자료",
         section: "Posts",
         handler: () => {
           
