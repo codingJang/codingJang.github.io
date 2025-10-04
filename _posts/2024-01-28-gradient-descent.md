@@ -56,7 +56,7 @@ $$
 
 In this, $\alpha$ is a sufficiently small positive number. The notation $\text{sgn} \;\cdot$ represents the sign of $\cdot$.[^4] Also, $\theta^{(k)}$ denotes the value of $\theta$ at the $k$-th step. If our intuition is correct, the real variable $\theta$ starts from its initial value $\theta^{(0)}$ at the very first step, $k=0$, and gradually approaches the minimum point according to the above recurrence relation. Specifically, unless $f(\theta)$ is an unusual function, $\theta$ will approach the global minimum point of $f(\theta)$, which is $\theta=0$. Let's verify that as the value of $k$ increases, $\theta^{(k)}$ generally decreases.
 
-However, there's a problem with the above approach. The magnitude of $\alpha\:\text{sgn}\:f'(\theta^{(k)})$,
+However, there's a problem with the above approach. The magnitude of $\alpha\\:\text{sgn}\\:f'(\theta^{(k)})$,
 
 $$
 \begin{equation} \left|\alpha\:\text{sgn}\:f'(\theta^{(k)})\right|=\left|\alpha \cdot(\pm1)\right| \end{equation}
@@ -89,10 +89,11 @@ However, if the magnitude of $\alpha$ is too large, the sequence $\theta^{(k)}$ 
 
 $$
 \begin{equation}
-\begin{align*}
-& \theta^{(k+1)}=\theta^{(k)}-4\:\theta^{(k)}=(-3)\,\theta^{(k)},\\
-& \theta^{(k)}=(-3)^k \theta^{(0)}=(-3)^k .
-\end{align*}
+\begin{aligned}
+\theta^{(k+1)}&=\theta^{(k)}-4\:\theta^{(k)}=(-3)\,\theta^{(k)}, \\
+\theta^{(k)}&=(-3)^k, \\
+\theta^{(0)}&=(-3)^k.
+\end{aligned}
 \end{equation}
 $$
 
@@ -107,35 +108,30 @@ $$
 When applying gradient descent to the function $f(\theta) = \theta^2$, what are the conditions for $\alpha$ and $\theta^{(0)}$ for $\theta^{(k)}$ to converge to the optimal solution $\theta = 0$? Note that $\alpha > 0$.
 
 - Answer
-    
-    $0<\alpha<1$ or $\theta^{(0)}=0.$
-    
+  $0<\alpha<1$ or $\theta^{(0)}=0.$
 
 **Coding Problem 1.**
 
 Let's apply gradient descent to the function $f(\theta) = (\theta + 3)^2$. Specifically, with a learning rate of $\alpha = 0.7$ and starting from the condition $\theta^{(0)} = -4$, update the value of $\theta$ according to equation $(4)$. List the values of $\theta$ from $\theta^{(0)}$ to $\theta^{(30)}$ and use the `print()` function to display them.
 
 - Answer
-    
-    ```python
-    # Code
-    
-    alpha = 0.7
-    theta = -4
-    thetas = []               # Create an empty list
-    thetas.append(theta)      # Save initial theta
-    for i in range(30):
-        theta = theta - alpha * (2 * (theta + 3))  # Apply gradient descent
-        thetas.append(theta)
-    print(thetas)             # Print values for theta
-    ```
-    
-    ```python
-    # Output
-    
-    [-4, -2.6, -3.16, -2.936, -3.0256, -2.98976, -3.004096, -2.9983616, -3.00065536, -2.999737856, -3.0001048576000002, -2.9999580569599997, -3.000016777216, -2.9999932891136, -3.00000268435456, -2.999998926258176, -3.0000004294967297, -2.9999998282013083, -3.0000000687194768, -2.9999999725122093, -3.0000000109951164, -2.9999999956019536, -3.0000000017592185, -2.9999999992963127, -3.000000000281475, -2.99999999988741, -3.000000000045036, -2.9999999999819855, -3.000000000007206, -2.999999999997118, -3.000000000001153]
-    ```
-    
+  ```python
+  # Code
+
+  alpha = 0.7
+  theta = -4
+  thetas = []               # Create an empty list
+  thetas.append(theta)      # Save initial theta
+  for i in range(30):
+      theta = theta - alpha * (2 * (theta + 3))  # Apply gradient descent
+      thetas.append(theta)
+  print(thetas)             # Print values for theta
+  ```
+  ```python
+  # Output
+
+  [-4, -2.6, -3.16, -2.936, -3.0256, -2.98976, -3.004096, -2.9983616, -3.00065536, -2.999737856, -3.0001048576000002, -2.9999580569599997, -3.000016777216, -2.9999932891136, -3.00000268435456, -2.999998926258176, -3.0000004294967297, -2.9999998282013083, -3.0000000687194768, -2.9999999725122093, -3.0000000109951164, -2.9999999956019536, -3.0000000017592185, -2.9999999992963127, -3.000000000281475, -2.99999999988741, -3.000000000045036, -2.9999999999819855, -3.000000000007206, -2.999999999997118, -3.000000000001153]
+  ```
 
 ## Local Minima and Global Minima
 
@@ -164,13 +160,9 @@ For the quartic function $f(\theta) = \theta^2(\theta-1)(\theta-2)$:
 (c) Determine the minimum value at the point which is a local minimum but not a global minimum.
 
 - Answer
-    
-    (a) local minimum point: $\theta=0,\;\theta=\frac{9+\sqrt{17}}{8}\approx1.640$
-    
-    (b) global minimum point: $\theta =\frac{9+\sqrt{17}}{8}\approx1.640$
-    
-    (c) $f(0)=0$
-    
+  (a) local minimum point: $\theta=0,\;\theta=\frac{9+\sqrt{17}}{8}\approx1.640$
+  (b) global minimum point: $\theta =\frac{9+\sqrt{17}}{8}\approx1.640$
+  (c) $f(0)=0$
 
 **Coding Problem 2.**
 
@@ -183,69 +175,52 @@ Let's apply the gradient descent method to the quartic function $f(\theta) = \th
 (c) Identify one initial value of $\theta^{(0)}$ for which $\theta$ does not converge to the global minimum. Note that $\alpha = 0.05$.
 
 - Answer
-    
-    (a)
-    
-    ```python
-    # Code
-    
-    alpha = 0.05
-    theta = 3
-    thetas = []               # Create empty list
-    thetas.append(theta)      # Save initial theta
-    for i in range(30):
-        # Gradient descent
-        theta = theta - alpha * (4 * theta**3 - 9 * theta**2 + 4 * theta)
-        thetas.append(theta)
-    print(thetas)             # Print values of theta
-    ```
-    
-    ```python
-    # 출력값
-    
-    [3, 1.0499999999999998, 1.1045999999999998, 1.1631899369327998, 1.2246451065084327, 1.2872724414731267, 1.3488794094514513, 1.4070169240305987, 1.4593836892273668, 1.5042779940878397, 1.540914144056721, 1.5694643322257227, 1.5908330465698923, 1.6063037620026415, 1.6172175322689708, 1.6247689357696435, 1.629921406541151, 1.6334027143439558, 1.6357390290643616, 1.6372997348435627, 1.6383390867159184, 1.6390298045931315, 1.6394881953333464, 1.6397921226262633, 1.6399935122140699, 1.640126903506169, 1.6402152319777135, 1.6402737104854812, 1.6403124220218963, 1.6403380462312662, 1.640355006705482]
-    ```
-    
-    (b)
-    
-    We can observe that theta is converging to the global minimum point 1.640. To evaluate the function at this point:
-    
-    ```python
-    # Code
-    
-    theta_global = thetas[30]  # Assume the 30th theta is sufficiently close to the global minimum point
-    print(theta_global**2 * (theta_global - 1) * (theta_global - 2))
-    ```
-    
-    ```python
-    # Output
-    
-    -0.6196843457001793
-    ```
-    
-    (c)
-    
-    If we run the code with $\theta^{(0)}=-1$,
-    
-    ```python
-    # Output
-    
-    [-1, -0.1499999999999999, -0.10919999999999994, -0.08173347786239996, -0.06227141782417553, -0.0480238616518109, -0.037359106839121914, -0.029248790740098913, -0.023009056880295777, -0.018166571714116383, -0.01438354734163941, -0.011413143825789467, -0.00907160079235181, -0.0072200990529043794, -0.0057525455421655915, -0.004587107060241312, -0.0036601976461915, -0.002922119638721227, -0.0023338482682754252, -0.001864624990714408, -0.0014901341241158653, -0.0011911074126556803, -0.0009522471605601266, -0.0007613895071587255, -0.0006088506461576267, -0.00048691365718682596, -0.00038942421445218494, -0.00031147111670195584, -0.0002491332309026941, -0.00019927865131451355, -0.00015940504907746946]
-    ```
-    
-    We can observe that theta is converging to the point  $\theta=0$ (which is a local minimum point, but not a global minimum point)
-    
+  (a)
+  ```python
+  # Code
+
+  alpha = 0.05
+  theta = 3
+  thetas = []               # Create empty list
+  thetas.append(theta)      # Save initial theta
+  for i in range(30):
+      # Gradient descent
+      theta = theta - alpha * (4 * theta**3 - 9 * theta**2 + 4 * theta)
+      thetas.append(theta)
+  print(thetas)             # Print values of theta
+  ```
+  ```python
+  # 출력값
+
+  [3, 1.0499999999999998, 1.1045999999999998, 1.1631899369327998, 1.2246451065084327, 1.2872724414731267, 1.3488794094514513, 1.4070169240305987, 1.4593836892273668, 1.5042779940878397, 1.540914144056721, 1.5694643322257227, 1.5908330465698923, 1.6063037620026415, 1.6172175322689708, 1.6247689357696435, 1.629921406541151, 1.6334027143439558, 1.6357390290643616, 1.6372997348435627, 1.6383390867159184, 1.6390298045931315, 1.6394881953333464, 1.6397921226262633, 1.6399935122140699, 1.640126903506169, 1.6402152319777135, 1.6402737104854812, 1.6403124220218963, 1.6403380462312662, 1.640355006705482]
+  ```
+  (b)
+  We can observe that theta is converging to the global minimum point 1.640. To evaluate the function at this point:
+  ```python
+  # Code
+
+  theta_global = thetas[30]  # Assume the 30th theta is sufficiently close to the global minimum point
+  print(theta_global**2 * (theta_global - 1) * (theta_global - 2))
+  ```
+  ```python
+  # Output
+
+  -0.6196843457001793
+  ```
+  (c)
+  If we run the code with $\theta^{(0)}=-1$,
+  ```python
+  # Output
+
+  [-1, -0.1499999999999999, -0.10919999999999994, -0.08173347786239996, -0.06227141782417553, -0.0480238616518109, -0.037359106839121914, -0.029248790740098913, -0.023009056880295777, -0.018166571714116383, -0.01438354734163941, -0.011413143825789467, -0.00907160079235181, -0.0072200990529043794, -0.0057525455421655915, -0.004587107060241312, -0.0036601976461915, -0.002922119638721227, -0.0023338482682754252, -0.001864624990714408, -0.0014901341241158653, -0.0011911074126556803, -0.0009522471605601266, -0.0007613895071587255, -0.0006088506461576267, -0.00048691365718682596, -0.00038942421445218494, -0.00031147111670195584, -0.0002491332309026941, -0.00019927865131451355, -0.00015940504907746946]
+  ```
+  We can observe that theta is converging to the point $\theta=0$ (which is a local minimum point, but not a global minimum point)
 
 ---
 
 [^1]: Let's note that Cheolsu's synaptic connection state $\theta_0$, which allows him to score $100$ points in the test, may not be unique. In other words, the solution to the optimization problem may not be unique. Moreover, if Cheolsu was not a middle school student but a lizard, the synaptic connection state $\theta_0$ that allows him to achieve a test score of $100$ points might physically be impossible and might not even exist.
-
 [^2]: Finding the minimum value of a function means that there exists an optimal solution $\theta_0$ that minimizes the function, such that for any $\theta$ within its domain, $f(\theta)\ge f(\theta_0)$. If we set $\theta_0=0$, the proposition holds true based on the two facts mentioned earlier. More will be discussed towards the end of Part I.
-
 [^3]: For example, consider a 6th-degree polynomial given by $f(\theta)=c_6\theta^6+c_5\theta^5+\cdots+c_1\theta+c_0$. We know that if $c_6>0$, a minimum value exists somewhere in the set of real numbers. However, the derivative $f'(\theta)=6c_6\theta^5+5c_5\theta^4+\cdots+c_1=0$ is a $5$th-degree polynomial. Abel and Galois proved that polynomials of degree $5$ or higher do not have a general solution formula. Therefore, we cannot solve $f'(\theta)=0$except special cases. Even if it's not a polynomial of degree $5$ or higher, the usual strategy of "finding the point where the derivative is zero" often doesn't work well when the equation becomes even slightly complex.
-
 [^4]: $+1$ if $\cdot$ is positive, $-1$ if negative.
-
 [^5]: The 'neighborhood' of a point refers to a small open interval (or an open set) that includes that point.
-
 [^6]: Specifically, if a function $f$ is differentiable and its derivative $f'$ is $L$-Lipschitz continuous, then $f'$ is guaranteed to converge to $0$ only when $0 < \alpha < 2/L$. Additionally, for $f(\theta^{(k)})$ to converge to a local minimum, it is necessary that the function $f$ does not have a saddle point, among other conditions.
