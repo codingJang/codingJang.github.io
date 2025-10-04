@@ -117,17 +117,17 @@ Let $\mathbf{u}$, $\mathbf{v}$ and $\mathbf{w}$ be the vectors in **Exercise 11*
 
 **Solution.**
 
-> **Exercise 11.** 
-(a) $\mathbf{v}-\mathbf{w}=(-2,1,-4,-2,7)$
-(b) $6\mathbf{u}+2\mathbf{v}=(-10,6,-4,26,28)$
-(c) $(2\mathbf{v}-7\mathbf{w})-(8\mathbf{v}+\mathbf{u})=(-77,8,94,-25,23)$
+> **Exercise 11.** \
+(a) $\mathbf{v}-\mathbf{w}=(-2,1,-4,-2,7)$ \
+(b) $6\mathbf{u}+2\mathbf{v}=(-10,6,-4,26,28)$ \
+(c) $(2\mathbf{v}-7\mathbf{w})-(8\mathbf{v}+\mathbf{u})=(-77,8,94,-25,23)$ \
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, p.A9.*
 > 
 
-> **Exercise 13.** 
-$\mathbf{x}=(-\frac{8}{3},\frac{1}{2},\frac{8}{3}, \frac{2}{3}, \frac{11}{6})$
+> **Exercise 13.** \
+$\mathbf{x}=(-\frac{8}{3},\frac{1}{2},\frac{8}{3}, \frac{2}{3}, \frac{11}{6})$ \
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, same page as above.*
-> 
+>
 
 *Vocab. component=성분.*
 
@@ -162,6 +162,7 @@ $$
 & 3x_1 + 2x_2 - x_3 = 0 \\
 & 6x_1 + 4x_2 - 2x_3 = 0 \\
 & -3x_1 -2x_2 +x_3 = 0
+\end{align*}
 $$
 
 (a) Solve for the set of vectors $\mathbf{v}=\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \end{bmatrix} \in \mathbb{R}^3$ which satisfies the system of equations shown above.
@@ -635,7 +636,7 @@ $$
 a^{(l)}=\rho (w^{(l)}a^{(l-1)}+b^{(l)})=: f^{(l)}(a^{(l-1)}),
 $$
 
-where the trainable parameters $w^{(l)}$ and $b^{(l)}$ are the weight and bias, respectively. The activation function $\rho$ is given by $\rho(x)=\textrm{ReLU}(x)=\max\{0,x\}$. For convenience, we will define the intermediate variable $z^{(l)} := w^{(l)}a^{(l-1)}+b^{(l)}$ so that $a^{(l)}=\rho\left(z^{(l)}\right)$. $a^{(0)}=x_i$ because the input must equal the initial activation. The subscript $\theta$ of the neural network $f_\theta$ denotes the tuple of all trainable parameters in the neural network.
+where the trainable parameters $w^{(l)}$ and $b^{(l)}$ are the weight and bias, respectively. The activation function $\rho$ is given by $\rho(x)=\textrm{ReLU}(x)=\max\\{0,x\\}$. For convenience, we will define the intermediate variable $z^{(l)} := w^{(l)}a^{(l-1)}+b^{(l)}$ so that $a^{(l)}=\rho\left(z^{(l)}\right)$. $a^{(0)}=x_i$ because the input must equal the initial activation. The subscript $\theta$ of the neural network $f_\theta$ denotes the tuple of all trainable parameters in the neural network.
 
 - *What are trainable parameters?*
     
