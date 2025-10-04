@@ -8,7 +8,7 @@ categories: education
 unlisted: true
 ---
 
-[문제로 돌아가기](2024-07-02-tutoring-test-similarity.md)
+[문제로 돌아가기](/blog/2024/tutoring-test-similarity/)
 
 **문제 1 정답:** $\frac{3}{2}\rm{cm}$
 

@@ -8,7 +8,7 @@ categories: education
 unlisted: true
 ---
 
-[문제로 돌아가기](2024-07-02-tutoring-test-polynomials.md)
+[문제로 돌아가기](/blog/2024/tutoring-test-polynomials)
 
 **[문제 1~문제 3]**
 다음 식들이 인수분해 가능하다면 인수분해하고, 그렇지 않다면 판별식의 값을 구하시오. 

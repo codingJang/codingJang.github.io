@@ -32,4 +32,4 @@ unlisted: true
 
 ![Untitled](/assets/img/blog/tutoring/untitled_4_test_01_161f0f24f93180d29f25c8.png)
 
-[TEST 01 : 정답](2024-07-02-tutoring-test-similarity-answer.md)
+[TEST 01 : 정답](/blog/2024/tutoring-test-similarity-answer/)

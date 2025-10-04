@@ -44,4 +44,4 @@ $p(x)=x^3-3x^2+3x-1$
 
 $p(x) = x^3+27$
 
-[TEST 02 : 정답](2024-07-02-tutoring-test-polynomials-answer.md)
+[TEST 02 : 정답](/blog/2024/tutoring-test-polynomials-answer/)
