@@ -66,15 +66,15 @@ $\mathbf{v}=\begin{bmatrix} x_1 \\\\ x_2 \end{bmatrix}$is an element of the $n$-
 
 Give an example for each arithmetic rule (a) through (g), using $2$-tuples.
 
-> If $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$ are vectors in $R^n$, and if $k$ and $l$ are scalars, then:
-(a) $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$
-(b) $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$
-(c) $\mathbf{u}+\mathbf{0}=\mathbf{0}+\mathbf{u}=\mathbf{u}$
-(d) $\mathbf{u}+(-\mathbf{u})=0$
-(e) $(k+l)\mathbf{u}=k\mathbf{u}+l\mathbf{u}$
-(f) $k(\mathbf{u}+\mathbf{v})=k\mathbf{u}+k\mathbf{v}$
-(g) $k(l\mathbf{u})=(kl)\mathbf{u}$
-(h) $1\mathbf{u}=\mathbf{u}$
+> If $\mathbf{u}$, $\mathbf{v}$, and $\mathbf{w}$ are vectors in $R^n$, and if $k$ and $l$ are scalars, then: \
+(a) $\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}$ \
+(b) $(\mathbf{u}+\mathbf{v})+\mathbf{w}=\mathbf{u}+(\mathbf{v}+\mathbf{w})$ \
+(c) $\mathbf{u}+\mathbf{0}=\mathbf{0}+\mathbf{u}=\mathbf{u}$ \
+(d) $\mathbf{u}+(-\mathbf{u})=0$ \
+(e) $(k+l)\mathbf{u}=k\mathbf{u}+l\mathbf{u}$ \
+(f) $k(\mathbf{u}+\mathbf{v})=k\mathbf{u}+k\mathbf{v}$ \
+(g) $k(l\mathbf{u})=(kl)\mathbf{u}$ \
+(h) $1\mathbf{u}=\mathbf{u}$ \
 *- Contemporary Linear Algebra, Howard Anton & Robert C. Busby, p.9.*
 > 
 
@@ -86,12 +86,14 @@ Give an example for each arithmetic rule (a) through (g), using $2$-tuples.
 
 ### Prob 1.4
 
-$\mathbf{x}= (x_1, 
-   x_2)\in \mathbb{R}^2$ is a 2-dimensional vector.
+$\mathbf{x}= (x_1, x_2)\in \mathbb{R}^2$ is a 2-dimensional vector.
 find the set of $\mathbf{x}$ satisfying the below equation by filling in the blank.
 
 $$
-3x_1+x_2=0 \\\\ \textrm{Solution:} \\; \{(t, \Box t) \\;|\\; t \in \mathbb{R} \}
+\begin{align*}
+& 3x_1+x_2=0 \\
+& \textrm{Solution: } \{(t, \Box t) | t \in \mathbb{R} \}
+\end{align*}
 $$
 
 *Vocab. 2-dimensional vector = 이차원 벡터, satisfy = 만족하다.*
@@ -156,9 +158,10 @@ Find examples of (a) a pair of two parallel vectors, and (b) a pair of two ortho
 ### Prob 2.2
 
 $$
-3x_1 + 2x_2 - x_3 = 0 \\\\
-6x_1 + 4x_2 - 2x_3 = 0 \\\\
--3x_1 -2x_2 +x_3 = 0
+\begin{align*}
+& 3x_1 + 2x_2 - x_3 = 0 \\
+& 6x_1 + 4x_2 - 2x_3 = 0 \\
+& -3x_1 -2x_2 +x_3 = 0
 $$
 
 (a) Solve for the set of vectors $\mathbf{v}=\begin{bmatrix} x_1 \\\\ x_2 \\\\ x_3 \end{bmatrix} \in \mathbb{R}^3$ which satisfies the system of equations shown above.
@@ -342,13 +345,19 @@ $$
 (c) Prove that the matrix multiplication is distributive over matrix addition for $2 \times 2$ matrices, using the matrix-matrix multiplication formula and the matrix addition formula. i.e., show the following:
 
 $$
-A(B+C)=AB+AC, \\ \textrm{for } A=\begin{bmatrix} a_{11} & a_{12} \\   a_{21} & a_{22}\end{bmatrix}, B=\begin{bmatrix} b_{11} & b_{12} \\   b_{21} & b_{22}\end{bmatrix}, C=\begin{bmatrix} c_{11} & c_{12} \\   c_{21} & c_{22}\end{bmatrix}.
+\begin{align*}
+& A(B+C)=AB+AC, \\
+& \textrm{for } A=\begin{bmatrix} a_{11} & a_{12} \\   a_{21} & a_{22}\end{bmatrix}, B=\begin{bmatrix} b_{11} & b_{12} \\   b_{21} & b_{22}\end{bmatrix}, C=\begin{bmatrix} c_{11} & c_{12} \\   c_{21} & c_{22}\end{bmatrix}.
+\end{align*}
 $$
 
 Refer to the $2\times2$ matrix-matrix multiplication formula in problem (a) and the $2\times2$ matrix addition formula. Alternatively, you may use the matrix addition formula expressed in terms of each element, which are all given below:
 
 $$
-\begin{bmatrix}a & b \\ c & d \end{bmatrix}+\begin{bmatrix}e & f \\ g & h \end{bmatrix} = \begin{bmatrix}a+e & b+f \\ c+g & d+h \end{bmatrix} \\ \textrm{or} \\ (A+B)_{ij} = a_{ij} + b_{ij}
+\begin{align*}
+& \begin{bmatrix}a & b \\ c & d \end{bmatrix}+\begin{bmatrix}e & f \\ g & h \end{bmatrix} = \begin{bmatrix}a+e & b+f \\ c+g & d+h \end{bmatrix} \\ 
+& \textrm{or } \\ (A+B)_{ij} = a_{ij} + b_{ij}
+\end{align*}
 $$
 
 (d) What does the matrix-matrix multiplication & addition formula mean, in a visual context? Explain for each case.

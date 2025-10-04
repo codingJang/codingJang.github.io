@@ -88,14 +88,18 @@ $$
 However, if the magnitude of $\alpha$ is too large, the sequence $\theta^{(k)}$ might diverge! For instance, if $\alpha=2$ and we start from $\theta^{(0)}=1$ as before:
 
 $$
-\begin{equation} \theta^{(k+1)}=\theta^{(k)}-4\:\theta^{(k)}=(-3)\,\theta^{(k)},\\
-\theta^{(k)}=(-3)^k \theta^{(0)}=(-3)^k . \end{equation}
+\begin{equation}
+\begin{align*}
+& \theta^{(k+1)}=\theta^{(k)}-4\:\theta^{(k)}=(-3)\,\theta^{(k)},\\
+& \theta^{(k)}=(-3)^k \theta^{(0)}=(-3)^k .
+\end{align*}
+\end{equation}
 $$
 
 In this case, the sequence $\theta^{(k)}$ oscillates and diverges as $k$ approaches infinity.
 
 $$
-\begin{equation} \theta^{(k)}=(-3)^k \;\;\text{oscillates as}\;\; k\rightarrow \infty. \end{equation}
+\begin{equation} \theta^{(k)}=(-3)^k \text{ oscillates as } k\rightarrow \infty. \end{equation}
 $$
 
 **Check Problem 1.**
