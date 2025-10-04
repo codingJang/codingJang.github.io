@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TEST"
-date: 2024-07-03 10:00:00
+title: "TEST 02"
+date: 2024-07-02 10:00:00
 description: 수학 교육 자료
 tags: education tutoring mathematics korean
 categories: education
@@ -44,4 +44,4 @@ $p(x)=x^3-3x^2+3x-1$
 
 $p(x) = x^3+27$
 
-[TEST 02 : 정답](TEST%2002%20%EB%8B%A4%ED%95%AD%EC%8B%9D%20161f0f24f931803794d1dba6318480b2/TEST%2002%20%EC%A0%95%EB%8B%B5%20161f0f24f9318166a8d5dd2cc9dd21ba.md)
+[TEST 02 : 정답](2024-07-02-tutoring-test-polynomials-answer.md)

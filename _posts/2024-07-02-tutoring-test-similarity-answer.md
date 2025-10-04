@@ -1,6 +1,12 @@
+---
+layout: post
 title: "TEST 01 정답"
-date: 2025-10-03
-categories: [tutoring, answers]
+date: 2024-07-02 10:00:00
+description: 수학 교육 자료
+tags: education tutoring mathematics korean
+categories: education
+unlisted: true
+---
 
 [문제로 돌아가기](2024-07-02-tutoring-test-similarity.md)
 

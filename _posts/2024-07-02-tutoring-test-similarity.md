@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TEST"
+title: "TEST 01"
 date: 2024-07-02 10:00:00
 description: 수학 교육 자료
 tags: education tutoring mathematics korean
